@@ -1,64 +1,108 @@
 # When the Pipeline Is Wrong: Auditing the Evaluation of Scientific Agents
 
-Sarvesh Tiku, Gauri Sharma (Georgia Institute of Technology). Agent Evaluation Science Symposium, Fall 2026.
+**Sarvesh Tiku, Gauri Sharma** — Georgia Institute of Technology
+Agent Evaluation Science (AES) Symposium, Fall 2026
 
-A controlled audit of how defects in scientific-agent evaluation pipelines change measured success.
-Agents test hypotheses on synthetic datasets with known ground truth inside a reference pipeline that
-enforces four rules (data separation, execution integrity, result freshness, evidence provenance).
-Each defective configuration disables one rule while tasks and data stay fixed.
+When a scientific-agent benchmark marks a conclusion correct, it conflates three things: whether the
+conclusion is **true**, whether the agent's experiment **supports** it, and whether the grader **credited**
+it for that reason. This repository contains the code, frozen run records, and analyses for a study that
+measures these quantities separately in hypothesis-testing tasks with known generating processes.
 
-## Layout
+## Summary
 
-| Path | Contents |
-|---|---|
-| `scieval/tasks.py` | Synthetic hypothesis-testing tasks with known generating processes |
-| `scieval/pipeline.py` | Sandboxed reference pipeline and the LEAK / SILENT / STALE / PROV defects |
-| `scieval/agent.py` | Tool-calling agent loop over OpenRouter, plus scripted mock agents |
-| `scieval/grade.py` | Pipeline grading and replay-based validity |
-| `scieval/run.py` | Runs models across configurations (resumable, with a spending cap) |
-| `scieval/probes.py` | Conformance probes and the aggregate pipeline-fidelity score |
-| `scieval/replay_fixed.py` | Replays reference traces through each defective pipeline |
-| `scieval/analyze.py`, `scieval/paired.py` | Aggregate metrics, paired contrasts, LaTeX tables |
-| `scieval/figures.py` | Paper figures |
-| `results/` | Summary JSON, tables, and figures from the main experiment |
-| `paper/` | AES LaTeX source (`latexmk -xelatex main.tex`) |
+- **Setup.** Agents explore a synthetic observational dataset, lock one candidate exposure, confirm it on a
+  held-out split, and submit a decision. Ground truth is known by construction, and a frozen statistical
+  oracle recomputes the confirmatory evidence independently of the agent.
+- **Original protocol (v1).** 1,680 runs of seven models on 20 tasks, in which agents wrote their own
+  confirmation scripts. Instrumented re-execution shows that 42% of single confirmation calls fit more than
+  one candidate hypothesis on held-out data. Of the 19 reference traces credited only by an answer-only
+  grader, 8 contradict the agent's own significant test and 11 were rejected by the reference grader for
+  reasons other than missing evidence.
+- **Trusted protocol (v2).** The harness runs one locked, server-side test and the decision must cite an
+  immutable evidence record. Across 640 runs of four models on 40 new tasks, every confirmed decision
+  matched its evidence, yet an answer-only grader still credited untested "no discovery" decisions.
+- **Faults.** Data-separation, execution-integrity, result-freshness, and evidence-provenance faults are
+  injected one boundary at a time, and each fault's trigger, visibility, and use are logged.
+- **Implication.** Scientific-agent benchmarks should execute confirmatory analyses in the harness, bind
+  decisions to evidence records, and report truth, evidential support, and credit as distinct quantities.
 
-## Reproduce
+## Repository structure
+
+```
+scieval/                 Original (v1) harness
+  tasks.py               Synthetic tasks with known generating processes
+  pipeline.py            Sandboxed pipeline and the LEAK / SILENT / STALE / PROV configurations
+  agent.py               Tool-calling agent loop and scripted mock agents
+  grade.py               v1 grader and replay-based support check
+  run.py                 Experiment runner (resumable)
+  replay_fixed.py        Fixed-action replay of reference traces
+  probes.py              Conformance probes
+  analyze.py, paired.py, figures.py
+
+research_v2/             Trusted-confirmation (v2) protocol and all analyses in the paper
+  oracle.py              Frozen statistical oracle and hash-bound evidence records
+  harness.py             confirm(exposure) protocol, validator, fault operators
+  agent2.py, run2.py     v2 agent loop and runner
+  faults/contracts/      Machine-readable fault contracts
+  audit_runner.py        Instrumentation of agent-written confirmation scripts
+  audit_existing.py      Re-execution of every v1 confirmation script
+  decompose_v1.py        Truth / evidence / credit decomposition of v1 runs
+  analysis_v1.py         v1 estimands, sensitivity, rankings
+  analysis_v2.py         v2 estimands, manifestation, rankings
+  stats.py               Task-cluster bootstrap, sign-flip test, Kendall tau-b, Holm
+  dgp_validation.py      Monte Carlo validation of the generator (10,000 dataset pairs)
+  tables.py, appendix_tables.py, figures_v2.py
+  tests/                 Unit tests for the oracle, protocol, validator, and faults
+  frozen/                Frozen inputs: run records, task suites, task manifest, model metadata
+  results/               Derived tables and summaries
+  reproduce_offline.sh   Regenerates every statistic, table, and figure
+
+paper/                   AES LaTeX source; figure sources in paper/figures/src/
+results/                 Original v1 summaries
+```
+
+## Reproducing the paper
+
+All results, tables, and figures can be regenerated from the frozen records without network access or
+model calls:
 
 ```sh
 uv venv ~/.venvs/scieval --python 3.12 && ln -s ~/.venvs/scieval .venv
-uv pip install --python .venv/bin/python numpy scipy pandas statsmodels openai matplotlib python-dotenv
-echo 'OPENROUTER_API_KEY=sk-or-...' > .env   # gitignored
-
-.venv/bin/python -m scieval.probes                                   # fidelity scores
-.venv/bin/python -m scieval.run --models mock:careful,mock:sloppy --tasks 8 --exp smoke
-.venv/bin/python -m scieval.run --tasks 20 --repeats 3 --exp main --budget 40 \
-  --models openai/gpt-6.1-sol,anthropic/claude-sonnet-5.5,google/gemini-4-argon,anthropic/claude-haiku-5.5,openai/gpt-6-luna,deepseek/deepseek-v4.1-flash,qwen/qwen3.8-flash
-.venv/bin/python -m scieval.analyze --exp main
-.venv/bin/python -m scieval.paired
-.venv/bin/python -m scieval.replay_fixed --exp main
-.venv/bin/python -m scieval.figures --exp main
+uv pip install --python .venv/bin/python numpy scipy pandas statsmodels matplotlib pytest openai python-dotenv
+bash research_v2/reproduce_offline.sh
 ```
 
-Agent code runs under a macOS `sandbox-exec` profile (no network, writes confined to the run workspace).
-Run traces are written to `~/.cache/scieval/runs/` (about 1,680 JSON files for the main experiment).
-The main experiment cost $35.60 in OpenRouter credit.
+The script restores the frozen archives, runs the unit tests, regenerates the Monte Carlo validation and
+both analyses, rebuilds all figures and tables, and compiles `paper/main.pdf` (requires XeLaTeX).
+Re-executing the v1 confirmation scripts under instrumentation is optional (`REAUDIT=1`, macOS only).
 
-## Version 2: truth / evidence / credit audit (`research_v2/`)
+## Running new experiments
 
-| Path | Contents |
-|---|---|
-| `research_v2/oracle.py` | Frozen statistical oracle (OLS, outcome ~ exposure + site, two-sided, alpha 0.05) and hash-bound evidence records |
-| `research_v2/harness.py`, `agent2.py`, `run2.py` | Trusted one-shot `confirm(exposure)` protocol, validator, single-boundary faults (SEP_READ, INT_MASK, FRESH_CACHE), runner with pinned endpoints and a spending cap |
-| `research_v2/faults/contracts/` | Machine-readable fault contracts |
-| `research_v2/audit_runner.py`, `audit_existing.py` | Instrumented re-execution of every original agent-written confirm script |
-| `research_v2/decompose_v1.py`, `analysis_v1.py`, `analysis_v2.py`, `stats.py` | Truth/evidence/credit decomposition, stratified task-cluster bootstrap (B = 20,000), LOMO/LOTO, tau-b, Holm |
-| `research_v2/dgp_validation.py` | 10,000-pair Monte Carlo validation of the generator and protocol |
-| `research_v2/frozen/` | Frozen inputs: original run records, task suites, v2 run records, task manifest, OpenRouter metadata |
-| `research_v2/results/` | All derived tables and summaries |
-| `research_v2/tests/` | 15 tests for the oracle, protocol, validator, and fault isolation |
-| `research_v2/appendix_tables.py`, `figures_v2.py`, `tables.py` | Every paper table and data figure, generated from frozen results |
-| `paper/figures/src/pipeline.tex` | Editable TikZ source of the pipeline figure (also `pipeline.pdf`, `pipeline.svg`) |
+New agent runs require an OpenRouter key in a local `.env` file (`OPENROUTER_API_KEY=...`; gitignored).
+Agent code executes under a macOS `sandbox-exec` profile with no network access.
 
-Offline reproduction (no API key, no network): `bash research_v2/reproduce_offline.sh`.
-The v2 experiment (640 runs, 4 models, 40 new tasks) cost $2.94.
+```sh
+# v2 trusted protocol: deterministic reference agent, then language-model agents
+.venv/bin/python -m research_v2.run2 --models reference --exp v2main
+.venv/bin/python -m research_v2.run2 --exp v2main \
+  --models openai/gpt-6.1-sol,anthropic/claude-haiku-5.5,openai/gpt-6-luna,deepseek/deepseek-v4.1-flash
+.venv/bin/python -m research_v2.analysis_v2
+
+# v1 original protocol
+.venv/bin/python -m scieval.run --tasks 20 --repeats 3 --exp main --models <comma-separated model ids>
+.venv/bin/python -m scieval.analyze --exp main
+```
+
+Live model runs are not bit-for-bit reproducible even with pinned endpoints and seeds, which is why the
+records used in the paper are frozen in `research_v2/frozen/`.
+
+## Citation
+
+```bibtex
+@inproceedings{tiku2026pipeline,
+  title     = {When the Pipeline Is Wrong: Auditing the Evaluation of Scientific Agents},
+  author    = {Tiku, Sarvesh and Sharma, Gauri},
+  booktitle = {Agent Evaluation Science Symposium},
+  year      = {2026}
+}
+```
