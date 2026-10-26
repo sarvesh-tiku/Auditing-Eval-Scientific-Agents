@@ -95,14 +95,3 @@ Agent code executes under a macOS `sandbox-exec` profile with no network access.
 
 Live model runs are not bit-for-bit reproducible even with pinned endpoints and seeds, which is why the
 records used in the paper are frozen in `research_v2/frozen/`.
-
-## Citation
-
-```bibtex
-@inproceedings{tiku2026pipeline,
-  title     = {When the Pipeline Is Wrong: Auditing the Evaluation of Scientific Agents},
-  author    = {Tiku, Sarvesh and Sharma, Gauri},
-  booktitle = {Agent Evaluation Science Symposium},
-  year      = {2026}
-}
-```
