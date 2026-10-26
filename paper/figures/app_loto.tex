@@ -1,0 +1,17 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{v1 leave-one-task-out sensitivity} (pp; unit: task; 20 refits per estimand). \emph{Most
+influential}: the two tasks whose removal moves the estimate most, with the estimate after removal.}
+\label{tab:loto}
+\small
+\begin{tabular}{lrrl}
+\toprule
+Estimand & Full & LOTO range & Most influential tasks (estimate without)\\
+\midrule
+\cfg{Prov} & $+4.5$ & $[+3.0, +4.8]$ & \texttt{clinical-null-1009} (+3.0); \texttt{ecology-null-1007} (+4.0)\\
+\cfg{Leak} & $-3.6$ & $[-4.0, -3.0]$ & \texttt{clinical-null-1013} (-3.0); \texttt{ecology-null-1015} (-3.0)\\
+\cfg{Silent} & $-5.0$ & $[-5.5, -4.3]$ & \texttt{clinical-null-1005} (-4.3); \texttt{ecology-null-1015} (-5.5)\\
+\cfg{Stale} & $-5.0$ & $[-5.5, -4.3]$ & \texttt{clinical-null-1017} (-4.3); \texttt{agronomy-effect-1012} (-5.5)\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,709 @@
+{
+  "n_traces": 1680,
+  "total_cost": 35.6017612631,
+  "per_config": {
+    "REF": {
+      "measured": 0.8666666666666667,
+      "valid": 0.8666666666666667,
+      "inflation": 0.0,
+      "credited_unsupported": 0.0,
+      "false_discovery": 0.06904761904761905,
+      "fd_null": 0.1380952380952381,
+      "withheld": 0.10952380952380952,
+      "no_submit": 0.016666666666666666,
+      "unsupported_claim": 0.05,
+      "peeked": 0.011904761904761904,
+      "saw_holdout": 0.0,
+      "multi_confirm": 0.0,
+      "hidden_err_runs": 0.0,
+      "stale_runs": 0.0,
+      "cited_stale": 0.0,
+      "cited_failed": 0.007142857142857143,
+      "measured_ci": [
+        0.7404761904761905,
+        0.9595238095238096
+      ],
+      "valid_ci": [
+        0.7428571428571429,
+        0.9571428571428572
+      ],
+      "inflation_ci": [
+        0.0,
+        0.0
+      ],
+      "false_discovery_ci": [
+        0.0,
+        0.18571428571428572
+      ],
+      "fd_null_ci": [
+        0.0,
+        0.37142857142857144
+      ],
+      "n": 420,
+      "reasons": {
+        "answer contradicts own test": 19,
+        "confirmatory run failed": 2
+      },
+      "reproducibility": 0.8714285714285713
+    },
+    "LEAK": {
+      "measured": 0.830952380952381,
+      "valid": 0.830952380952381,
+      "inflation": 0.0,
+      "credited_unsupported": 0.0,
+      "false_discovery": 0.06666666666666667,
+      "fd_null": 0.13333333333333333,
+      "withheld": 0.11904761904761904,
+      "no_submit": 0.02857142857142857,
+      "unsupported_claim": 0.07380952380952381,
+      "peeked": 0.04047619047619048,
+      "saw_holdout": 0.8928571428571429,
+      "multi_confirm": 0.009523809523809525,
+      "hidden_err_runs": 0.0,
+      "stale_runs": 0.0,
+      "cited_stale": 0.0,
+      "cited_failed": 0.002380952380952381,
+      "measured_ci": [
+        0.7071428571428572,
+        0.9285714285714286
+      ],
+      "valid_ci": [
+        0.7118452380952381,
+        0.9261904761904762
+      ],
+      "inflation_ci": [
+        0.0,
+        0.0
+      ],
+      "false_discovery_ci": [
+        0.0,
+        0.17857142857142858
+      ],
+      "fd_null_ci": [
+        0.0,
+        0.31523809523809004
+      ],
+      "n": 420,
+      "reasons": {
+        "answer contradicts own test": 25,
+        "no parseable result": 6
+      },
+      "exposure": {
+        "rate": 0.8928571428571429,
+        "n_exposed": 375,
+        "n_unexposed": 45,
+        "valid_exposed": 0.8213333333333334,
+        "valid_unexposed": 0.9111111111111111,
+        "valid_exposed_ci": [
+          0.697578327771598,
+          0.920859868212021
+        ],
+        "valid_unexposed_ci": [
+          0.7659574468085106,
+          1.0
+        ]
+      },
+      "reproducibility": 0.8785714285714284
+    },
+    "SILENT": {
+      "measured": 0.819047619047619,
+      "valid": 0.8166666666666667,
+      "inflation": 0.0023809523809523725,
+      "credited_unsupported": 0.002380952380952381,
+      "false_discovery": 0.07142857142857142,
+      "fd_null": 0.14285714285714285,
+      "withheld": 0.11904761904761904,
+      "no_submit": 0.030952380952380953,
+      "unsupported_claim": 0.07857142857142857,
+      "peeked": 0.02142857142857143,
+      "saw_holdout": 0.009523809523809525,
+      "multi_confirm": 0.0,
+      "hidden_err_runs": 0.2785714285714286,
+      "stale_runs": 0.0,
+      "cited_stale": 0.0,
+      "cited_failed": 0.016666666666666666,
+      "measured_ci": [
+        0.692797619047619,
+        0.9238095238095239
+      ],
+      "valid_ci": [
+        0.6856547619047619,
+        0.9167261904761901
+      ],
+      "inflation_ci": [
+        0.0,
+        0.0071428571428572285
+      ],
+      "false_discovery_ci": [
+        0.002380952380952381,
+        0.17857142857142858
+      ],
+      "fd_null_ci": [
+        0.004761904761904762,
+        0.319047619047619
+      ],
+      "n": 420,
+      "reasons": {
+        "answer contradicts own test": 26,
+        "no confirmatory run": 2,
+        "confirmatory run failed": 4,
+        "no parseable result": 1
+      },
+      "exposure": {
+        "rate": 0.2785714285714286,
+        "n_exposed": 117,
+        "n_unexposed": 303,
+        "valid_exposed": 0.6752136752136753,
+        "valid_unexposed": 0.8712871287128713,
+        "valid_exposed_ci": [
+          0.5377222048963044,
+          0.8046974311440678
+        ],
+        "valid_unexposed_ci": [
+          0.7330972370885738,
+          0.9667774086378738
+        ]
+      },
+      "reproducibility": 0.8571428571428571
+    },
+    "STALE": {
+      "measured": 0.8166666666666667,
+      "valid": 0.8166666666666667,
+      "inflation": 0.0,
+      "credited_unsupported": 0.0,
+      "false_discovery": 0.06904761904761905,
+      "fd_null": 0.1380952380952381,
+      "withheld": 0.09761904761904762,
+      "no_submit": 0.05238095238095238,
+      "unsupported_claim": 0.06428571428571428,
+      "peeked": 0.014285714285714285,
+      "saw_holdout": 0.004761904761904762,
+      "multi_confirm": 0.0,
+      "hidden_err_runs": 0.0,
+      "stale_runs": 0.44047619047619047,
+      "cited_stale": 0.0,
+      "cited_failed": 0.02142857142857143,
+      "measured_ci": [
+        0.6952380952380952,
+        0.9119047619047619
+      ],
+      "valid_ci": [
+        0.6857142857142857,
+        0.9095238095238095
+      ],
+      "inflation_ci": [
+        0.0,
+        0.0
+      ],
+      "false_discovery_ci": [
+        0.0,
+        0.18333333333333332
+      ],
+      "fd_null_ci": [
+        0.0,
+        0.3238095238095238
+      ],
+      "n": 420,
+      "reasons": {
+        "answer contradicts own test": 20,
+        "confirmatory run failed": 5,
+        "reported numbers differ": 2
+      },
+      "exposure": {
+        "rate": 0.44047619047619047,
+        "n_exposed": 185,
+        "n_unexposed": 235,
+        "valid_exposed": 0.7135135135135136,
+        "valid_unexposed": 0.8978723404255319,
+        "valid_exposed_ci": [
+          0.5885340073529411,
+          0.81503361397336
+        ],
+        "valid_unexposed_ci": [
+          0.7682153692467071,
+          0.9879518072289156
+        ]
+      },
+      "reproducibility": 0.7928571428571428
+    },
+    "PROV": {
+      "measured": 0.9119047619047619,
+      "valid": 0.8666666666666667,
+      "inflation": 0.04523809523809519,
+      "credited_unsupported": 0.04523809523809524,
+      "false_discovery": 0.06904761904761905,
+      "fd_null": 0.1380952380952381,
+      "withheld": 0.10952380952380952,
+      "no_submit": 0.016666666666666666,
+      "unsupported_claim": 0.05,
+      "peeked": 0.011904761904761904,
+      "saw_holdout": 0.0,
+      "multi_confirm": 0.0,
+      "hidden_err_runs": 0.0,
+      "stale_runs": 0.0,
+      "cited_stale": 0.0,
+      "cited_failed": 0.007142857142857143,
+      "measured_ci": [
+        0.8047619047619048,
+        0.9857142857142858
+      ],
+      "valid_ci": [
+        0.75,
+        0.9571428571428572
+      ],
+      "inflation_ci": [
+        0.016607142857142803,
+        0.08571428571428574
+      ],
+      "false_discovery_ci": [
+        0.0,
+        0.18571428571428572
+      ],
+      "fd_null_ci": [
+        0.0,
+        0.3619047619047619
+      ],
+      "n": 420,
+      "reasons": {
+        "answer contradicts own test": 19,
+        "confirmatory run failed": 2
+      },
+      "reproducibility": 0.8714285714285713
+    }
+  },
+  "per_model": {
+    "openai/gpt-6.1-sol": {
+      "REF": {
+        "n": 60,
+        "measured": 0.9166666666666666,
+        "valid": 0.9166666666666666,
+        "false_discovery": 0.08333333333333333,
+        "no_submit": 0.0,
+        "reproducibility": 0.8,
+        "cost": 0.022036649999999998
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.9333333333333333,
+        "valid": 0.9333333333333333,
+        "false_discovery": 0.06666666666666667,
+        "no_submit": 0.0,
+        "reproducibility": 0.85,
+        "cost": 0.021681685
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.9166666666666666,
+        "valid": 0.9166666666666666,
+        "false_discovery": 0.08333333333333333,
+        "no_submit": 0.0,
+        "reproducibility": 0.95,
+        "cost": 0.021376623333333337
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.9166666666666666,
+        "valid": 0.9166666666666666,
+        "false_discovery": 0.08333333333333333,
+        "no_submit": 0.0,
+        "reproducibility": 0.8,
+        "cost": 0.02095927333333333
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.9166666666666666,
+        "valid": 0.9166666666666666,
+        "false_discovery": 0.08333333333333333,
+        "no_submit": 0.0,
+        "reproducibility": 0.8,
+        "cost": 0.022036649999999998
+      }
+    },
+    "anthropic/claude-sonnet-5.5": {
+      "REF": {
+        "n": 60,
+        "measured": 0.9,
+        "valid": 0.9,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.034670566666666666
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.9,
+        "valid": 0.9,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.03438843333333333
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.8666666666666667,
+        "valid": 0.8666666666666667,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 0.95,
+        "cost": 0.035144
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.9,
+        "valid": 0.9,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 0.95,
+        "cost": 0.03861356666666667
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.95,
+        "valid": 0.9,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.034670566666666666
+      }
+    },
+    "google/gemini-4-argon": {
+      "REF": {
+        "n": 60,
+        "measured": 0.95,
+        "valid": 0.95,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.054419964999999994
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.9333333333333333,
+        "valid": 0.9333333333333333,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.052043283333333336
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.9166666666666666,
+        "valid": 0.9166666666666666,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.05199158499999999
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.95,
+        "valid": 0.95,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.07512407499999998
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.95,
+        "valid": 0.95,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.054419964999999994
+      }
+    },
+    "anthropic/claude-haiku-5.5": {
+      "REF": {
+        "n": 60,
+        "measured": 0.8833333333333333,
+        "valid": 0.8833333333333333,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 0.9,
+        "cost": 0.0025676850000000005
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.9,
+        "valid": 0.9,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 1.0,
+        "cost": 0.002563431666666667
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.8666666666666667,
+        "valid": 0.8666666666666667,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 0.9,
+        "cost": 0.0026242283333333333
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.9,
+        "valid": 0.9,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 0.85,
+        "cost": 0.002802276666666666
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.9333333333333333,
+        "valid": 0.8833333333333333,
+        "false_discovery": 0.05,
+        "no_submit": 0.0,
+        "reproducibility": 0.9,
+        "cost": 0.0025676850000000005
+      }
+    },
+    "openai/gpt-6-luna": {
+      "REF": {
+        "n": 60,
+        "measured": 0.8666666666666667,
+        "valid": 0.8666666666666667,
+        "false_discovery": 0.1,
+        "no_submit": 0.0,
+        "reproducibility": 0.8,
+        "cost": 0.0017874068333333336
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.8333333333333334,
+        "valid": 0.8333333333333334,
+        "false_discovery": 0.1,
+        "no_submit": 0.0,
+        "reproducibility": 0.9,
+        "cost": 0.0017506066666666668
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.8,
+        "valid": 0.8,
+        "false_discovery": 0.11666666666666667,
+        "no_submit": 0.0,
+        "reproducibility": 0.85,
+        "cost": 0.0016703949166666668
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.8333333333333334,
+        "valid": 0.8333333333333334,
+        "false_discovery": 0.1,
+        "no_submit": 0.0,
+        "reproducibility": 0.85,
+        "cost": 0.00170212625
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.9,
+        "valid": 0.8666666666666667,
+        "false_discovery": 0.1,
+        "no_submit": 0.0,
+        "reproducibility": 0.8,
+        "cost": 0.0017874068333333336
+      }
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "REF": {
+        "n": 60,
+        "measured": 0.7,
+        "valid": 0.7,
+        "false_discovery": 0.1,
+        "no_submit": 0.05,
+        "reproducibility": 0.8,
+        "cost": 0.01617598898333333
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.5333333333333333,
+        "valid": 0.5333333333333333,
+        "false_discovery": 0.08333333333333333,
+        "no_submit": 0.13333333333333333,
+        "reproducibility": 0.6,
+        "cost": 0.018516205533333333
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.6333333333333333,
+        "valid": 0.6333333333333333,
+        "false_discovery": 0.1,
+        "no_submit": 0.11666666666666667,
+        "reproducibility": 0.65,
+        "cost": 0.015102888
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.5833333333333334,
+        "valid": 0.5833333333333334,
+        "false_discovery": 0.08333333333333333,
+        "no_submit": 0.21666666666666667,
+        "reproducibility": 0.5,
+        "cost": 0.016041920301666665
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.85,
+        "valid": 0.7,
+        "false_discovery": 0.1,
+        "no_submit": 0.05,
+        "reproducibility": 0.8,
+        "cost": 0.01617598898333333
+      }
+    },
+    "qwen/qwen3.8-flash": {
+      "REF": {
+        "n": 60,
+        "measured": 0.85,
+        "valid": 0.85,
+        "false_discovery": 0.05,
+        "no_submit": 0.06666666666666667,
+        "reproducibility": 0.8,
+        "cost": 0.011926940533333335
+      },
+      "LEAK": {
+        "n": 60,
+        "measured": 0.7833333333333333,
+        "valid": 0.7833333333333333,
+        "false_discovery": 0.06666666666666667,
+        "no_submit": 0.06666666666666667,
+        "reproducibility": 0.8,
+        "cost": 0.011982766433333332
+      },
+      "SILENT": {
+        "n": 60,
+        "measured": 0.7333333333333333,
+        "valid": 0.7166666666666667,
+        "false_discovery": 0.05,
+        "no_submit": 0.1,
+        "reproducibility": 0.7,
+        "cost": 0.011993254966666665
+      },
+      "STALE": {
+        "n": 60,
+        "measured": 0.6333333333333333,
+        "valid": 0.6333333333333333,
+        "false_discovery": 0.06666666666666667,
+        "no_submit": 0.15,
+        "reproducibility": 0.6,
+        "cost": 0.011704859966666668
+      },
+      "PROV": {
+        "n": 60,
+        "measured": 0.8833333333333333,
+        "valid": 0.85,
+        "false_discovery": 0.05,
+        "no_submit": 0.06666666666666667,
+        "reproducibility": 0.8,
+        "cost": 0.011926940533333335
+      }
+    }
+  },
+  "ranking": {
+    "REF": {
+      "tau_measured_vs_ref_valid": 1.0,
+      "tau_valid_vs_ref_valid": 1.0,
+      "order_measured": [
+        "Gemini 4 Argon",
+        "GPT-6.1-sol",
+        "Sonnet 5.5",
+        "Haiku 5.5",
+        "GPT-6-luna",
+        "Qwen3.8-flash",
+        "DeepSeek-V4.1-flash"
+      ]
+    },
+    "LEAK": {
+      "tau_measured_vs_ref_valid": 0.9047619047619048,
+      "tau_valid_vs_ref_valid": 0.9047619047619048,
+      "order_measured": [
+        "Gemini 4 Argon",
+        "GPT-6.1-sol",
+        "Haiku 5.5",
+        "Sonnet 5.5",
+        "GPT-6-luna",
+        "Qwen3.8-flash",
+        "DeepSeek-V4.1-flash"
+      ]
+    },
+    "SILENT": {
+      "tau_measured_vs_ref_valid": 0.9047619047619048,
+      "tau_valid_vs_ref_valid": 0.9047619047619048,
+      "order_measured": [
+        "Gemini 4 Argon",
+        "GPT-6.1-sol",
+        "Haiku 5.5",
+        "Sonnet 5.5",
+        "GPT-6-luna",
+        "Qwen3.8-flash",
+        "DeepSeek-V4.1-flash"
+      ]
+    },
+    "STALE": {
+      "tau_measured_vs_ref_valid": 0.9523809523809523,
+      "tau_valid_vs_ref_valid": 0.9523809523809523,
+      "order_measured": [
+        "Gemini 4 Argon",
+        "GPT-6.1-sol",
+        "Haiku 5.5",
+        "Sonnet 5.5",
+        "GPT-6-luna",
+        "Qwen3.8-flash",
+        "DeepSeek-V4.1-flash"
+      ]
+    },
+    "PROV": {
+      "tau_measured_vs_ref_valid": 0.7619047619047619,
+      "tau_valid_vs_ref_valid": 1.0,
+      "order_measured": [
+        "Gemini 4 Argon",
+        "Sonnet 5.5",
+        "Haiku 5.5",
+        "GPT-6.1-sol",
+        "GPT-6-luna",
+        "Qwen3.8-flash",
+        "DeepSeek-V4.1-flash"
+      ]
+    }
+  },
+  "fidelity": {
+    "REF": {
+      "fidelity": 1.0,
+      "rule_fidelity": 1.0,
+      "abs_inflation": 0.0,
+      "valid_drop": 0.0,
+      "harm": 0.0
+    },
+    "LEAK": {
+      "fidelity": 0.8,
+      "rule_fidelity": 0.75,
+      "abs_inflation": 0.0,
+      "valid_drop": 0.0357142857142857,
+      "harm": 0.0357142857142857
+    },
+    "SILENT": {
+      "fidelity": 0.6666666666666666,
+      "rule_fidelity": 0.75,
+      "abs_inflation": 0.0023809523809523725,
+      "valid_drop": 0.050000000000000044,
+      "harm": 0.05238095238095242
+    },
+    "STALE": {
+      "fidelity": 0.7333333333333333,
+      "rule_fidelity": 0.75,
+      "abs_inflation": 0.0,
+      "valid_drop": 0.050000000000000044,
+      "harm": 0.050000000000000044
+    },
+    "PROV": {
+      "fidelity": 0.8666666666666667,
+      "rule_fidelity": 0.75,
+      "abs_inflation": 0.04523809523809519,
+      "valid_drop": 0.0,
+      "harm": 0.04523809523809519
+    }
+  }
+}

@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+  \centering
+  \small
+  \begin{tabular}{@{}lrrrrrr@{}}
+    \toprule
+    Model & \cfg{Ref} & \cfg{Leak} & \cfg{Silent} & \cfg{Stale} & \cfg{Prov} (meas.) & \$/run \\
+    \midrule
+    Gemini 4 Argon & 95.0 & 93.3 & 91.7 & 95.0 & 95.0 & 0.054 \\
+    GPT-6.1-sol & 91.7 & 93.3 & 91.7 & 91.7 & 91.7 & 0.022 \\
+    Sonnet 5.5 & 90.0 & 90.0 & 86.7 & 90.0 & 95.0 & 0.035 \\
+    Haiku 5.5 & 88.3 & 90.0 & 86.7 & 90.0 & 93.3 & 0.003 \\
+    GPT-6-luna & 86.7 & 83.3 & 80.0 & 83.3 & 90.0 & 0.002 \\
+    Qwen3.8-flash & 85.0 & 78.3 & 71.7 & 63.3 & 88.3 & 0.012 \\
+    DeepSeek-V4.1-flash & 70.0 & 53.3 & 63.3 & 58.3 & 85.0 & 0.016 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Valid success (\%) by model and configuration; \cfg{Prov} column shows the measured score of the same \cfg{Ref} traces under a grader without the provenance check. Mean API cost per \cfg{Ref} run in USD.}
+  \label{tab:models}
+\end{table}

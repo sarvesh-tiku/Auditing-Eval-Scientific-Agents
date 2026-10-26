@@ -1,0 +1,17 @@
+\begin{table}[t]
+  \centering
+  \small
+  \begin{tabularx}{\linewidth}{@{}l>{\raggedleft\arraybackslash}X rrrrrr@{}}
+    \toprule
+    Config & Measured & Valid & Infl. & FD$_\text{null}$ & Withheld & No sub. & Repro. \\
+    \midrule
+    \cfg{Ref} & 86.7 & 86.7 [74.3, 95.7] & +0.0 & 13.8 & 11.0 & 1.7 & 87.1 \\
+    \cfg{Leak} & 83.1 & 83.1 [71.2, 92.6] & +0.0 & 13.3 & 11.9 & 2.9 & 87.9 \\
+    \cfg{Silent} & 81.9 & 81.7 [68.6, 91.7] & +0.2 & 14.3 & 11.9 & 3.1 & 85.7 \\
+    \cfg{Stale} & 81.7 & 81.7 [68.6, 91.0] & +0.0 & 13.8 & 9.8 & 5.2 & 79.3 \\
+    \cfg{Prov} & 91.2 & 86.7 [75.0, 95.7] & +4.5 & 13.8 & 11.0 & 1.7 & 87.1 \\
+    \bottomrule
+  \end{tabularx}
+  \caption{Pooled results by pipeline configuration (\%, all models). Measured: the configuration's own grader. Valid: replay-graded success (correct and supported by reference replay of the agent's script; not independent evidential validity), with 95\% task-clustered bootstrap CI. Infl.: measured minus valid. FD$_\text{null}$: false discoveries on null tasks. No sub.: no usable submission. Repro.: task cells where all three repeats agree. \cfg{Prov} reuses \cfg{Ref} traces with a grader that skips the provenance check.}
+  \label{tab:configs}
+\end{table}

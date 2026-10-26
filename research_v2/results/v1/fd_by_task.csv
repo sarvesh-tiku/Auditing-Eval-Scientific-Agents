@@ -1,0 +1,11 @@
+task_id,runs,false_discoveries,fd_exposures,fd_independently_supported,trusted_baseline,confirm_sig_exposures,explore_min_exposure,explore_min_p,confirm_p_of_explore_min
+ecology-null-1011,84,76,elevation_m;nitrate,76,nitrate,elevation_m;nitrate;rainfall_mm,nitrate,0.06573147271574058,0.001488251386534218
+clinical-null-1009,84,38,crp_level;vitamin_d,37,crp_level,crp_level;hdl,crp_level,0.05163923689262324,0.039498060536278655
+clinical-null-1001,84,1,crp_level,0,none,,crp_level,0.2070606903858662,0.05251425404024383
+clinical-null-1005,84,1,bmi,0,none,,crp_level,0.014527619988876635,0.8750649998890007
+clinical-null-1013,84,0,,0,none,,vitamin_d,0.2667146730626792,0.543907402351325
+clinical-null-1017,84,0,,0,none,,sleep_hours,0.046359310298004115,0.8773584289132785
+ecology-null-1003,84,0,,0,none,,nitrate,0.02166721394721216,0.2015306881062814
+ecology-null-1007,84,0,,0,none,,nitrate,0.017115939792759806,0.16704312042937602
+ecology-null-1015,84,0,,0,none,,road_dist_km,0.06152444415540063,0.7393001526707638
+ecology-null-1019,84,0,,0,none,,road_dist_km,0.09294651938155694,0.7872123460403277

@@ -1,0 +1,117 @@
+{
+  "REF": {
+    "passed": 15,
+    "total": 15,
+    "fidelity": 1.0,
+    "rule_fidelity": 1.0,
+    "probes": {
+      "integrity.exception_exit_code": true,
+      "integrity.traceback_shown": true,
+      "integrity.syntax_error_shown": true,
+      "integrity.partial_output_flagged": true,
+      "integrity.failed_confirm_recorded": true,
+      "integrity.clean_run_zero": true,
+      "freshness.same_header_new_body": true,
+      "freshness.nondeterminism_visible": true,
+      "freshness.confirm_not_served_from_cache": true,
+      "freshness.file_change_visible": true,
+      "separation.holdout_not_listed": true,
+      "separation.confirm_single_use": true,
+      "separation.holdout_unreadable": true,
+      "provenance.fabricated_claim_rejected": true,
+      "provenance.mismatched_numbers_rejected": true
+    }
+  },
+  "LEAK": {
+    "passed": 12,
+    "total": 15,
+    "fidelity": 0.8,
+    "rule_fidelity": 0.75,
+    "probes": {
+      "integrity.exception_exit_code": true,
+      "integrity.traceback_shown": true,
+      "integrity.syntax_error_shown": true,
+      "integrity.partial_output_flagged": true,
+      "integrity.failed_confirm_recorded": true,
+      "integrity.clean_run_zero": true,
+      "freshness.same_header_new_body": true,
+      "freshness.nondeterminism_visible": true,
+      "freshness.confirm_not_served_from_cache": true,
+      "freshness.file_change_visible": true,
+      "separation.holdout_not_listed": false,
+      "separation.confirm_single_use": false,
+      "separation.holdout_unreadable": false,
+      "provenance.fabricated_claim_rejected": true,
+      "provenance.mismatched_numbers_rejected": true
+    }
+  },
+  "SILENT": {
+    "passed": 10,
+    "total": 15,
+    "fidelity": 0.6666666666666666,
+    "rule_fidelity": 0.75,
+    "probes": {
+      "integrity.exception_exit_code": false,
+      "integrity.traceback_shown": false,
+      "integrity.syntax_error_shown": false,
+      "integrity.partial_output_flagged": false,
+      "integrity.failed_confirm_recorded": false,
+      "integrity.clean_run_zero": true,
+      "freshness.same_header_new_body": true,
+      "freshness.nondeterminism_visible": true,
+      "freshness.confirm_not_served_from_cache": true,
+      "freshness.file_change_visible": true,
+      "separation.holdout_not_listed": true,
+      "separation.confirm_single_use": true,
+      "separation.holdout_unreadable": true,
+      "provenance.fabricated_claim_rejected": true,
+      "provenance.mismatched_numbers_rejected": true
+    }
+  },
+  "STALE": {
+    "passed": 11,
+    "total": 15,
+    "fidelity": 0.7333333333333333,
+    "rule_fidelity": 0.75,
+    "probes": {
+      "integrity.exception_exit_code": true,
+      "integrity.traceback_shown": true,
+      "integrity.syntax_error_shown": true,
+      "integrity.partial_output_flagged": true,
+      "integrity.failed_confirm_recorded": true,
+      "integrity.clean_run_zero": true,
+      "freshness.same_header_new_body": false,
+      "freshness.nondeterminism_visible": false,
+      "freshness.confirm_not_served_from_cache": false,
+      "freshness.file_change_visible": false,
+      "separation.holdout_not_listed": true,
+      "separation.confirm_single_use": true,
+      "separation.holdout_unreadable": true,
+      "provenance.fabricated_claim_rejected": true,
+      "provenance.mismatched_numbers_rejected": true
+    }
+  },
+  "PROV": {
+    "passed": 13,
+    "total": 15,
+    "fidelity": 0.8666666666666667,
+    "rule_fidelity": 0.75,
+    "probes": {
+      "integrity.exception_exit_code": true,
+      "integrity.traceback_shown": true,
+      "integrity.syntax_error_shown": true,
+      "integrity.partial_output_flagged": true,
+      "integrity.failed_confirm_recorded": true,
+      "integrity.clean_run_zero": true,
+      "freshness.same_header_new_body": true,
+      "freshness.nondeterminism_visible": true,
+      "freshness.confirm_not_served_from_cache": true,
+      "freshness.file_change_visible": true,
+      "separation.holdout_not_listed": true,
+      "separation.confirm_single_use": true,
+      "separation.holdout_unreadable": true,
+      "provenance.fabricated_claim_rejected": false,
+      "provenance.mismatched_numbers_rejected": false
+    }
+  }
+}

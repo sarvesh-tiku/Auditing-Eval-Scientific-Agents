@@ -1,0 +1,19 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{v2 joint valid success (\%) by model and condition} (unit: run; 40 tasks per cell, one
+repeat). \emph{Prov.}: answer-only credit on the same \cfg{Ref} traces. \emph{Protocol}: share of all 160
+runs of the model with a valid protocol. \emph{Calls}: mean model calls per run. \emph{\$/run}: mean
+recorded OpenRouter cost.}
+\label{tab:v2models}
+\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Model & \cfg{Ref} & \cfg{Sep\_read} & \cfg{Int\_mask} & \cfg{Fresh\_cache} & Prov. & Protocol & Calls & \$/run\\
+\midrule
+GPT-6.1-sol & 92.5 & 92.5 & 92.5 & 92.5 & 92.5 & 100.0 & 4.0 & 0.0122\\
+Haiku 5.5 & 82.5 & 80.0 & 77.5 & 85.0 & 95.0 & 85.6 & 3.8 & 0.0016\\
+GPT-6-luna & 92.5 & 95.0 & 95.0 & 92.5 & 92.5 & 100.0 & 5.5 & 0.0008\\
+DeepSeek-V4.1-fl. & 92.5 & 95.0 & 87.5 & 85.0 & 92.5 & 96.9 & 12.3 & 0.0037\\
+\bottomrule
+\end{tabular}
+\end{table}

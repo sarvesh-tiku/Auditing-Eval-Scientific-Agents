@@ -1,0 +1,20 @@
+\begin{abstract}
+A benchmark that credits a scientific agent's conclusion conflates three
+things: whether it is true, whether the agent's experiment supports it, and
+whether the grader checked. We separate them in hypothesis-testing tasks with
+known generating processes, using a frozen oracle that recomputes
+confirmatory evidence independently of the agent. Re-executing every
+agent-written confirmation script in a 1,680-run experiment (7 models) shows
+that 42\% of single confirmation calls fit several candidate hypotheses on
+held-out data. Of 19 traces credited only by an answer-only grader
+($+4.5$ pp), 8 contradict the agent's own significant test. The other 11 were
+rejected by the reference grader itself, 10 of them correct readings of a
+non-significant test whose output label broke format. Under a redesigned
+protocol where the harness runs one locked test and decisions cite an
+immutable record (640 runs, 40 new tasks), every confirmed decision matched
+its evidence. An answer-only grader still added $+3.1$ pp by crediting
+untested ``no discovery'' submissions, enough to move the lowest-ranked model
+to first. False discoveries concentrate on datasets where a deterministic
+baseline also errs. Scientific-agent benchmarks should generate evidence in
+the harness and score truth, evidence, and credit separately.
+\end{abstract}

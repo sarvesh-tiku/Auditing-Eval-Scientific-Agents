@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{v1 leave-one-model-out estimates} (pp; each row omits one model and recomputes the
+paired estimand over the remaining six).}
+\label{tab:lomo}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Model left out & \cfg{Prov} & \cfg{Leak} & \cfg{Silent} & \cfg{Stale}\\
+\midrule
+GPT-6.1-sol & $+5.3$ & $-4.4$ & $-5.8$ & $-5.8$\\
+Sonnet 5.5 & $+4.4$ & $-4.2$ & $-5.3$ & $-5.8$\\
+Gemini 4 Argon & $+5.3$ & $-3.9$ & $-5.3$ & $-5.8$\\
+Haiku 5.5 & $+4.4$ & $-4.4$ & $-5.6$ & $-6.1$\\
+GPT-6-luna & $+4.7$ & $-3.6$ & $-4.7$ & $-5.3$\\
+DeepSeek-V4.1-fl. & $+2.8$ & $-1.4$ & $-4.7$ & $-3.9$\\
+Qwen3.8-flash & $+4.7$ & $-3.1$ & $-3.6$ & $-2.2$\\
+\bottomrule
+\end{tabular}
+\end{table}

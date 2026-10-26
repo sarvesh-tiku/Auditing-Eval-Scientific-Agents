@@ -1,0 +1,17 @@
+.venv
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# LaTeX build outputs
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.bbl
+paper/*.blg
+paper/*.xdv
+paper/*.synctex.gz
+results/**/*.png

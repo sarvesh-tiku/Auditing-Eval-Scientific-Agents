@@ -1,0 +1,586 @@
+{
+ "n_runs": 640,
+ "n_tasks": 40,
+ "models": [
+  "anthropic/claude-haiku-5.5",
+  "deepseek/deepseek-v4.1-flash",
+  "openai/gpt-6-luna",
+  "openai/gpt-6.1-sol"
+ ],
+ "bootstrap_B": 20000,
+ "total_cost": 2.9409829143999997,
+ "cost_by_model": {
+  "anthropic/claude-haiku-5.5": 0.2568,
+  "deepseek/deepseek-v4.1-flash": 0.599,
+  "openai/gpt-6-luna": 0.1277,
+  "openai/gpt-6.1-sol": 1.9575
+ },
+ "providers": {
+  "anthropic/claude-haiku-5.5": [
+   "Anthropic"
+  ],
+  "deepseek/deepseek-v4.1-flash": [
+   "DeepInfra"
+  ],
+  "openai/gpt-6-luna": [
+   "OpenAI"
+  ],
+  "openai/gpt-6.1-sol": [
+   "OpenAI"
+  ]
+ },
+ "returned_models": {
+  "anthropic/claude-haiku-5.5": [
+   "anthropic/claude-haiku-5.5"
+  ],
+  "deepseek/deepseek-v4.1-flash": [
+   "deepseek/deepseek-v4.1-flash"
+  ],
+  "openai/gpt-6-luna": [
+   "openai/gpt-6-luna"
+  ],
+  "openai/gpt-6.1-sol": [
+   "openai/gpt-6.1-sol"
+  ]
+ },
+ "stop_reasons": {
+  "submitted": 635,
+  "max_steps": 5
+ },
+ "reference_agent": {
+  "joint_valid": 0.925,
+  "null_discoveries": 1,
+  "effect_detected": 18,
+  "n": 40,
+  "identical_across_conditions": true
+ },
+ "ref_matrix": {
+  "correct|supported": 144,
+  "correct|unsupported": 5,
+  "incorrect|supported": 11
+ },
+ "ref_decisions": {
+  "no_confirmed_discovery": 85,
+  "discover": 75
+ },
+ "ref_by_model": {
+  "joint_valid_success": {
+   "anthropic/claude-haiku-5.5": 0.825,
+   "deepseek/deepseek-v4.1-flash": 0.925,
+   "openai/gpt-6-luna": 0.925,
+   "openai/gpt-6.1-sol": 0.925
+  },
+  "credited_PROV_GRADE": {
+   "anthropic/claude-haiku-5.5": 0.95,
+   "deepseek/deepseek-v4.1-flash": 0.925,
+   "openai/gpt-6-luna": 0.925,
+   "openai/gpt-6.1-sol": 0.925
+  },
+  "protocol_valid": {
+   "anthropic/claude-haiku-5.5": 0.875,
+   "deepseek/deepseek-v4.1-flash": 1.0,
+   "openai/gpt-6-luna": 1.0,
+   "openai/gpt-6.1-sol": 1.0
+  },
+  "decision_consistent": {
+   "anthropic/claude-haiku-5.5": 1.0,
+   "deepseek/deepseek-v4.1-flash": 1.0,
+   "openai/gpt-6-luna": 1.0,
+   "openai/gpt-6.1-sol": 1.0
+  }
+ },
+ "decision_consistency": {
+  "all": 1.0,
+  "by_condition": {
+   "FRESH_CACHE": 1.0,
+   "INT_MASK": 1.0,
+   "REF": 1.0,
+   "SEP_READ": 1.0
+  }
+ },
+ "agreement_with_reference_agent": 0.99375,
+ "same_lock_as_reference_agent": 0.95,
+ "estimands": {
+  "PROV_GRADE_same_trace": {
+   "est": 0.03125,
+   "lo": 0.00625,
+   "hi": 0.05625,
+   "boot_p": 0.006,
+   "n": 160
+  },
+  "REF_joint_valid": {
+   "est": 0.9,
+   "lo": 0.80625,
+   "hi": 0.975,
+   "boot_p": 0.0,
+   "n": 160
+  },
+  "SEP_READ_fresh_joint_valid": {
+   "est": 0.00625,
+   "lo": -0.025,
+   "hi": 0.04375,
+   "boot_p": 0.8925,
+   "n": 160,
+   "perm_p": 1.0,
+   "holm_p": 1.0
+  },
+  "INT_MASK_fresh_joint_valid": {
+   "est": -0.01875,
+   "lo": -0.05625,
+   "hi": 0.025,
+   "boot_p": 0.4349,
+   "n": 160,
+   "perm_p": 0.5643717814109295,
+   "holm_p": 1.0
+  },
+  "FRESH_CACHE_fresh_joint_valid": {
+   "est": -0.0125,
+   "lo": -0.04375,
+   "hi": 0.01875,
+   "boot_p": 0.591,
+   "n": 160,
+   "perm_p": 0.7263136843157842,
+   "holm_p": 1.0
+  }
+ },
+ "by_condition": {
+  "joint_valid": {
+   "FRESH_CACHE": 0.8875,
+   "INT_MASK": 0.8812,
+   "REF": 0.9,
+   "SEP_READ": 0.9062
+  },
+  "prov_credit": {
+   "FRESH_CACHE": 0.9125,
+   "INT_MASK": 0.925,
+   "REF": 0.9312,
+   "SEP_READ": 0.9438
+  },
+  "abstain": {
+   "FRESH_CACHE": 0.0,
+   "INT_MASK": 0.0,
+   "REF": 0.0,
+   "SEP_READ": 0.0
+  },
+  "protocol_valid": {
+   "FRESH_CACHE": 0.9562,
+   "INT_MASK": 0.9375,
+   "REF": 0.9688,
+   "SEP_READ": 0.9625
+  },
+  "null_fd": {
+   "FRESH_CACHE": 0.0375,
+   "INT_MASK": 0.025,
+   "REF": 0.0375,
+   "SEP_READ": 0.0125
+  },
+  "calls": {
+   "FRESH_CACHE": 6.9688,
+   "INT_MASK": 6.5312,
+   "REF": 6.1062,
+   "SEP_READ": 6.0438
+  },
+  "n_errors": {
+   "FRESH_CACHE": 0.2125,
+   "INT_MASK": 0.4688,
+   "REF": 0.1062,
+   "SEP_READ": 0.2125
+  }
+ },
+ "prov_newly_credited": [
+  {
+   "model": "anthropic/claude-haiku-5.5",
+   "task_id": "agronomy-null-5036",
+   "decision": "no_confirmed_discovery",
+   "exposure": NaN,
+   "locked_exposure": NaN,
+   "locked_p": NaN,
+   "protocol_valid": false
+  },
+  {
+   "model": "anthropic/claude-haiku-5.5",
+   "task_id": "clinical-null-5021",
+   "decision": "no_confirmed_discovery",
+   "exposure": NaN,
+   "locked_exposure": NaN,
+   "locked_p": NaN,
+   "protocol_valid": false
+  },
+  {
+   "model": "anthropic/claude-haiku-5.5",
+   "task_id": "clinical-null-5037",
+   "decision": "no_confirmed_discovery",
+   "exposure": NaN,
+   "locked_exposure": NaN,
+   "locked_p": NaN,
+   "protocol_valid": false
+  },
+  {
+   "model": "anthropic/claude-haiku-5.5",
+   "task_id": "ecology-null-5031",
+   "decision": "no_confirmed_discovery",
+   "exposure": NaN,
+   "locked_exposure": NaN,
+   "locked_p": NaN,
+   "protocol_valid": false
+  },
+  {
+   "model": "anthropic/claude-haiku-5.5",
+   "task_id": "materials-null-5006",
+   "decision": "no_confirmed_discovery",
+   "exposure": NaN,
+   "locked_exposure": NaN,
+   "locked_p": NaN,
+   "protocol_valid": false
+  }
+ ],
+ "lomo": {
+  "PROV": [
+   0.0,
+   0.041666666666666664
+  ],
+  "SEP_READ": [
+   0.0,
+   0.016666666666666666
+  ],
+  "INT_MASK": [
+   -0.03333333333333333,
+   -0.008333333333333333
+  ],
+  "FRESH_CACHE": [
+   -0.025,
+   0.008333333333333333
+  ]
+ },
+ "loto": {
+  "PROV": [
+   0.02564102564102564,
+   0.03205128205128205
+  ],
+  "SEP_READ": [
+   -0.00641025641025641,
+   0.01282051282051282
+  ],
+  "INT_MASK": [
+   -0.03205128205128205,
+   -0.01282051282051282
+  ],
+  "FRESH_CACHE": [
+   -0.019230769230769232,
+   -0.00641025641025641
+  ]
+ },
+ "per_model": {
+  "anthropic/claude-haiku-5.5": {
+   "PROV": 0.125,
+   "SEP_READ": -0.025,
+   "INT_MASK": -0.05,
+   "FRESH_CACHE": 0.025
+  },
+  "deepseek/deepseek-v4.1-flash": {
+   "PROV": 0.0,
+   "SEP_READ": 0.025,
+   "INT_MASK": -0.05,
+   "FRESH_CACHE": -0.075
+  },
+  "openai/gpt-6-luna": {
+   "PROV": 0.0,
+   "SEP_READ": 0.025,
+   "INT_MASK": 0.025,
+   "FRESH_CACHE": 0.0
+  },
+  "openai/gpt-6.1-sol": {
+   "PROV": 0.0,
+   "SEP_READ": 0.0,
+   "INT_MASK": 0.0,
+   "FRESH_CACHE": 0.0
+  }
+ },
+ "false_discoveries_ref": {
+  "n": 3,
+  "runs": 80,
+  "tasks_with_fd": 1,
+  "n_null_tasks": 20,
+  "max_per_task": 3,
+  "evidence_supported": 3,
+  "reference_agent_fd_tasks": [
+   "clinical-null-5037"
+  ]
+ },
+ "fault_manifestation": [
+  {
+   "condition": "SEP_READ",
+   "runs": 160,
+   "triggered": 160,
+   "visible": 140,
+   "used": 7,
+   "used_before_lock": 0,
+   "joint_valid_triggered": 0.90625,
+   "joint_valid_not_triggered": null
+  },
+  {
+   "condition": "INT_MASK",
+   "runs": 160,
+   "triggered": 24,
+   "visible": 24,
+   "last_pre_lock_output_faulty": 8,
+   "mean_fault_events": 0.46875,
+   "joint_valid_triggered": 0.8333333333333334,
+   "joint_valid_not_triggered": 0.8897058823529411
+  },
+  {
+   "condition": "FRESH_CACHE",
+   "runs": 160,
+   "triggered": 30,
+   "visible": 30,
+   "last_pre_lock_output_faulty": 14,
+   "mean_fault_events": 1.10625,
+   "joint_valid_triggered": 0.8,
+   "joint_valid_not_triggered": 0.9076923076923077
+  }
+ ],
+ "confirm_rejections": {
+  "FRESH_CACHE": 0,
+  "INT_MASK": 0,
+  "REF": 0,
+  "SEP_READ": 0
+ },
+ "rankings": {
+  "PROV_GRADE": {
+   "tau_b": -1.0,
+   "tau_b_lo": -1.0,
+   "tau_b_hi": -1.0,
+   "tau_b_median": -1.0,
+   "p_identical_order": 0.0,
+   "point_ref": {
+    "anthropic/claude-haiku-5.5": 0.825,
+    "deepseek/deepseek-v4.1-flash": 0.925,
+    "openai/gpt-6-luna": 0.925,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "point_alt": {
+    "anthropic/claude-haiku-5.5": 0.95,
+    "deepseek/deepseek-v4.1-flash": 0.925,
+    "openai/gpt-6-luna": 0.925,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "pairwise": {
+    "anthropic/claude-haiku-5.5>deepseek/deepseek-v4.1-flash": {
+     "ref": 0.0,
+     "alt": 0.64145,
+     "ref_point": -1.0,
+     "alt_point": 1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.64145,
+     "ref_point": -1.0,
+     "alt_point": 1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.64145,
+     "ref_point": -1.0,
+     "alt_point": 1.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": 0.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": 0.0
+    },
+    "openai/gpt-6-luna>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": 0.0
+    }
+   },
+   "flipped_pairs": [
+    "anthropic/claude-haiku-5.5>deepseek/deepseek-v4.1-flash",
+    "anthropic/claude-haiku-5.5>openai/gpt-6-luna",
+    "anthropic/claude-haiku-5.5>openai/gpt-6.1-sol"
+   ]
+  },
+  "SEP_READ": {
+   "tau_b": 0.7745966692414834,
+   "tau_b_lo": 0.7745966692414834,
+   "tau_b_hi": 1.0,
+   "tau_b_median": 0.7745966692414834,
+   "p_identical_order": 0.355,
+   "point_ref": {
+    "anthropic/claude-haiku-5.5": 0.825,
+    "deepseek/deepseek-v4.1-flash": 0.925,
+    "openai/gpt-6-luna": 0.925,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "point_alt": {
+    "anthropic/claude-haiku-5.5": 0.8,
+    "deepseek/deepseek-v4.1-flash": 0.95,
+    "openai/gpt-6-luna": 0.95,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "pairwise": {
+    "anthropic/claude-haiku-5.5>deepseek/deepseek-v4.1-flash": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": 0.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.64145,
+     "ref_point": 0.0,
+     "alt_point": 1.0
+    },
+    "openai/gpt-6-luna>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.64145,
+     "ref_point": 0.0,
+     "alt_point": 1.0
+    }
+   },
+   "flipped_pairs": []
+  },
+  "INT_MASK": {
+   "tau_b": 0.7071067811865476,
+   "tau_b_lo": 0.23570226039551587,
+   "tau_b_hi": 1.0,
+   "tau_b_median": 0.7071067811865476,
+   "p_identical_order": 0.0416,
+   "point_ref": {
+    "anthropic/claude-haiku-5.5": 0.825,
+    "deepseek/deepseek-v4.1-flash": 0.925,
+    "openai/gpt-6-luna": 0.925,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "point_alt": {
+    "anthropic/claude-haiku-5.5": 0.775,
+    "deepseek/deepseek-v4.1-flash": 0.875,
+    "openai/gpt-6-luna": 0.95,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "pairwise": {
+    "anthropic/claude-haiku-5.5>deepseek/deepseek-v4.1-flash": {
+     "ref": 0.0,
+     "alt": 0.0435,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0037,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": -1.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": -1.0
+    },
+    "openai/gpt-6-luna>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.64145,
+     "ref_point": 0.0,
+     "alt_point": 1.0
+    }
+   },
+   "flipped_pairs": []
+  },
+  "FRESH_CACHE": {
+   "tau_b": 0.5773502691896258,
+   "tau_b_lo": -0.7745966692414834,
+   "tau_b_hi": 0.7745966692414834,
+   "tau_b_median": 0.5773502691896258,
+   "p_identical_order": 0.02385,
+   "point_ref": {
+    "anthropic/claude-haiku-5.5": 0.825,
+    "deepseek/deepseek-v4.1-flash": 0.925,
+    "openai/gpt-6-luna": 0.925,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "point_alt": {
+    "anthropic/claude-haiku-5.5": 0.85,
+    "deepseek/deepseek-v4.1-flash": 0.85,
+    "openai/gpt-6-luna": 0.925,
+    "openai/gpt-6.1-sol": 0.925
+   },
+   "pairwise": {
+    "anthropic/claude-haiku-5.5>deepseek/deepseek-v4.1-flash": {
+     "ref": 0.0,
+     "alt": 0.402,
+     "ref_point": -1.0,
+     "alt_point": 0.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.04525,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "anthropic/claude-haiku-5.5>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.04525,
+     "ref_point": -1.0,
+     "alt_point": -1.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6-luna": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": -1.0
+    },
+    "deepseek/deepseek-v4.1-flash>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": -1.0
+    },
+    "openai/gpt-6-luna>openai/gpt-6.1-sol": {
+     "ref": 0.0,
+     "alt": 0.0,
+     "ref_point": 0.0,
+     "alt_point": 0.0
+    }
+   },
+   "flipped_pairs": []
+  }
+ }
+}

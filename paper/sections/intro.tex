@@ -1,0 +1,55 @@
+\section{Introduction}
+\label{sec:introduction}
+A scientific-agent benchmark that marks a conclusion ``correct'' makes three
+claims at once. The conclusion agrees with how the data were generated, the
+agent's experiment supports it, and the grader credited it for that reason.
+These are different measurement objects. A conclusion can be true but
+unsupported, as when an agent ignores a significant confirmatory result and
+the effect happens to be absent. It can also be supported but untrue, as when
+the confirmation sample contains a chance association. Benchmarks for
+data-driven discovery
+\citep{chen2025scienceagentbench,majumder2025discoverybench,wang2026firebench,lu2024aiscientist}
+grade conclusions through pipelines that execute agent code, hold out data,
+and check reported results. We ask: \emph{when truth, evidence, and credit
+disagree, which disagreements does a pipeline reward, and which pipeline
+faults create new ones?} Controlled hypothesis-testing tasks with known
+generating processes make all three quantities observable.
+
+Our contributions are:
+\begin{itemize}
+\item a framework that scores truth, evidence, decision consistency, and
+credit separately, with a frozen oracle that recomputes confirmatory evidence
+independently of the agent;
+\item an instrumented audit of a 1,680-run experiment in which agents wrote
+their own confirmation scripts. 42\% of single confirmation calls fit more
+than one candidate on held-out data, and 11 of the 19 submissions credited
+only by an answer-only grader were not evidence violations;
+\item a protocol in which the harness runs one locked test and decisions cite
+an immutable evidence record, with single-boundary faults logged for
+manifestation, evaluated on 40 new tasks.
+\end{itemize}
+
+\section{Related Work}
+\label{sec:related}
+\citet{kapoor2024agents} and \citet{zhu2025abc} catalog validity flaws in
+agent benchmarks. \citet{shao2026protocol} define protocol validity as the
+intended capability remaining necessary for success, and audit shortcut
+exposure across 15 benchmarks. \citet{chen2026unreliable} treats an agent
+harness as software under test, using oracle checks, injected defects, and
+replay to correct labels. \citet{he2026sscbench} show that a fault-injection
+result supports a claim about an agent only if the faulty observation and the
+counter-evidence actually became visible, measured per execution. We
+therefore claim no novelty for fault injection, replay, or the observation
+that dropping a grading check inflates scores. We add the scientific-evidence
+dimension: with a known generating process and an independent oracle,
+\emph{correct} and \emph{supported} become separately measurable. Following
+\citet{he2026sscbench}, we report whether each fault triggered and reached the
+agent. Among scientific-agent benchmarks
+\citep{chan2025mlebench,starace2025paperbench,siegel2024corebench},
+FIRE-Bench \citep{wang2026firebench} asks for evidence-backed conclusions. We
+ask whether the instrument can tell such conclusions from merely correct ones.
+Preregistration and holdout discipline
+\citep{nosek2018preregistration,dwork2015reusable} guard against analytic
+flexibility \citep{simmons2011false,gelman2014statistical}. Our protocol
+enforces them in the harness, consistent with treating validity as a property
+of the inferences drawn from a score \citep{messick1995validity}.

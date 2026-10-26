@@ -1,0 +1,13 @@
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.xdv
+*.synctex.gz
+*.pdf
+!assets/*.pdf
+!figures/*.pdf
+!main.pdf

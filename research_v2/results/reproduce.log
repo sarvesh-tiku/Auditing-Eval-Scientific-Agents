@@ -1,0 +1,23 @@
+...............                                                          [100%]
+15 passed in 4.31s
+{
+ "('discover', 'correct', 'supported', 'supported')": 208,
+ "('discover', 'correct', 'unsupported', 'supported')": 1,
+ "('discover', 'incorrect', 'supported', 'supported')": 27,
+ "('discover', 'incorrect', 'unsupported', 'supported')": 2,
+ "('inconclusive', 'undetermined', 'supported', 'undetermined')": 38,
+ "('inconclusive', 'undetermined', 'unsupported', 'undetermined')": 8,
+ "('missing', 'undetermined', 'unsupported', 'undetermined')": 7,
+ "('none', 'correct', 'supported', 'supported')": 54,
+ "('none', 'correct', 'supported', 'undetermined')": 63,
+ "('none', 'correct', 'supported', 'unsupported')": 1,
+ "('none', 'correct', 'unsupported', 'supported')": 8,
+ "('none', 'correct', 'unsupported', 'undetermined')": 2,
+ "('none', 'incorrect', 'supported', 'supported')": 1
+}
+Latexmk: Using bibtex to make bibliography file(s).
+Latexmk: Using bibtex to make bibliography file(s).
+main.xdv -> main.pdf
+[1][2][3][4][5][6][7][8][9][10][11][12][13][14][15][16][17][18][19][20][21][22][23][24][25][26][27][28][29][30][31]
+374950 bytes written
+done: paper/main.pdf

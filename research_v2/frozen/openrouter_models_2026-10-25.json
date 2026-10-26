@@ -1,0 +1,6627 @@
+{
+ "deepseek/deepseek-v4.1-flash-1017": {
+  "id": "deepseek/deepseek-v4.1-flash-1017",
+  "canonical_slug": "deepseek/deepseek-v4.1-flash-20261017",
+  "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+  "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+  "created": 1792225624,
+  "description": "DeepSeek V4.1 Flash 1017 is the October 17, 2026 snapshot of DeepSeek V4.1 Flash, served by DeepSeek under the `deepseek-flash` API model name. V4.1 Flash is a sparse mixture-of-experts model...",
+  "context_length": 1048576,
+  "architecture": {
+   "modality": "text+image->text",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "text"
+   ],
+   "tokenizer": "DeepSeek",
+   "instruct_type": null
+  },
+  "pricing": {
+   "prompt": "0.00000015",
+   "completion": "0.0000006",
+   "input_cache_read": "0.000000003",
+   "overrides": [
+    {
+     "utc_days": [
+      "saturday",
+      "sunday"
+     ],
+     "prompt": "0.00000015",
+     "completion": "0.0000006",
+     "input_cache_read": "0.000000003"
+    },
+    {
+     "utc_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+     ],
+     "utc_start": 0,
+     "utc_end": 100,
+     "prompt": "0.00000015",
+     "completion": "0.0000006",
+     "input_cache_read": "0.000000003"
+    },
+    {
+     "utc_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+     ],
+     "utc_start": 100,
+     "utc_end": 400,
+     "prompt": "0.0000003",
+     "completion": "0.0000012",
+     "input_cache_read": "0.000000006"
+    },
+    {
+     "utc_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+     ],
+     "utc_start": 400,
+     "utc_end": 600,
+     "prompt": "0.00000015",
+     "completion": "0.0000006",
+     "input_cache_read": "0.000000003"
+    },
+    {
+     "utc_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+     ],
+     "utc_start": 600,
+     "utc_end": 1000,
+     "prompt": "0.0000003",
+     "completion": "0.0000012",
+     "input_cache_read": "0.000000006"
+    },
+    {
+     "utc_days": [
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday"
+     ],
+     "utc_start": 1000,
+     "utc_end": 0,
+     "prompt": "0.00000015",
+     "completion": "0.0000006",
+     "input_cache_read": "0.000000003"
+    }
+   ]
+  },
+  "top_provider": {
+   "context_length": 1048576,
+   "max_completion_tokens": 393216,
+   "is_moderated": false
+  },
+  "per_request_limits": null,
+  "supported_parameters": [
+   "frequency_penalty",
+   "include_reasoning",
+   "logit_bias",
+   "logprobs",
+   "max_completion_tokens",
+   "max_tokens",
+   "min_p",
+   "parallel_tool_calls",
+   "presence_penalty",
+   "reasoning",
+   "reasoning_effort",
+   "repetition_penalty",
+   "response_format",
+   "seed",
+   "stop",
+   "structured_outputs",
+   "temperature",
+   "tool_choice",
+   "tools",
+   "top_k",
+   "top_logprobs",
+   "top_p"
+  ],
+  "default_parameters": {},
+  "supported_voices": null,
+  "knowledge_cutoff": null,
+  "expiration_date": null,
+  "links": {
+   "details": "/api/v1/models/deepseek/deepseek-v4.1-flash-20261017/endpoints"
+  },
+  "benchmarks": {
+   "design_arena": [
+    {
+     "arena": "agents",
+     "category": "spreadsheet",
+     "elo": 1283,
+     "win_rate": 51.2,
+     "rank": 6
+    },
+    {
+     "arena": "models",
+     "category": "3d",
+     "elo": 1347,
+     "win_rate": 42.7,
+     "rank": 9
+    },
+    {
+     "arena": "models",
+     "category": "asciiart",
+     "elo": 1223,
+     "win_rate": 50.8,
+     "rank": 19
+    },
+    {
+     "arena": "models",
+     "category": "codecategories",
+     "elo": 1293,
+     "win_rate": 48.5,
+     "rank": 17
+    },
+    {
+     "arena": "models",
+     "category": "dataviz",
+     "elo": 1287,
+     "win_rate": 52.5,
+     "rank": 17
+    },
+    {
+     "arena": "models",
+     "category": "gamedev",
+     "elo": 1288,
+     "win_rate": 46,
+     "rank": 22
+    },
+    {
+     "arena": "models",
+     "category": "svg",
+     "elo": 1238,
+     "win_rate": 51.2,
+     "rank": 14
+    },
+    {
+     "arena": "models",
+     "category": "uicomponent",
+     "elo": 1305,
+     "win_rate": 53.9,
+     "rank": 17
+    },
+    {
+     "arena": "models",
+     "category": "website",
+     "elo": 1307,
+     "win_rate": 55.8,
+     "rank": 12
+    }
+   ],
+   "artificial_analysis": {
+    "intelligence_index": 39.5,
+    "coding_index": null,
+    "agentic_index": null
+   }
+  },
+  "reasoning": {
+   "mandatory": false,
+   "default_enabled": true,
+   "supported_efforts": [
+    "max",
+    "high",
+    "low",
+    "none"
+   ],
+   "default_effort": "high"
+  }
+ },
+ "anthropic/claude-haiku-5.5": {
+  "id": "anthropic/claude-haiku-5.5",
+  "canonical_slug": "anthropic/claude-haiku-5.5-20261007",
+  "hugging_face_id": null,
+  "name": "Anthropic: Claude Haiku 5.5",
+  "created": 1791397883,
+  "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+  "context_length": 1000000,
+  "architecture": {
+   "modality": "text+image+file->text",
+   "input_modalities": [
+    "text",
+    "image",
+    "file"
+   ],
+   "output_modalities": [
+    "text"
+   ],
+   "tokenizer": "Claude",
+   "instruct_type": null
+  },
+  "pricing": {
+   "prompt": "0.0000001",
+   "completion": "0.0000005",
+   "web_search": "0.01",
+   "input_cache_read": "0.00000001",
+   "input_cache_write": "0.000000125",
+   "input_cache_write_1h": "0.0000002",
+   "overrides": [
+    {
+     "min_prompt_tokens": 100000,
+     "prompt": "0.0000005",
+     "completion": "0.0000025",
+     "input_cache_read": "0.00000005",
+     "input_cache_write": "0.000000625",
+     "input_cache_write_1h": "0.000001"
+    }
+   ]
+  },
+  "top_provider": {
+   "context_length": 1000000,
+   "max_completion_tokens": 128000,
+   "is_moderated": true
+  },
+  "per_request_limits": null,
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "stop",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ],
+  "default_parameters": {},
+  "supported_voices": null,
+  "knowledge_cutoff": null,
+  "expiration_date": null,
+  "links": {
+   "details": "/api/v1/models/anthropic/claude-haiku-5.5-20261007/endpoints"
+  },
+  "benchmarks": {
+   "design_arena": [
+    {
+     "arena": "models",
+     "category": "3d",
+     "elo": 1337,
+     "win_rate": 57.7,
+     "rank": 10
+    },
+    {
+     "arena": "models",
+     "category": "codecategories",
+     "elo": 1276,
+     "win_rate": 50,
+     "rank": 24
+    },
+    {
+     "arena": "models",
+     "category": "dataviz",
+     "elo": 1297,
+     "win_rate": 54.8,
+     "rank": 14
+    },
+    {
+     "arena": "models",
+     "category": "gamedev",
+     "elo": 1314,
+     "win_rate": 53.8,
+     "rank": 13
+    },
+    {
+     "arena": "models",
+     "category": "uicomponent",
+     "elo": 1276,
+     "win_rate": 50.7,
+     "rank": 26
+    },
+    {
+     "arena": "models",
+     "category": "website",
+     "elo": 1262,
+     "win_rate": 48.5,
+     "rank": 36
+    }
+   ],
+   "artificial_analysis": {
+    "intelligence_index": 43.4,
+    "coding_index": null,
+    "agentic_index": null
+   }
+  },
+  "reasoning": {
+   "mandatory": false,
+   "supported_efforts": [
+    "max",
+    "xhigh",
+    "high",
+    "medium",
+    "low",
+    "none"
+   ],
+   "default_effort": "medium"
+  },
+  "endpoints": {
+   "id": "anthropic/claude-haiku-5.5",
+   "name": "Anthropic: Claude Haiku 5.5",
+   "created": 1791397883,
+   "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+   "architecture": {
+    "tokenizer": "Claude",
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ]
+   },
+   "endpoints": [
+    {
+     "name": "Google | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001"
+       }
+      ]
+     },
+     "provider_name": "Google",
+     "tag": "google-vertex/global",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "verbosity",
+      "structured_outputs",
+      "stop",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1441.5,
+      "p75": 2842,
+      "p90": 4999.900000000001,
+      "p99": 12173.54
+     },
+     "throughput_last_30m": {
+      "p50": 175.5,
+      "p75": 128,
+      "p90": 86,
+      "p99": 43
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1441.5,
+        "p75": 2842,
+        "p90": 4999.900000000001,
+        "p99": 12173.54
+       },
+       "throughput": {
+        "p50": 175.5,
+        "p75": 128,
+        "p90": 86,
+        "p99": 43
+       },
+       "request_count": 40438
+      }
+     }
+    },
+    {
+     "name": "Claude Platform on AWS | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001"
+       }
+      ]
+     },
+     "provider_name": "Claude Platform on AWS",
+     "tag": "claude-on-aws",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "stop",
+      "tool_choice",
+      "tools",
+      "response_format",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search_20260209"
+      },
+      "openrouter:web_fetch": {
+       "type": "web_fetch_20260209"
+      },
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      },
+      "openrouter:advisor": {
+       "type": "advisor_20260301"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2234,
+      "p75": 3583,
+      "p90": 4775,
+      "p99": 11331.09000000003
+     },
+     "throughput_last_30m": {
+      "p50": 145,
+      "p75": 103,
+      "p90": 75,
+      "p99": 14.909999999999997
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2234,
+        "p75": 3583,
+        "p90": 4775,
+        "p99": 11331.09000000003
+       },
+       "throughput": {
+        "p50": 145,
+        "p75": 103,
+        "p90": 75,
+        "p99": 14.909999999999997
+       },
+       "request_count": 225340
+      }
+     }
+    },
+    {
+     "name": "Azure | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure/global",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "max_tokens",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "verbosity",
+      "stop",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1113,
+      "p75": 1645,
+      "p90": 3490.9000000000005,
+      "p99": 15948.980000000003
+     },
+     "throughput_last_30m": {
+      "p50": 137,
+      "p75": 116,
+      "p90": 89,
+      "p99": 41
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1113,
+        "p75": 1645,
+        "p90": 3490.9000000000005,
+        "p99": 15948.980000000003
+       },
+       "throughput": {
+        "p50": 137,
+        "p75": 116,
+        "p90": 89,
+        "p99": 41
+       },
+       "request_count": 45125
+      }
+     }
+    },
+    {
+     "name": "Anthropic | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001"
+       }
+      ]
+     },
+     "provider_name": "Anthropic",
+     "tag": "anthropic",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "stop",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "response_format",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search_20260209"
+      },
+      "openrouter:web_fetch": {
+       "type": "web_fetch_20260209"
+      },
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      },
+      "openrouter:advisor": {
+       "type": "advisor_20260301"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1694,
+      "p75": 2374,
+      "p90": 2983.9000000000005,
+      "p99": 5971.9000000000015
+     },
+     "throughput_last_30m": {
+      "p50": 137,
+      "p75": 99,
+      "p90": 80,
+      "p99": 47
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1694,
+        "p75": 2374,
+        "p90": 2983.9000000000005,
+        "p99": 5971.9000000000015
+       },
+       "throughput": {
+        "p50": 137,
+        "p75": 99,
+        "p90": 80,
+        "p99": 47
+       },
+       "request_count": 150051
+      }
+     }
+    },
+    {
+     "name": "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005",
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001"
+       }
+      ]
+     },
+     "provider_name": "Amazon Bedrock",
+     "tag": "amazon-bedrock",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "stop",
+      "tool_choice",
+      "tools",
+      "response_format",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.93055555555556,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2337,
+      "p75": 2832,
+      "p90": 4713.900000000001,
+      "p99": 10683.980000000003
+     },
+     "throughput_last_30m": {
+      "p50": 111,
+      "p75": 70,
+      "p90": 46,
+      "p99": 30
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2337,
+        "p75": 2832,
+        "p90": 4713.900000000001,
+        "p99": 10683.980000000003
+       },
+       "throughput": {
+        "p50": 111,
+        "p75": 70,
+        "p90": 46,
+        "p99": 30
+       },
+       "request_count": 19352
+      }
+     }
+    },
+    {
+     "name": "Google | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055",
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011"
+       }
+      ]
+     },
+     "provider_name": "Google",
+     "tag": "google-vertex/europe",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "verbosity",
+      "structured_outputs",
+      "stop",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 458,
+      "p75": 865,
+      "p90": 1908.7999999999993,
+      "p99": 14562.660000000005
+     },
+     "throughput_last_30m": {
+      "p50": 161,
+      "p75": 121,
+      "p90": 81,
+      "p99": 42
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 458,
+        "p75": 865,
+        "p90": 1908.7999999999993,
+        "p99": 14562.660000000005
+       },
+       "throughput": {
+        "p50": 161,
+        "p75": 121,
+        "p90": 81,
+        "p99": 42
+       },
+       "request_count": 4559
+      }
+     }
+    },
+    {
+     "name": "Google | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055",
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011"
+       }
+      ]
+     },
+     "provider_name": "Google",
+     "tag": "google-vertex/us",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "response_format",
+      "tool_choice",
+      "tools",
+      "verbosity",
+      "structured_outputs",
+      "stop",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 649.5,
+      "p75": 1056.25,
+      "p90": 1680.1999999999998,
+      "p99": 5591.689999999999
+     },
+     "throughput_last_30m": {
+      "p50": 171,
+      "p75": 135,
+      "p90": 107.60000000000001,
+      "p99": 60.589999999999996
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 649.5,
+        "p75": 1056.25,
+        "p90": 1680.1999999999998,
+        "p99": 5591.689999999999
+       },
+       "throughput": {
+        "p50": 171,
+        "p75": 135,
+        "p90": 107.60000000000001,
+        "p99": 60.589999999999996
+       },
+       "request_count": 200
+      }
+     }
+    },
+    {
+     "name": "Azure | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055",
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure/us",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "structured_outputs",
+      "max_tokens",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "verbosity",
+      "stop",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": null,
+     "uptime_last_5m": null,
+     "uptime_last_1d": null,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": null,
+     "throughput_last_30m": null
+    },
+    {
+     "name": "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055",
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011"
+       }
+      ]
+     },
+     "provider_name": "Amazon Bedrock",
+     "tag": "amazon-bedrock/us-east-1",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "stop",
+      "tool_choice",
+      "tools",
+      "response_format",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.78448275862068,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 728,
+      "p75": 1498.5,
+      "p90": 2777.5,
+      "p99": 5551.5
+     },
+     "throughput_last_30m": {
+      "p50": 95,
+      "p75": 66,
+      "p90": 59,
+      "p99": 22
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 728,
+        "p75": 1498.5,
+        "p90": 2777.5,
+        "p99": 5551.5
+       },
+       "throughput": {
+        "p50": 95,
+        "p75": 66,
+        "p90": 59,
+        "p99": 22
+       },
+       "request_count": 276
+      }
+     }
+    },
+    {
+     "name": "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007",
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055",
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011"
+       }
+      ]
+     },
+     "provider_name": "Amazon Bedrock",
+     "tag": "amazon-bedrock/eu-west-1",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "stop",
+      "tool_choice",
+      "tools",
+      "response_format",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": null,
+     "uptime_last_5m": null,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 702,
+      "p75": 954,
+      "p90": 1629,
+      "p99": 1940.8
+     },
+     "throughput_last_30m": {
+      "p50": 58.5,
+      "p75": 53,
+      "p90": 52.699999999999996,
+      "p99": 52.07
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 702,
+        "p75": 954,
+        "p90": 1629,
+        "p99": 1940.8
+       },
+       "throughput": {
+        "p50": 58.5,
+        "p75": 53,
+        "p90": 52.699999999999996,
+        "p99": 52.07
+       },
+       "request_count": 21
+      }
+     }
+    }
+   ]
+  }
+ },
+ "openai/gpt-6.1-sol": {
+  "id": "openai/gpt-6.1-sol",
+  "canonical_slug": "openai/gpt-6.1-sol-20260929",
+  "hugging_face_id": null,
+  "name": "OpenAI: GPT-6.1 Sol",
+  "created": 1790702882,
+  "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+  "context_length": 1050000,
+  "architecture": {
+   "modality": "text+image+file->text",
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "output_modalities": [
+    "text"
+   ],
+   "tokenizer": "GPT",
+   "instruct_type": null
+  },
+  "pricing": {
+   "prompt": "0.000002",
+   "completion": "0.00001",
+   "web_search": "0.01",
+   "input_cache_read": "0.0000001",
+   "input_cache_write": "0.0000025",
+   "overrides": [
+    {
+     "min_prompt_tokens": 272000,
+     "prompt": "0.000004",
+     "completion": "0.000015",
+     "input_cache_read": "0.0000002",
+     "input_cache_write": "0.000005"
+    }
+   ]
+  },
+  "top_provider": {
+   "context_length": 1050000,
+   "max_completion_tokens": 128000,
+   "is_moderated": true
+  },
+  "per_request_limits": null,
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "seed",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ],
+  "default_parameters": {},
+  "supported_voices": null,
+  "knowledge_cutoff": null,
+  "expiration_date": null,
+  "links": {
+   "details": "/api/v1/models/openai/gpt-6.1-sol-20260929/endpoints"
+  },
+  "benchmarks": {
+   "design_arena": [
+    {
+     "arena": "agents",
+     "category": "blender3d",
+     "elo": 1358,
+     "win_rate": 71.4,
+     "rank": 2
+    },
+    {
+     "arena": "agents",
+     "category": "mobileapps",
+     "elo": 1240,
+     "win_rate": 53.4,
+     "rank": 7
+    },
+    {
+     "arena": "agents",
+     "category": "spreadsheet",
+     "elo": 1289,
+     "win_rate": 52.5,
+     "rank": 5
+    },
+    {
+     "arena": "agents",
+     "category": "webapps",
+     "elo": 1305,
+     "win_rate": 60,
+     "rank": 4
+    },
+    {
+     "arena": "models",
+     "category": "3d",
+     "elo": 1430,
+     "win_rate": 57.1,
+     "rank": 3
+    },
+    {
+     "arena": "models",
+     "category": "codecategories",
+     "elo": 1358,
+     "win_rate": 57.4,
+     "rank": 4
+    },
+    {
+     "arena": "models",
+     "category": "dataviz",
+     "elo": 1292,
+     "win_rate": 53.7,
+     "rank": 15
+    },
+    {
+     "arena": "models",
+     "category": "gamedev",
+     "elo": 1410,
+     "win_rate": 60.9,
+     "rank": 3
+    },
+    {
+     "arena": "models",
+     "category": "uicomponent",
+     "elo": 1338,
+     "win_rate": 57.9,
+     "rank": 8
+    },
+    {
+     "arena": "models",
+     "category": "website",
+     "elo": 1321,
+     "win_rate": 56.1,
+     "rank": 6
+    }
+   ],
+   "artificial_analysis": {
+    "intelligence_index": 51.8,
+    "coding_index": null,
+    "agentic_index": null
+   }
+  },
+  "reasoning": {
+   "mandatory": true,
+   "default_enabled": true,
+   "supported_efforts": [
+    "max",
+    "xhigh",
+    "high",
+    "medium",
+    "low"
+   ],
+   "default_effort": "medium"
+  },
+  "endpoints": {
+   "id": "openai/gpt-6.1-sol",
+   "name": "OpenAI: GPT-6.1 Sol",
+   "created": 1790702882,
+   "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+   "architecture": {
+    "tokenizer": "GPT",
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ]
+   },
+   "endpoints": [
+    {
+     "name": "OpenAI | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.000001",
+      "completion": "0.000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000005",
+      "input_cache_write": "0.00000125",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000002",
+        "completion": "0.0000075",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000025"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai/flex",
+     "service_tier": "flex",
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 97.08333333333333,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2641,
+      "p75": 4348.75,
+      "p90": 7651,
+      "p99": 24019.839999999953
+     },
+     "throughput_last_30m": {
+      "p50": 50,
+      "p75": 36,
+      "p90": 28.5,
+      "p99": 17.25
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2641,
+        "p75": 4348.75,
+        "p90": 7651,
+        "p99": 24019.839999999953
+       },
+       "throughput": {
+        "p50": 50,
+        "p75": 36,
+        "p90": 28.5,
+        "p99": 17.25
+       },
+       "request_count": 3562
+      }
+     }
+    },
+    {
+     "name": "Azure | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.00001",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004",
+        "completion": "0.000015",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.000005"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.72222222222223,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 4039.5,
+      "p75": 6534.5,
+      "p90": 15886.7,
+      "p99": 86471.32000000005
+     },
+     "throughput_last_30m": {
+      "p50": 37,
+      "p75": 29,
+      "p90": 23,
+      "p99": 12
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 4039.5,
+        "p75": 6534.5,
+        "p90": 15886.7,
+        "p99": 86471.32000000005
+       },
+       "throughput": {
+        "p50": 37,
+        "p75": 29,
+        "p90": 23,
+        "p99": 12
+       },
+       "request_count": 18509
+      }
+     }
+    },
+    {
+     "name": "OpenAI | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.000002",
+      "completion": "0.00001",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004",
+        "completion": "0.000015",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.000005"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 3847,
+      "p75": 8821.5,
+      "p90": 27994.10000000001,
+      "p99": 95958.23000000016
+     },
+     "throughput_last_30m": {
+      "p50": 48,
+      "p75": 36,
+      "p90": 27,
+      "p99": 15
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 3847,
+        "p75": 8821.5,
+        "p90": 27994.10000000001,
+        "p99": 95958.23000000016
+       },
+       "throughput": {
+        "p50": 48,
+        "p75": 36,
+        "p90": 27,
+        "p99": 15
+       },
+       "request_count": 70454
+      }
+     }
+    },
+    {
+     "name": "Amazon Bedrock | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.0000022",
+      "completion": "0.000011",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000011",
+      "input_cache_write": "0.00000275",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044",
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000022",
+        "input_cache_write": "0.0000055"
+       }
+      ]
+     },
+     "provider_name": "Amazon Bedrock",
+     "tag": "amazon-bedrock/us-east-1",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": null,
+     "uptime_last_5m": null,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 3900,
+      "p75": 9354.5,
+      "p90": 24383.099999999995,
+      "p99": 91708.45000000008
+     },
+     "throughput_last_30m": {
+      "p50": 45,
+      "p75": 33,
+      "p90": 25,
+      "p99": 10.2
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 3900,
+        "p75": 9354.5,
+        "p90": 24383.099999999995,
+        "p99": 91708.45000000008
+       },
+       "throughput": {
+        "p50": 45,
+        "p75": 33,
+        "p90": 25,
+        "p99": 10.2
+       },
+       "request_count": 642
+      }
+     }
+    },
+    {
+     "name": "Azure | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.0000022",
+      "completion": "0.000011",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000011",
+      "input_cache_write": "0.00000275",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044",
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000022",
+        "input_cache_write": "0.0000055"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure/eu",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.91902834008097,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2900,
+      "p75": 4665,
+      "p90": 8863.4,
+      "p99": 46066.03999999925
+     },
+     "throughput_last_30m": {
+      "p50": 42,
+      "p75": 31,
+      "p90": 23,
+      "p99": 12
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2900,
+        "p75": 4665,
+        "p90": 8863.4,
+        "p99": 46066.03999999925
+       },
+       "throughput": {
+        "p50": 42,
+        "p75": 31,
+        "p90": 23,
+        "p99": 12
+       },
+       "request_count": 2133
+      }
+     }
+    },
+    {
+     "name": "Azure | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.0000022",
+      "completion": "0.000011",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000011",
+      "input_cache_write": "0.00000275",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044",
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000022",
+        "input_cache_write": "0.0000055"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure/us",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 3132,
+      "p75": 6421,
+      "p90": 15579.800000000007,
+      "p99": 111868.36000000118
+     },
+     "throughput_last_30m": {
+      "p50": 34,
+      "p75": 27,
+      "p90": 20,
+      "p99": 11.620000000000001
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 3132,
+        "p75": 6421,
+        "p90": 15579.800000000007,
+        "p99": 111868.36000000118
+       },
+       "throughput": {
+        "p50": 34,
+        "p75": 27,
+        "p90": 20,
+        "p99": 11.620000000000001
+       },
+       "request_count": 779
+      }
+     }
+    },
+    {
+     "name": "OpenAI | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.000004",
+      "completion": "0.00002",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000008",
+        "completion": "0.00003",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.00001"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai/fast",
+     "service_tier": "priority",
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": null,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1526,
+      "p75": 2811,
+      "p90": 4574,
+      "p99": 11513.47999999999
+     },
+     "throughput_last_30m": {
+      "p50": 62,
+      "p75": 47,
+      "p90": 30.6,
+      "p99": 16.46
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1526,
+        "p75": 2811,
+        "p90": 4574,
+        "p99": 11513.47999999999
+       },
+       "throughput": {
+        "p50": 62,
+        "p75": 47,
+        "p90": 30.6,
+        "p99": 16.46
+       },
+       "request_count": 355
+      }
+     }
+    },
+    {
+     "name": "OpenAI | openai/gpt-6.1-sol-20260929",
+     "model_id": "openai/gpt-6.1-sol",
+     "model_name": "OpenAI: GPT-6.1 Sol",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.000012",
+      "completion": "0.00006",
+      "web_search": "0.01",
+      "input_cache_read": "0.0000006",
+      "input_cache_write": "0.000015",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000024",
+        "completion": "0.00009",
+        "input_cache_read": "0.0000012",
+        "input_cache_write": "0.00003"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai/ultrafast",
+     "service_tier": "ultrafast",
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": null,
+     "uptime_last_5m": null,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": null,
+     "throughput_last_30m": null
+    }
+   ]
+  }
+ },
+ "openai/gpt-6-luna": {
+  "id": "openai/gpt-6-luna",
+  "canonical_slug": "openai/gpt-6-luna-20260922",
+  "hugging_face_id": null,
+  "name": "OpenAI: GPT-6 Luna",
+  "created": 1790100786,
+  "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+  "context_length": 1050000,
+  "architecture": {
+   "modality": "text+image+file->text",
+   "input_modalities": [
+    "file",
+    "image",
+    "text"
+   ],
+   "output_modalities": [
+    "text"
+   ],
+   "tokenizer": "GPT",
+   "instruct_type": null
+  },
+  "pricing": {
+   "prompt": "0.0000001",
+   "completion": "0.0000005",
+   "web_search": "0.01",
+   "input_cache_read": "0.00000001",
+   "input_cache_write": "0.000000125",
+   "overrides": [
+    {
+     "min_prompt_tokens": 272000,
+     "prompt": "0.0000002",
+     "completion": "0.00000075",
+     "input_cache_read": "0.00000002",
+     "input_cache_write": "0.00000025"
+    }
+   ]
+  },
+  "top_provider": {
+   "context_length": 1050000,
+   "max_completion_tokens": 128000,
+   "is_moderated": true
+  },
+  "per_request_limits": null,
+  "supported_parameters": [
+   "include_reasoning",
+   "max_completion_tokens",
+   "max_tokens",
+   "reasoning",
+   "reasoning_effort",
+   "response_format",
+   "seed",
+   "structured_outputs",
+   "tool_choice",
+   "tools",
+   "verbosity"
+  ],
+  "default_parameters": {
+   "temperature": null,
+   "top_p": null,
+   "top_k": null,
+   "frequency_penalty": null,
+   "presence_penalty": null,
+   "repetition_penalty": null
+  },
+  "supported_voices": null,
+  "knowledge_cutoff": null,
+  "expiration_date": null,
+  "links": {
+   "details": "/api/v1/models/openai/gpt-6-luna-20260922/endpoints"
+  },
+  "benchmarks": {
+   "design_arena": [],
+   "artificial_analysis": {
+    "intelligence_index": 38.1,
+    "coding_index": null,
+    "agentic_index": null
+   }
+  },
+  "reasoning": {
+   "mandatory": false,
+   "default_enabled": true,
+   "supported_efforts": [
+    "max",
+    "xhigh",
+    "high",
+    "medium",
+    "low",
+    "none"
+   ],
+   "default_effort": "medium"
+  },
+  "endpoints": {
+   "id": "openai/gpt-6-luna",
+   "name": "OpenAI: GPT-6 Luna",
+   "created": 1790100786,
+   "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+   "architecture": {
+    "tokenizer": "GPT",
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ]
+   },
+   "endpoints": [
+    {
+     "name": "OpenAI | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.00000005",
+      "completion": "0.00000025",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000005",
+      "input_cache_write": "0.0000000625",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000001",
+        "completion": "0.000000375",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai/flex",
+     "service_tier": "flex",
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": -2,
+     "uptime_last_30m": 93.33333333333333,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 98.95833333333334,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 15086,
+      "p75": 28340,
+      "p90": 48479.10000000001,
+      "p99": 84550.04000000004
+     },
+     "throughput_last_30m": {
+      "p50": 31,
+      "p75": 27,
+      "p90": 21,
+      "p99": 9
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 15086,
+        "p75": 28340,
+        "p90": 48479.10000000001,
+        "p99": 84550.04000000004
+       },
+       "throughput": {
+        "p50": 31,
+        "p75": 27,
+        "p90": 21,
+        "p99": 9
+       },
+       "request_count": 286446
+      }
+     }
+    },
+    {
+     "name": "OpenAI | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002",
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 3097.5,
+      "p75": 6368.25,
+      "p90": 13786.9,
+      "p99": 51005.86000000002
+     },
+     "throughput_last_30m": {
+      "p50": 79,
+      "p75": 53,
+      "p90": 36,
+      "p99": 14
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 3097.5,
+        "p75": 6368.25,
+        "p90": 13786.9,
+        "p99": 51005.86000000002
+       },
+       "throughput": {
+        "p50": 79,
+        "p75": 53,
+        "p90": 36,
+        "p99": 14
+       },
+       "request_count": 991490
+      }
+     }
+    },
+    {
+     "name": "Azure | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.0000001",
+      "completion": "0.0000005",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002",
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "seed",
+      "response_format",
+      "structured_outputs",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.93055555555556,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2235,
+      "p75": 3784.25,
+      "p90": 6968.200000000004,
+      "p99": 23613.76000000001
+     },
+     "throughput_last_30m": {
+      "p50": 93,
+      "p75": 61,
+      "p90": 41,
+      "p99": 17.909999999999997
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2235,
+        "p75": 3784.25,
+        "p90": 6968.200000000004,
+        "p99": 23613.76000000001
+       },
+       "throughput": {
+        "p50": 93,
+        "p75": 61,
+        "p90": 41,
+        "p99": 17.909999999999997
+       },
+       "request_count": 94385
+      }
+     }
+    },
+    {
+     "name": "Azure | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022",
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure/us",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "seed",
+      "response_format",
+      "structured_outputs",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.8501872659176,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2275,
+      "p75": 3550.5,
+      "p90": 5952.6,
+      "p99": 23371.059999999983
+     },
+     "throughput_last_30m": {
+      "p50": 111,
+      "p75": 87,
+      "p90": 57,
+      "p99": 9
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2275,
+        "p75": 3550.5,
+        "p90": 5952.6,
+        "p99": 23371.059999999983
+       },
+       "throughput": {
+        "p50": 111,
+        "p75": 87,
+        "p90": 57,
+        "p99": 9
+       },
+       "request_count": 1648
+      }
+     }
+    },
+    {
+     "name": "Azure | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022",
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275"
+       }
+      ]
+     },
+     "provider_name": "Azure",
+     "tag": "azure/eu",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_completion_tokens",
+      "tools",
+      "tool_choice",
+      "seed",
+      "response_format",
+      "structured_outputs",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 955,
+      "p75": 1213,
+      "p90": 2005.9000000000005,
+      "p99": 5880.730000000014
+     },
+     "throughput_last_30m": {
+      "p50": 65,
+      "p75": 55,
+      "p90": 45,
+      "p99": 20
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 955,
+        "p75": 1213,
+        "p90": 2005.9000000000005,
+        "p99": 5880.730000000014
+       },
+       "throughput": {
+        "p50": 65,
+        "p75": 55,
+        "p90": 45,
+        "p99": 20
+       },
+       "request_count": 68577
+      }
+     }
+    },
+    {
+     "name": "Amazon Bedrock | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.00000011",
+      "completion": "0.00000055",
+      "web_search": "0.01",
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022",
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275"
+       }
+      ]
+     },
+     "provider_name": "Amazon Bedrock",
+     "tag": "amazon-bedrock/us-east-1",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1822.5,
+      "p75": 2595.5,
+      "p90": 3224.6000000000013,
+      "p99": 4886.93
+     },
+     "throughput_last_30m": {
+      "p50": 109,
+      "p75": 80,
+      "p90": 63,
+      "p99": 34
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1822.5,
+        "p75": 2595.5,
+        "p90": 3224.6000000000013,
+        "p99": 4886.93
+       },
+       "throughput": {
+        "p50": 109,
+        "p75": 80,
+        "p90": 63,
+        "p99": 34
+       },
+       "request_count": 1108
+      }
+     }
+    },
+    {
+     "name": "OpenAI | openai/gpt-6-luna-20260922",
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "context_length": 1050000,
+     "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.000001",
+      "web_search": "0.01",
+      "input_cache_read": "0.00000002",
+      "input_cache_write": "0.00000025",
+      "discount": 0,
+      "overrides": [
+       {
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000004",
+        "completion": "0.0000015",
+        "input_cache_read": "0.00000004",
+        "input_cache_write": "0.0000005"
+       }
+      ]
+     },
+     "provider_name": "OpenAI",
+     "tag": "openai/fast",
+     "service_tier": "priority",
+     "quantization": "unknown",
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "verbosity",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "web_search"
+      },
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      }
+     },
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 745,
+      "p75": 945,
+      "p90": 1539,
+      "p99": 4858.360000000001
+     },
+     "throughput_last_30m": {
+      "p50": 115,
+      "p75": 73,
+      "p90": 50,
+      "p99": 23.659999999999997
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 745,
+        "p75": 945,
+        "p90": 1539,
+        "p99": 4858.360000000001
+       },
+       "throughput": {
+        "p50": 115,
+        "p75": 73,
+        "p90": 50,
+        "p99": 23.659999999999997
+       },
+       "request_count": 31403
+      }
+     }
+    }
+   ]
+  }
+ },
+ "deepseek/deepseek-v4.1-flash": {
+  "id": "deepseek/deepseek-v4.1-flash",
+  "canonical_slug": "deepseek/deepseek-v4.1-flash-20260910",
+  "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "name": "DeepSeek: DeepSeek V4.1 Flash",
+  "created": 1789021285,
+  "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
+  "context_length": 1048576,
+  "architecture": {
+   "modality": "text+image->text",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "text"
+   ],
+   "tokenizer": "DeepSeek",
+   "instruct_type": null
+  },
+  "pricing": {
+   "prompt": "0.00000002",
+   "completion": "0.000001",
+   "input_cache_read": "0.000000015"
+  },
+  "top_provider": {
+   "context_length": 1048576,
+   "max_completion_tokens": 943718,
+   "is_moderated": false
+  },
+  "per_request_limits": null,
+  "supported_parameters": [
+   "frequency_penalty",
+   "include_reasoning",
+   "logit_bias",
+   "logprobs",
+   "max_tokens",
+   "min_p",
+   "parallel_tool_calls",
+   "presence_penalty",
+   "reasoning",
+   "reasoning_effort",
+   "repetition_penalty",
+   "response_format",
+   "seed",
+   "stop",
+   "structured_outputs",
+   "temperature",
+   "tool_choice",
+   "tools",
+   "top_a",
+   "top_k",
+   "top_logprobs",
+   "top_p"
+  ],
+  "default_parameters": {},
+  "supported_voices": null,
+  "knowledge_cutoff": null,
+  "expiration_date": null,
+  "links": {
+   "details": "/api/v1/models/deepseek/deepseek-v4.1-flash-20260910/endpoints"
+  },
+  "benchmarks": {
+   "design_arena": [],
+   "artificial_analysis": {
+    "intelligence_index": 24.7,
+    "coding_index": null,
+    "agentic_index": null
+   }
+  },
+  "reasoning": {
+   "mandatory": false,
+   "default_enabled": true,
+   "supported_efforts": [
+    "max",
+    "high",
+    "low",
+    "none"
+   ],
+   "default_effort": "high"
+  },
+  "endpoints": {
+   "id": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "created": 1789021285,
+   "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
+   "architecture": {
+    "tokenizer": "DeepSeek",
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ]
+   },
+   "endpoints": [
+    {
+     "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000002",
+      "completion": "0.000001",
+      "input_cache_read": "0.000000015",
+      "discount": 0
+     },
+     "provider_name": "OpenInference",
+     "tag": "open-inference/fp4",
+     "service_tier": null,
+     "quantization": "fp4",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "max_tokens",
+      "stop",
+      "seed",
+      "top_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "min_p",
+      "logit_bias",
+      "repetition_penalty",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 900.5,
+      "p75": 1341.25,
+      "p90": 2166.300000000004,
+      "p99": 17054.180000000015
+     },
+     "throughput_last_30m": {
+      "p50": 85,
+      "p75": 59,
+      "p90": 38,
+      "p99": 10
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 900.5,
+        "p75": 1341.25,
+        "p90": 2166.300000000004,
+        "p99": 17054.180000000015
+       },
+       "throughput": {
+        "p50": 85,
+        "p75": 59,
+        "p90": 38,
+        "p99": 10
+       },
+       "request_count": 51037
+      }
+     }
+    },
+    {
+     "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000000537",
+      "completion": "0.0000002148",
+      "input_cache_read": "0.000000001074",
+      "discount": 0.821
+     },
+     "provider_name": "Baidu",
+     "tag": "baidu/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "max_tokens",
+      "stop",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 732,
+      "p75": 954,
+      "p90": 1537.9000000000005,
+      "p99": 4947.810000000001
+     },
+     "throughput_last_30m": {
+      "p50": 127,
+      "p75": 87,
+      "p90": 58,
+      "p99": 28
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 732,
+        "p75": 954,
+        "p90": 1537.9000000000005,
+        "p99": 4947.810000000001
+       },
+       "throughput": {
+        "p50": 127,
+        "p75": 87,
+        "p90": 58,
+        "p99": 28
+       },
+       "request_count": 165041
+      }
+     }
+    },
+    {
+     "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.0000005",
+      "input_cache_read": "0.000000008",
+      "discount": 0
+     },
+     "provider_name": "Relace",
+     "tag": "relace",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "top_k",
+      "min_p",
+      "stop",
+      "max_tokens",
+      "logit_bias",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": false,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 473.5,
+      "p75": 906,
+      "p90": 1534.800000000001,
+      "p99": 3906.7900000000045
+     },
+     "throughput_last_30m": {
+      "p50": 170,
+      "p75": 124,
+      "p90": 83,
+      "p99": 37
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 473.5,
+        "p75": 906,
+        "p90": 1534.800000000001,
+        "p99": 3906.7900000000045
+       },
+       "throughput": {
+        "p50": 170,
+        "p75": 124,
+        "p90": 83,
+        "p99": 37
+       },
+       "request_count": 93668
+      }
+     }
+    },
+    {
+     "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000007",
+      "completion": "0.0000006",
+      "input_cache_read": "0.00000001",
+      "discount": 0
+     },
+     "provider_name": "Morph",
+     "tag": "morph/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "stop",
+      "top_p",
+      "top_k",
+      "min_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 559,
+      "p75": 774,
+      "p90": 1128.9000000000005,
+      "p99": 3325.4400000000023
+     },
+     "throughput_last_30m": {
+      "p50": 124,
+      "p75": 80,
+      "p90": 56,
+      "p99": 29
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 559,
+        "p75": 774,
+        "p90": 1128.9000000000005,
+        "p99": 3325.4400000000023
+       },
+       "throughput": {
+        "p50": 124,
+        "p75": 80,
+        "p90": 56,
+        "p99": 29
+       },
+       "request_count": 31292
+      }
+     }
+    },
+    {
+     "name": "Decart | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000009",
+      "completion": "0.00000018",
+      "input_cache_read": "0.000000018",
+      "discount": 0
+     },
+     "provider_name": "Decart",
+     "tag": "decart/fp4",
+     "service_tier": null,
+     "quantization": "fp4",
+     "max_completion_tokens": 262144,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "top_k",
+      "min_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "stop",
+      "seed",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": false
+     },
+     "status": -5,
+     "uptime_last_30m": 30,
+     "uptime_last_5m": 60,
+     "uptime_last_1d": 91.04166666666667,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 6954,
+      "p75": 8805.25,
+      "p90": 10325,
+      "p99": 18167.610000000004
+     },
+     "throughput_last_30m": {
+      "p50": 31,
+      "p75": 12,
+      "p90": 7,
+      "p99": 5
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 6954,
+        "p75": 8805.25,
+        "p90": 10325,
+        "p99": 18167.610000000004
+       },
+       "throughput": {
+        "p50": 31,
+        "p75": 12,
+        "p90": 7,
+        "p99": 5
+       },
+       "request_count": 13625
+      }
+     }
+    },
+    {
+     "name": "Sail Research | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000009",
+      "completion": "0.00000025",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "Sail Research",
+     "tag": "sail-research/fp4/us",
+     "service_tier": null,
+     "quantization": "fp4",
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "frequency_penalty",
+      "max_tokens",
+      "presence_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 372,
+      "p75": 775,
+      "p90": 1044.2000000000003,
+      "p99": 1363.56
+     },
+     "throughput_last_30m": {
+      "p50": 83,
+      "p75": 57,
+      "p90": 46,
+      "p99": 37
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 372,
+        "p75": 775,
+        "p90": 1044.2000000000003,
+        "p99": 1363.56
+       },
+       "throughput": {
+        "p50": 83,
+        "p75": 57,
+        "p90": 46,
+        "p99": 37
+       },
+       "request_count": 1345
+      }
+     }
+    },
+    {
+     "name": "Sail Research | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000009",
+      "completion": "0.00000025",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "Sail Research",
+     "tag": "sail-research/fp4",
+     "service_tier": null,
+     "quantization": "fp4",
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "frequency_penalty",
+      "max_tokens",
+      "presence_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 306,
+      "p75": 419.5,
+      "p90": 885.9999999999999,
+      "p99": 1328.9800000000057
+     },
+     "throughput_last_30m": {
+      "p50": 67,
+      "p75": 49.5,
+      "p90": 42.4,
+      "p99": 33.059999999999995
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 306,
+        "p75": 419.5,
+        "p90": 885.9999999999999,
+        "p99": 1328.9800000000057
+       },
+       "throughput": {
+        "p50": 67,
+        "p75": 49.5,
+        "p90": 42.4,
+        "p99": 33.059999999999995
+       },
+       "request_count": 1087
+      }
+     }
+    },
+    {
+     "name": "InferenceNet | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1040000,
+     "pricing": {
+      "prompt": "0.000000103",
+      "completion": "0.000000645",
+      "input_cache_read": "0.000000008",
+      "discount": 0
+     },
+     "provider_name": "InferenceNet",
+     "tag": "inference-net/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "repetition_penalty",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 308,
+      "p75": 416.25,
+      "p90": 598.9000000000005,
+      "p99": 1389.0900000000001
+     },
+     "throughput_last_30m": {
+      "p50": 109,
+      "p75": 90,
+      "p90": 77,
+      "p99": 50
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 308,
+        "p75": 416.25,
+        "p90": 598.9000000000005,
+        "p99": 1389.0900000000001
+       },
+       "throughput": {
+        "p50": 109,
+        "p75": 90,
+        "p90": 77,
+        "p99": 50
+       },
+       "request_count": 112371
+      }
+     }
+    },
+    {
+     "name": "InferenceNet | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1040000,
+     "pricing": {
+      "prompt": "0.000000103",
+      "completion": "0.000000715",
+      "input_cache_read": "0.000000008",
+      "discount": 0
+     },
+     "provider_name": "InferenceNet",
+     "tag": "inference-net/us",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "repetition_penalty",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 356,
+      "p75": 511,
+      "p90": 942.8000000000011,
+      "p99": 3726.09
+     },
+     "throughput_last_30m": {
+      "p50": 132,
+      "p75": 103,
+      "p90": 74,
+      "p99": 35
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 356,
+        "p75": 511,
+        "p90": 942.8000000000011,
+        "p99": 3726.09
+       },
+       "throughput": {
+        "p50": 132,
+        "p75": 103,
+        "p90": 74,
+        "p99": 35
+       },
+       "request_count": 40044
+      }
+     }
+    },
+    {
+     "name": "Reka | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.000000105",
+      "completion": "0.00000084",
+      "input_cache_read": "0.000000007",
+      "discount": 0.3
+     },
+     "provider_name": "Reka",
+     "tag": "reka",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "temperature",
+      "top_p",
+      "top_k",
+      "max_tokens",
+      "stop",
+      "seed",
+      "frequency_penalty",
+      "presence_penalty",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 98.61111111111111,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 353,
+      "p75": 547,
+      "p90": 896,
+      "p99": 3432.8700000000063
+     },
+     "throughput_last_30m": {
+      "p50": 95,
+      "p75": 67,
+      "p90": 50,
+      "p99": 24
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 353,
+        "p75": 547,
+        "p90": 896,
+        "p99": 3432.8700000000063
+       },
+       "throughput": {
+        "p50": 95,
+        "p75": 67,
+        "p90": 50,
+        "p99": 24
+       },
+       "request_count": 10863
+      }
+     }
+    },
+    {
+     "name": "DeepInfra | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.000000112",
+      "completion": "0.000000336",
+      "input_cache_read": "0.00000000336",
+      "discount": 0.3
+     },
+     "provider_name": "DeepInfra",
+     "tag": "deepinfra/fp8/flex",
+     "service_tier": "flex",
+     "quantization": "fp8",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 96.29629629629629,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 95.58333333333333,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 4046,
+      "p75": 6110,
+      "p90": 8606.2,
+      "p99": 15302.16
+     },
+     "throughput_last_30m": {
+      "p50": 31,
+      "p75": 18,
+      "p90": 11,
+      "p99": 6
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 4046,
+        "p75": 6110,
+        "p90": 8606.2,
+        "p99": 15302.16
+       },
+       "throughput": {
+        "p50": 31,
+        "p75": 18,
+        "p90": 11,
+        "p99": 6
+       },
+       "request_count": 1053
+      }
+     }
+    },
+    {
+     "name": "AtlasCloud | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.000000135",
+      "completion": "0.00000054",
+      "input_cache_read": "0.0000000135",
+      "discount": 0
+     },
+     "provider_name": "AtlasCloud",
+     "tag": "atlas-cloud/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "min_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "stop",
+      "seed",
+      "logit_bias",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 770.5,
+      "p75": 883,
+      "p90": 1078,
+      "p99": 3395.350000000002
+     },
+     "throughput_last_30m": {
+      "p50": 113,
+      "p75": 75,
+      "p90": 46,
+      "p99": 31
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 770.5,
+        "p75": 883,
+        "p90": 1078,
+        "p99": 3395.350000000002
+       },
+       "throughput": {
+        "p50": 113,
+        "p75": 75,
+        "p90": 46,
+        "p99": 31
+       },
+       "request_count": 10935
+      }
+     }
+    },
+    {
+     "name": "DeepInfra | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000014",
+      "completion": "0.00000042",
+      "input_cache_read": "0.0000000042",
+      "discount": 0.3
+     },
+     "provider_name": "DeepInfra",
+     "tag": "deepinfra/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 635,
+      "p75": 1084.25,
+      "p90": 1691,
+      "p99": 3622.800000000003
+     },
+     "throughput_last_30m": {
+      "p50": 81,
+      "p75": 60,
+      "p90": 46,
+      "p99": 26
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 635,
+        "p75": 1084.25,
+        "p90": 1691,
+        "p99": 3622.800000000003
+       },
+       "throughput": {
+        "p50": 81,
+        "p75": 60,
+        "p90": 46,
+        "p99": 26
+       },
+       "request_count": 167932
+      }
+     }
+    },
+    {
+     "name": "StreamLake | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1024000,
+     "pricing": {
+      "prompt": "0.000000147",
+      "completion": "0.000000588",
+      "input_cache_read": "0.00000000294",
+      "discount": 0.51
+     },
+     "provider_name": "StreamLake",
+     "tag": "streamlake/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2111.5,
+      "p75": 3287.5,
+      "p90": 4860.6,
+      "p99": 17215.090000000004
+     },
+     "throughput_last_30m": {
+      "p50": 59,
+      "p75": 38,
+      "p90": 25,
+      "p99": 8
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2111.5,
+        "p75": 3287.5,
+        "p90": 4860.6,
+        "p99": 17215.090000000004
+       },
+       "throughput": {
+        "p50": 59,
+        "p75": 38,
+        "p90": 25,
+        "p99": 8
+       },
+       "request_count": 7308
+      }
+     }
+    },
+    {
+     "name": "CoreWeave | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000065",
+      "input_cache_read": "0.000000002",
+      "discount": 0
+     },
+     "provider_name": "CoreWeave",
+     "tag": "coreweave/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "top_k",
+      "repetition_penalty",
+      "frequency_penalty",
+      "presence_penalty",
+      "stop",
+      "seed",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.86111111111111,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 612,
+      "p75": 1093.25,
+      "p90": 1822.3000000000038,
+      "p99": 6171.800000000003
+     },
+     "throughput_last_30m": {
+      "p50": 175,
+      "p75": 116,
+      "p90": 76,
+      "p99": 28
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 612,
+        "p75": 1093.25,
+        "p90": 1822.3000000000038,
+        "p99": 6171.800000000003
+       },
+       "throughput": {
+        "p50": 175,
+        "p75": 116,
+        "p90": 76,
+        "p99": 28
+       },
+       "request_count": 44764
+      }
+     }
+    },
+    {
+     "name": "DigitalOcean | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.000000165",
+      "completion": "0.00000066",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "DigitalOcean",
+     "tag": "digitalocean",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "max_tokens",
+      "response_format",
+      "logprobs",
+      "top_logprobs",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 654,
+      "p75": 969.25,
+      "p90": 1516,
+      "p99": 4550.240000000005
+     },
+     "throughput_last_30m": {
+      "p50": 208,
+      "p75": 141,
+      "p90": 92,
+      "p99": 40
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 654,
+        "p75": 969.25,
+        "p90": 1516,
+        "p99": 4550.240000000005
+       },
+       "throughput": {
+        "p50": 208,
+        "p75": 141,
+        "p90": 92,
+        "p99": 40
+       },
+       "request_count": 60216
+      }
+     }
+    },
+    {
+     "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.000000165",
+      "completion": "0.00000066",
+      "input_cache_read": "0.0000000165",
+      "discount": 0,
+      "overrides": [
+       {
+        "utc_start": 0,
+        "utc_end": 1400,
+        "prompt": "0.00000033",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000033"
+       },
+       {
+        "utc_start": 1400,
+        "utc_end": 0,
+        "prompt": "0.000000165",
+        "completion": "0.00000066",
+        "input_cache_read": "0.0000000165"
+       }
+      ]
+     },
+     "provider_name": "Alibaba",
+     "tag": "alibaba",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "top_k",
+      "frequency_penalty",
+      "stop",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.93055555555556,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1195,
+      "p75": 1925,
+      "p90": 3771.2000000000003,
+      "p99": 11022.759999999998
+     },
+     "throughput_last_30m": {
+      "p50": 55,
+      "p75": 34,
+      "p90": 23,
+      "p99": 9
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1195,
+        "p75": 1925,
+        "p90": 3771.2000000000003,
+        "p99": 11022.759999999998
+       },
+       "throughput": {
+        "p50": 55,
+        "p75": 34,
+        "p90": 23,
+        "p99": 9
+       },
+       "request_count": 3079
+      }
+     }
+    },
+    {
+     "name": "ModelRun | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000017",
+      "completion": "0.00000067",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "ModelRun",
+     "tag": "modelrun/fp4",
+     "service_tier": null,
+     "quantization": "fp4",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "presence_penalty",
+      "repetition_penalty",
+      "frequency_penalty",
+      "stop",
+      "top_p",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 244,
+      "p75": 425,
+      "p90": 853.9000000000005,
+      "p99": 2909.09
+     },
+     "throughput_last_30m": {
+      "p50": 140,
+      "p75": 105.75,
+      "p90": 78,
+      "p99": 30.909999999999997
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 244,
+        "p75": 425,
+        "p90": 853.9000000000005,
+        "p99": 2909.09
+       },
+       "throughput": {
+        "p50": 140,
+        "p75": 105.75,
+        "p90": 78,
+        "p99": 30.909999999999997
+       },
+       "request_count": 23694
+      }
+     }
+    },
+    {
+     "name": "GMICloud | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048575,
+     "pricing": {
+      "prompt": "0.00000018",
+      "completion": "0.00000072",
+      "input_cache_read": "0.0000000036",
+      "discount": 0.4
+     },
+     "provider_name": "GMICloud",
+     "tag": "gmicloud/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943717,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1749,
+      "p75": 2089,
+      "p90": 2606,
+      "p99": 4344.999999999998
+     },
+     "throughput_last_30m": {
+      "p50": 69,
+      "p75": 60,
+      "p90": 41,
+      "p99": 20
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1749,
+        "p75": 2089,
+        "p90": 2606,
+        "p99": 4344.999999999998
+       },
+       "throughput": {
+        "p50": 69,
+        "p75": 60,
+        "p90": 41,
+        "p99": 20
+       },
+       "request_count": 1041
+      }
+     }
+    },
+    {
+     "name": "Wafer | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000019",
+      "completion": "0.00000065",
+      "input_cache_read": "0.000000012",
+      "discount": 0
+     },
+     "provider_name": "Wafer",
+     "tag": "wafer/mxfp4",
+     "service_tier": null,
+     "quantization": "mxfp4",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "top_k",
+      "min_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "stop",
+      "seed",
+      "max_tokens",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 322,
+      "p75": 469,
+      "p90": 894,
+      "p99": 3376.1800000000003
+     },
+     "throughput_last_30m": {
+      "p50": 265,
+      "p75": 186,
+      "p90": 131,
+      "p99": 48
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 322,
+        "p75": 469,
+        "p90": 894,
+        "p99": 3376.1800000000003
+       },
+       "throughput": {
+        "p50": 265,
+        "p75": 186,
+        "p90": 131,
+        "p99": 48
+       },
+       "request_count": 38689
+      }
+     }
+    },
+    {
+     "name": "Novita | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.000000195",
+      "completion": "0.00000078",
+      "input_cache_read": "0.0000000039",
+      "discount": 0.35
+     },
+     "provider_name": "Novita",
+     "tag": "novita/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "repetition_penalty",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": false,
+      "auto": false,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.51388888888889,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 903,
+      "p75": 1053.5,
+      "p90": 1641,
+      "p99": 4816.619999999999
+     },
+     "throughput_last_30m": {
+      "p50": 132,
+      "p75": 93,
+      "p90": 66,
+      "p99": 35
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 903,
+        "p75": 1053.5,
+        "p90": 1641,
+        "p99": 4816.619999999999
+       },
+       "throughput": {
+        "p50": 132,
+        "p75": 93,
+        "p90": 66,
+        "p99": 35
+       },
+       "request_count": 7835
+      }
+     }
+    },
+    {
+     "name": "Mancer 2 | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000002",
+      "completion": "0.000001",
+      "discount": 0
+     },
+     "provider_name": "Mancer 2",
+     "tag": "mancer/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "logit_bias",
+      "top_k",
+      "min_p",
+      "seed",
+      "top_a",
+      "logprobs",
+      "top_logprobs",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": -2,
+     "uptime_last_30m": 83.33333333333334,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 94.31643625192012,
+     "supports_implicit_caching": false,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 787,
+      "p75": 1138,
+      "p90": 3270.7000000000003,
+      "p99": 22775.85000000002
+     },
+     "throughput_last_30m": {
+      "p50": 58,
+      "p75": 34.5,
+      "p90": 22,
+      "p99": 6.26
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 787,
+        "p75": 1138,
+        "p90": 3270.7000000000003,
+        "p99": 22775.85000000002
+       },
+       "throughput": {
+        "p50": 58,
+        "p75": 34.5,
+        "p90": 22,
+        "p99": 6.26
+       },
+       "request_count": 1152
+      }
+     }
+    },
+    {
+     "name": "DeepInfra | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000021",
+      "completion": "0.00000063",
+      "input_cache_read": "0.0000000063",
+      "discount": 0.3
+     },
+     "provider_name": "DeepInfra",
+     "tag": "deepinfra/fp8/priority",
+     "service_tier": "priority",
+     "quantization": "fp8",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "top_k",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 63.282442748091604,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 749.5,
+      "p75": 1642.5,
+      "p90": 2479,
+      "p99": 4132.27
+     },
+     "throughput_last_30m": {
+      "p50": 70,
+      "p75": 51,
+      "p90": 40,
+      "p99": 27
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 749.5,
+        "p75": 1642.5,
+        "p90": 2479,
+        "p99": 4132.27
+       },
+       "throughput": {
+        "p50": 70,
+        "p75": 51,
+        "p90": 40,
+        "p99": 27
+       },
+       "request_count": 11112
+      }
+     }
+    },
+    {
+     "name": "Fireworks | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000021",
+      "completion": "0.00000084",
+      "input_cache_read": "0.0000000042",
+      "discount": 0
+     },
+     "provider_name": "Fireworks",
+     "tag": "fireworks/spot",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 504,
+      "p75": 939,
+      "p90": 3022.9000000000005,
+      "p99": 16592.17000000003
+     },
+     "throughput_last_30m": {
+      "p50": 242,
+      "p75": 147,
+      "p90": 111,
+      "p99": 48
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 504,
+        "p75": 939,
+        "p90": 3022.9000000000005,
+        "p99": 16592.17000000003
+       },
+       "throughput": {
+        "p50": 242,
+        "p75": 147,
+        "p90": 111,
+        "p99": 48
+       },
+       "request_count": 36290
+      }
+     }
+    },
+    {
+     "name": "Phala | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000021",
+      "completion": "0.00000084",
+      "input_cache_read": "0.0000000042",
+      "discount": 0.3
+     },
+     "provider_name": "Phala",
+     "tag": "phala",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "min_p",
+      "repetition_penalty",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.61340206185567,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1169.5,
+      "p75": 1800.75,
+      "p90": 4543.5,
+      "p99": 6819.250000000005
+     },
+     "throughput_last_30m": {
+      "p50": 88.5,
+      "p75": 68,
+      "p90": 39,
+      "p99": 10
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1169.5,
+        "p75": 1800.75,
+        "p90": 4543.5,
+        "p99": 6819.250000000005
+       },
+       "throughput": {
+        "p50": 88.5,
+        "p75": 68,
+        "p90": 39,
+        "p99": 10
+       },
+       "request_count": 766
+      }
+     }
+    },
+    {
+     "name": "Makora | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000026",
+      "completion": "0.00000117",
+      "input_cache_read": "0.0000000058",
+      "discount": 0
+     },
+     "provider_name": "Makora",
+     "tag": "makora/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "top_k",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "stop",
+      "max_tokens",
+      "seed",
+      "min_p",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.93055555555556,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 263,
+      "p75": 411,
+      "p90": 555,
+      "p99": 1397.12
+     },
+     "throughput_last_30m": {
+      "p50": 178,
+      "p75": 112,
+      "p90": 82,
+      "p99": 52
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 263,
+        "p75": 411,
+        "p90": 555,
+        "p99": 1397.12
+       },
+       "throughput": {
+        "p50": 178,
+        "p75": 112,
+        "p90": 82,
+        "p99": 52
+       },
+       "request_count": 3545
+      }
+     }
+    },
+    {
+     "name": "Crusoe | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000029",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000007",
+      "discount": 0
+     },
+     "provider_name": "Crusoe",
+     "tag": "crusoe/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "min_p",
+      "repetition_penalty",
+      "top_k",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 354,
+      "p75": 516,
+      "p90": 766.4000000000001,
+      "p99": 1914.0200000000018
+     },
+     "throughput_last_30m": {
+      "p50": 104,
+      "p75": 73,
+      "p90": 47,
+      "p99": 14.059999999999999
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 354,
+        "p75": 516,
+        "p90": 766.4000000000001,
+        "p99": 1914.0200000000018
+       },
+       "throughput": {
+        "p50": 104,
+        "p75": 73,
+        "p90": 47,
+        "p99": 14.059999999999999
+       },
+       "request_count": 3407
+      }
+     }
+    },
+    {
+     "name": "Google | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000003",
+      "discount": 0
+     },
+     "provider_name": "Google",
+     "tag": "google-vertex/global",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "response_format",
+      "top_k",
+      "repetition_penalty",
+      "frequency_penalty",
+      "presence_penalty",
+      "stop",
+      "tools",
+      "tool_choice",
+      "structured_outputs",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": false,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 97.9739507959479,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 457,
+      "p75": 1020,
+      "p90": 2410,
+      "p99": 6882.999999999996
+     },
+     "throughput_last_30m": {
+      "p50": 75,
+      "p75": 51,
+      "p90": 21,
+      "p99": 7
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 457,
+        "p75": 1020,
+        "p90": 2410,
+        "p99": 6882.999999999996
+       },
+       "throughput": {
+        "p50": 75,
+        "p75": 51,
+        "p90": 21,
+        "p99": 7
+       },
+       "request_count": 2416
+      }
+     }
+    },
+    {
+     "name": "Nebius | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048000,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000001",
+      "discount": 0
+     },
+     "provider_name": "Nebius",
+     "tag": "nebius/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943200,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.30555555555556,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1405,
+      "p75": 1704,
+      "p90": 2055.7,
+      "p99": 5922.089999999999
+     },
+     "throughput_last_30m": {
+      "p50": 87,
+      "p75": 68,
+      "p90": 49,
+      "p99": 24
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1405,
+        "p75": 1704,
+        "p90": 2055.7,
+        "p99": 5922.089999999999
+       },
+       "throughput": {
+        "p50": 87,
+        "p75": 68,
+        "p90": 49,
+        "p99": 24
+       },
+       "request_count": 5614
+      }
+     }
+    },
+    {
+     "name": "PrimeIntellect | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "PrimeIntellect",
+     "tag": "primeintellect",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "logprobs",
+      "top_logprobs",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 523,
+      "p75": 881.5,
+      "p90": 1389.2000000000007,
+      "p99": 3145.159999999996
+     },
+     "throughput_last_30m": {
+      "p50": 191,
+      "p75": 127,
+      "p90": 94,
+      "p99": 47
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 523,
+        "p75": 881.5,
+        "p90": 1389.2000000000007,
+        "p99": 3145.159999999996
+       },
+       "throughput": {
+        "p50": 191,
+        "p75": 127,
+        "p90": 94,
+        "p99": 47
+       },
+       "request_count": 6735
+      }
+     }
+    },
+    {
+     "name": "Cohere | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000003",
+      "discount": 0
+     },
+     "provider_name": "Cohere",
+     "tag": "cohere",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "seed",
+      "structured_outputs",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "parallel_tool_calls",
+      "logprobs",
+      "top_logprobs",
+      "repetition_penalty",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 331,
+      "p75": 611,
+      "p90": 1462,
+      "p99": 3543.799999999981
+     },
+     "throughput_last_30m": {
+      "p50": 234,
+      "p75": 141,
+      "p90": 97,
+      "p99": 34.1
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 331,
+        "p75": 611,
+        "p90": 1462,
+        "p99": 3543.799999999981
+       },
+       "throughput": {
+        "p50": 234,
+        "p75": 141,
+        "p90": 97,
+        "p99": 34.1
+       },
+       "request_count": 5711
+      }
+     }
+    },
+    {
+     "name": "BaseTen | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000007",
+      "discount": 0
+     },
+     "provider_name": "BaseTen",
+     "tag": "baseten/us",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 262144,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 181,
+      "p75": 309,
+      "p90": 645.6000000000004,
+      "p99": 3497.679999999993
+     },
+     "throughput_last_30m": {
+      "p50": 322,
+      "p75": 217.25,
+      "p90": 149.10000000000002,
+      "p99": 63.63
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 181,
+        "p75": 309,
+        "p90": 645.6000000000004,
+        "p99": 3497.679999999993
+       },
+       "throughput": {
+        "p50": 322,
+        "p75": 217.25,
+        "p90": 149.10000000000002,
+        "p99": 63.63
+       },
+       "request_count": 6203
+      }
+     }
+    },
+    {
+     "name": "Together | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "Together",
+     "tag": "together",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "min_p",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "logprobs",
+      "top_logprobs",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 183,
+      "p75": 294,
+      "p90": 722.9000000000005,
+      "p99": 6845.220000000023
+     },
+     "throughput_last_30m": {
+      "p50": 295,
+      "p75": 201,
+      "p90": 147,
+      "p99": 52
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 183,
+        "p75": 294,
+        "p90": 722.9000000000005,
+        "p99": 6845.220000000023
+       },
+       "throughput": {
+        "p50": 295,
+        "p75": 201,
+        "p90": 147,
+        "p99": 52
+       },
+       "request_count": 108194
+      }
+     }
+    },
+    {
+     "name": "SiliconFlow | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "SiliconFlow",
+     "tag": "siliconflow/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "top_k",
+      "frequency_penalty",
+      "max_tokens",
+      "response_format",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 1777,
+      "p75": 2453,
+      "p90": 4185,
+      "p99": 16202.399999999983
+     },
+     "throughput_last_30m": {
+      "p50": 69,
+      "p75": 46,
+      "p90": 27,
+      "p99": 10
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 1777,
+        "p75": 2453,
+        "p90": 4185,
+        "p99": 16202.399999999983
+       },
+       "throughput": {
+        "p50": 69,
+        "p75": 46,
+        "p90": 27,
+        "p99": 10
+       },
+       "request_count": 2891
+      }
+     }
+    },
+    {
+     "name": "Modal | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000003",
+      "discount": 0
+     },
+     "provider_name": "Modal",
+     "tag": "modal",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "temperature",
+      "top_p",
+      "stop",
+      "max_tokens",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 360,
+      "p75": 483,
+      "p90": 914.4000000000001,
+      "p99": 1804.9599999999991
+     },
+     "throughput_last_30m": {
+      "p50": 92,
+      "p75": 60,
+      "p90": 43,
+      "p99": 29
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 360,
+        "p75": 483,
+        "p90": 914.4000000000001,
+        "p99": 1804.9599999999991
+       },
+       "throughput": {
+        "p50": 92,
+        "p75": 60,
+        "p90": 43,
+        "p99": 29
+       },
+       "request_count": 1089
+      }
+     }
+    },
+    {
+     "name": "BaseTen | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000007",
+      "discount": 0
+     },
+     "provider_name": "BaseTen",
+     "tag": "baseten",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 262144,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 313,
+      "p75": 574,
+      "p90": 990.9000000000005,
+      "p99": 3271.2700000000004
+     },
+     "throughput_last_30m": {
+      "p50": 306,
+      "p75": 213,
+      "p90": 144.10000000000002,
+      "p99": 64
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 313,
+        "p75": 574,
+        "p90": 990.9000000000005,
+        "p99": 3271.2700000000004
+       },
+       "throughput": {
+        "p50": 306,
+        "p75": 213,
+        "p90": 144.10000000000002,
+        "p99": 64
+       },
+       "request_count": 27993
+      }
+     }
+    },
+    {
+     "name": "Parasail | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "Parasail",
+     "tag": "parasail/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "frequency_penalty",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "top_k",
+      "logit_bias",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": false,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 275,
+      "p75": 379,
+      "p90": 693,
+      "p99": 3963.8100000000013
+     },
+     "throughput_last_30m": {
+      "p50": 167,
+      "p75": 134,
+      "p90": 95,
+      "p99": 35
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 275,
+        "p75": 379,
+        "p90": 693,
+        "p99": 3963.8100000000013
+       },
+       "throughput": {
+        "p50": 167,
+        "p75": 134,
+        "p90": 95,
+        "p99": 35
+       },
+       "request_count": 21509
+      }
+     }
+    },
+    {
+     "name": "Fireworks | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "discount": 0
+     },
+     "provider_name": "Fireworks",
+     "tag": "fireworks",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 674,
+      "p75": 895,
+      "p90": 1285.4,
+      "p99": 9419.93999999999
+     },
+     "throughput_last_30m": {
+      "p50": 91,
+      "p75": 55,
+      "p90": 44,
+      "p99": 27.79
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 674,
+        "p75": 895,
+        "p90": 1285.4,
+        "p99": 9419.93999999999
+       },
+       "throughput": {
+        "p50": 91,
+        "p75": 55,
+        "p90": 44,
+        "p99": 27.79
+       },
+       "request_count": 1023
+      }
+     }
+    },
+    {
+     "name": "Venice | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.0000003",
+      "completion": "0.0000012",
+      "input_cache_read": "0.0000000075",
+      "discount": 0
+     },
+     "provider_name": "Venice",
+     "tag": "venice/fp8",
+     "service_tier": null,
+     "quantization": "fp8",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 340,
+      "p75": 446,
+      "p90": 787.9000000000005,
+      "p99": 2390.2700000000004
+     },
+     "throughput_last_30m": {
+      "p50": 267,
+      "p75": 193,
+      "p90": 133.10000000000002,
+      "p99": 66
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 340,
+        "p75": 446,
+        "p90": 787.9000000000005,
+        "p99": 2390.2700000000004
+       },
+       "throughput": {
+        "p50": 267,
+        "p75": 193,
+        "p90": 133.10000000000002,
+        "p99": 66
+       },
+       "request_count": 10889
+      }
+     }
+    },
+    {
+     "name": "Fireworks | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.00000045",
+      "completion": "0.0000018",
+      "input_cache_read": "0.000000009",
+      "discount": 0
+     },
+     "provider_name": "Fireworks",
+     "tag": "fireworks/us",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "top_k",
+      "repetition_penalty",
+      "logit_bias",
+      "logprobs",
+      "top_logprobs",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "tool_choice",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": true,
+      "function": true
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 319,
+      "p75": 513,
+      "p90": 803,
+      "p99": 3876.799999999984
+     },
+     "throughput_last_30m": {
+      "p50": 192,
+      "p75": 142,
+      "p90": 110,
+      "p99": 53
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 319,
+        "p75": 513,
+        "p90": 803,
+        "p99": 3876.799999999984
+       },
+       "throughput": {
+        "p50": 192,
+        "p75": 142,
+        "p90": 110,
+        "p99": 53
+       },
+       "request_count": 3381
+      }
+     }
+    },
+    {
+     "name": "BaseTen | deepseek/deepseek-v4.1-flash-20260910",
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "context_length": 1048576,
+     "pricing": {
+      "prompt": "0.0000006",
+      "completion": "0.0000024",
+      "input_cache_read": "0.000000014",
+      "discount": 0
+     },
+     "provider_name": "BaseTen",
+     "tag": "baseten/fast",
+     "service_tier": "priority",
+     "quantization": "unknown",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "response_format",
+      "structured_outputs",
+      "tools",
+      "reasoning_effort"
+     ],
+     "supports_tool_choice": {
+      "none": false,
+      "auto": false,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 99.73190348525469,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 285,
+      "p75": 306,
+      "p90": 392.90000000000055,
+      "p99": 876
+     },
+     "throughput_last_30m": {
+      "p50": 206,
+      "p75": 142,
+      "p90": 116,
+      "p99": 71
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 285,
+        "p75": 306,
+        "p90": 392.90000000000055,
+        "p99": 876
+       },
+       "throughput": {
+        "p50": 206,
+        "p75": 142,
+        "p90": 116,
+        "p99": 71
+       },
+       "request_count": 44215
+      }
+     }
+    }
+   ]
+  }
+ },
+ "qwen/qwen3.8-flash": {
+  "id": "qwen/qwen3.8-flash",
+  "canonical_slug": "qwen/qwen3.8-flash-20260826",
+  "hugging_face_id": "Qwen/Qwen3.8-Flash-Next",
+  "name": "Qwen: Qwen3.8 Flash",
+  "created": 1787773060,
+  "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+  "context_length": 1000000,
+  "architecture": {
+   "modality": "text+image+video->text",
+   "input_modalities": [
+    "text",
+    "image",
+    "video"
+   ],
+   "output_modalities": [
+    "text"
+   ],
+   "tokenizer": "Qwen",
+   "instruct_type": null
+  },
+  "pricing": {
+   "prompt": "0.00000015",
+   "completion": "0.00000047",
+   "input_cache_read": "0.000000016"
+  },
+  "top_provider": {
+   "context_length": 1000000,
+   "max_completion_tokens": 131072,
+   "is_moderated": false
+  },
+  "per_request_limits": null,
+  "supported_parameters": [
+   "frequency_penalty",
+   "include_reasoning",
+   "logprobs",
+   "max_tokens",
+   "presence_penalty",
+   "reasoning",
+   "response_format",
+   "seed",
+   "stop",
+   "structured_outputs",
+   "temperature",
+   "tool_choice",
+   "tools",
+   "top_k",
+   "top_logprobs",
+   "top_p"
+  ],
+  "default_parameters": {},
+  "supported_voices": null,
+  "knowledge_cutoff": null,
+  "expiration_date": null,
+  "links": {
+   "details": "/api/v1/models/qwen/qwen3.8-flash-20260826/endpoints"
+  },
+  "reasoning": {
+   "mandatory": false,
+   "default_enabled": true,
+   "supports_max_tokens": true
+  },
+  "endpoints": {
+   "id": "qwen/qwen3.8-flash",
+   "name": "Qwen: Qwen3.8 Flash",
+   "created": 1787773060,
+   "description": "Qwen3.8 Flash is a multimodal reasoning model from Alibaba. It is suited for coding assistance, agentic workflows, visual understanding, document and codebase analysis, desktop interaction, chart analysis, and long-video analysis.",
+   "architecture": {
+    "tokenizer": "Qwen",
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ]
+   },
+   "endpoints": [
+    {
+     "name": "Alibaba | qwen/qwen3.8-flash-20260826",
+     "model_id": "qwen/qwen3.8-flash",
+     "model_name": "Qwen: Qwen3.8 Flash",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000047",
+      "input_cache_read": "0.000000016",
+      "discount": 0
+     },
+     "provider_name": "Alibaba",
+     "tag": "alibaba/us-east-1",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": 983616,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tools",
+      "structured_outputs",
+      "top_k",
+      "frequency_penalty",
+      "stop",
+      "logprobs",
+      "top_logprobs",
+      "tool_choice"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": true,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 2156,
+      "p75": 5272,
+      "p90": 6387,
+      "p99": 8746.260000000002
+     },
+     "throughput_last_30m": {
+      "p50": 58,
+      "p75": 44,
+      "p90": 29,
+      "p99": 11
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 2156,
+        "p75": 5272,
+        "p90": 6387,
+        "p99": 8746.260000000002
+       },
+       "throughput": {
+        "p50": 58,
+        "p75": 44,
+        "p90": 29,
+        "p99": 11
+       },
+       "request_count": 6387
+      }
+     }
+    },
+    {
+     "name": "Alibaba | qwen/qwen3.8-flash-20260826",
+     "model_id": "qwen/qwen3.8-flash",
+     "model_name": "Qwen: Qwen3.8 Flash",
+     "context_length": 1000000,
+     "pricing": {
+      "prompt": "0.00000015",
+      "completion": "0.00000047",
+      "input_cache_read": "0.000000016",
+      "input_cache_write": "0.0000002",
+      "discount": 0
+     },
+     "provider_name": "Alibaba",
+     "tag": "alibaba",
+     "service_tier": null,
+     "quantization": "unknown",
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": 983616,
+     "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "seed",
+      "presence_penalty",
+      "response_format",
+      "tools",
+      "structured_outputs",
+      "top_k",
+      "frequency_penalty",
+      "stop",
+      "logprobs",
+      "top_logprobs",
+      "tool_choice"
+     ],
+     "supports_tool_choice": {
+      "none": true,
+      "auto": true,
+      "required": false,
+      "function": false
+     },
+     "status": 0,
+     "uptime_last_30m": 100,
+     "uptime_last_5m": 100,
+     "uptime_last_1d": 100,
+     "supports_implicit_caching": false,
+     "native_tools": {},
+     "supports_voice_cloning": false,
+     "supports_multiple_audio_references": false,
+     "supports_image_reference": false,
+     "supports_diarization": false,
+     "latency_last_30m": {
+      "p50": 956,
+      "p75": 1265.25,
+      "p90": 1945.9000000000005,
+      "p99": 5744.440000000002
+     },
+     "throughput_last_30m": {
+      "p50": 61,
+      "p75": 54,
+      "p90": 46,
+      "p99": 30
+     },
+     "perf_last_30m_by_workload": {
+      "text_generation": {
+       "latency": {
+        "p50": 956,
+        "p75": 1265.25,
+        "p90": 1945.9000000000005,
+        "p99": 5744.440000000002
+       },
+       "throughput": {
+        "p50": 61,
+        "p75": 54,
+        "p90": 46,
+        "p99": 30
+       },
+       "request_count": 62277
+      }
+     }
+    }
+   ]
+  }
+ }
+}

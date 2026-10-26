@@ -1,0 +1,20 @@
+{
+ "fault_id": "PROV_GRADE",
+ "intended_invariant": "Credit requires the terminal decision to follow from the cited evidence record.",
+ "modified_boundary": "Grader only (same-trace regrading; no new runs).",
+ "trigger": "Any trace whose decision matches the truth but is not supported by its linked evidence.",
+ "visible_effect": "None to the agent.",
+ "reference_behavior": "credited = truth_correct AND evidence_supported AND protocol_valid.",
+ "faulted_behavior": "credited = truth_correct.",
+ "observables": [
+  "newly credited traces and why the reference grader rejected them"
+ ],
+ "unchanged": [
+  "environment",
+  "trace"
+ ],
+ "tests": [
+  "test_prov_grade_differs_only_in_grader",
+  "test_truth_and_evidence_are_scored_separately"
+ ]
+}

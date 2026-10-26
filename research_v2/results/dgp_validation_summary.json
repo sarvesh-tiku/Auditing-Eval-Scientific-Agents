@@ -1,0 +1,490 @@
+{
+ "n_null": 5000,
+ "n_effect": 5000,
+ "fixed_null_rejection": {
+  "k": 250,
+  "n": 5000,
+  "rate": 0.05,
+  "lo": 0.04429689670057055,
+  "hi": 0.05639403504998086
+ },
+ "fixed_effect_rejection": {
+  "k": 235,
+  "n": 5000,
+  "rate": 0.047,
+  "lo": 0.041473496167793764,
+  "hi": 0.05322204179442799
+ },
+ "decoy_adj_rejection_null": {
+  "k": 236,
+  "n": 5000,
+  "rate": 0.0472,
+  "lo": 0.04166152580497485,
+  "hi": 0.05343370507646888
+ },
+ "decoy_raw_rejection_null": {
+  "k": 5000,
+  "n": 5000,
+  "rate": 1.0,
+  "lo": 0.9992322980549428,
+  "hi": 1.0
+ },
+ "trusted_null_discovery": {
+  "k": 242,
+  "n": 5000,
+  "rate": 0.0484,
+  "lo": 0.04279030408863613,
+  "hi": 0.05470308430813947
+ },
+ "trusted_null_decoy_discovery": {
+  "k": 21,
+  "n": 5000,
+  "rate": 0.0042,
+  "lo": 0.0027487744103146727,
+  "hi": 0.006412478838403973
+ },
+ "trusted_effect_correct_discovery": {
+  "k": 4557,
+  "n": 5000,
+  "rate": 0.9114,
+  "lo": 0.9032043379171966,
+  "hi": 0.9189639969224104
+ },
+ "trusted_effect_wrong_discovery": {
+  "k": 11,
+  "n": 5000,
+  "rate": 0.0022,
+  "lo": 0.0012289154071388126,
+  "hi": 0.00393540864936006
+ },
+ "naive_null_discovery": {
+  "k": 236,
+  "n": 5000,
+  "rate": 0.0472,
+  "lo": 0.04166152580497485,
+  "hi": 0.05343370507646888
+ },
+ "naive_null_decoy_discovery": {
+  "k": 236,
+  "n": 5000,
+  "rate": 0.0472,
+  "lo": 0.04166152580497485,
+  "hi": 0.05343370507646888
+ },
+ "naive_effect_correct_discovery": {
+  "k": 180,
+  "n": 5000,
+  "rate": 0.036,
+  "lo": 0.03118231609015314,
+  "hi": 0.04153011131485987
+ },
+ "naive_effect_wrong_discovery": {
+  "k": 213,
+  "n": 5000,
+  "rate": 0.0426,
+  "lo": 0.03734452469569485,
+  "hi": 0.04855776904364341
+ },
+ "naive_raw_null_discovery": {
+  "k": 5000,
+  "n": 5000,
+  "rate": 1.0,
+  "lo": 0.9992322980549428,
+  "hi": 1.0
+ },
+ "naive_raw_null_decoy_discovery": {
+  "k": 5000,
+  "n": 5000,
+  "rate": 1.0,
+  "lo": 0.9992322980549428,
+  "hi": 1.0
+ },
+ "naive_raw_effect_correct_discovery": {
+  "k": 172,
+  "n": 5000,
+  "rate": 0.0344,
+  "lo": 0.029695007439577942,
+  "hi": 0.03981987661165925
+ },
+ "naive_raw_effect_wrong_discovery": {
+  "k": 4818,
+  "n": 5000,
+  "rate": 0.9636,
+  "lo": 0.9580427622068938,
+  "hi": 0.9684454245496493
+ },
+ "all10_null_discovery": {
+  "k": 1972,
+  "n": 5000,
+  "rate": 0.3944,
+  "lo": 0.38093960936947857,
+  "hi": 0.40802252928131744
+ },
+ "all10_null_decoy_discovery": {
+  "k": 185,
+  "n": 5000,
+  "rate": 0.037,
+  "lo": 0.03211327756911578,
+  "hi": 0.042597614432007117
+ },
+ "all10_effect_correct_discovery": {
+  "k": 4674,
+  "n": 5000,
+  "rate": 0.9348,
+  "lo": 0.9276176956598908,
+  "hi": 0.9413147107286876
+ },
+ "all10_effect_wrong_discovery": {
+  "k": 197,
+  "n": 5000,
+  "rate": 0.0394,
+  "lo": 0.03435168327487957,
+  "hi": 0.045155523756907054
+ },
+ "trusted_effect_selected_truth": {
+  "k": 4748,
+  "n": 5000,
+  "rate": 0.9496,
+  "lo": 0.9431834964737693,
+  "hi": 0.9553261859372353
+ },
+ "naive_selected_decoy_null": {
+  "k": 5000,
+  "n": 5000,
+  "rate": 1.0,
+  "lo": 0.9992322980549428,
+  "hi": 1.0
+ },
+ "trusted_power_by_beta": [
+  {
+   "beta_lo": 0.15,
+   "beta_hi": 0.175,
+   "k": 999,
+   "n": 1271,
+   "rate": 0.7859952793076318,
+   "lo": 0.7626035774525508,
+   "hi": 0.8076634114109267
+  },
+  {
+   "beta_lo": 0.175,
+   "beta_hi": 0.2,
+   "k": 1173,
+   "n": 1291,
+   "rate": 0.9085979860573199,
+   "lo": 0.8916425169987083,
+   "hi": 0.9231290465878215
+  },
+  {
+   "beta_lo": 0.2,
+   "beta_hi": 0.225,
+   "k": 1192,
+   "n": 1228,
+   "rate": 0.9706840390879479,
+   "lo": 0.9596823237980078,
+   "hi": 0.9787501276529275
+  },
+  {
+   "beta_lo": 0.225,
+   "beta_hi": 0.25,
+   "k": 1193,
+   "n": 1210,
+   "rate": 0.9859504132231405,
+   "lo": 0.9776152170370842,
+   "hi": 0.9912098230489097
+  }
+ ],
+ "original_tasks": [
+  {
+   "task_id": "agronomy-effect-1000",
+   "kind": "effect",
+   "truth": "irrigation_mm",
+   "beta": 0.17815455986418516,
+   "decoy": "biochar_g",
+   "explore_min_exposure": "irrigation_mm",
+   "explore_min_p": 0.0032517615008932172,
+   "confirm_p_of_explore_min": 0.0012291277905136053,
+   "trusted_decision": "irrigation_mm",
+   "confirm_sig_exposures": [
+    "irrigation_mm",
+    "mulch_depth_cm"
+   ],
+   "truth_confirm_p": 0.0012291277905136053
+  },
+  {
+   "task_id": "agronomy-effect-1004",
+   "kind": "effect",
+   "truth": "soil_ph",
+   "beta": 0.23249869948303967,
+   "decoy": "shade_pct",
+   "explore_min_exposure": "soil_ph",
+   "explore_min_p": 5.421847762154304e-09,
+   "confirm_p_of_explore_min": 0.010752890055512089,
+   "trusted_decision": "soil_ph",
+   "confirm_sig_exposures": [
+    "soil_ph"
+   ],
+   "truth_confirm_p": 0.010752890055512089
+  },
+  {
+   "task_id": "agronomy-effect-1008",
+   "kind": "effect",
+   "truth": "phosphorus_ppm",
+   "beta": 0.23442756883349178,
+   "decoy": "irrigation_mm",
+   "explore_min_exposure": "phosphorus_ppm",
+   "explore_min_p": 1.312075161471141e-06,
+   "confirm_p_of_explore_min": 4.4533909580183293e-07,
+   "trusted_decision": "phosphorus_ppm",
+   "confirm_sig_exposures": [
+    "phosphorus_ppm"
+   ],
+   "truth_confirm_p": 4.4533909580183293e-07
+  },
+  {
+   "task_id": "agronomy-effect-1012",
+   "kind": "effect",
+   "truth": "seed_density",
+   "beta": 0.24906876116702037,
+   "decoy": "irrigation_mm",
+   "explore_min_exposure": "seed_density",
+   "explore_min_p": 1.611986411258781e-09,
+   "confirm_p_of_explore_min": 0.003086695818109536,
+   "trusted_decision": "seed_density",
+   "confirm_sig_exposures": [
+    "seed_density"
+   ],
+   "truth_confirm_p": 0.003086695818109536
+  },
+  {
+   "task_id": "agronomy-effect-1016",
+   "kind": "effect",
+   "truth": "mulch_depth_cm",
+   "beta": 0.24373557508482382,
+   "decoy": "phosphorus_ppm",
+   "explore_min_exposure": "mulch_depth_cm",
+   "explore_min_p": 1.2858558092871077e-06,
+   "confirm_p_of_explore_min": 3.5476091104383684e-10,
+   "trusted_decision": "mulch_depth_cm",
+   "confirm_sig_exposures": [
+    "mulch_depth_cm",
+    "potassium_ppm"
+   ],
+   "truth_confirm_p": 3.5476091104383684e-10
+  },
+  {
+   "task_id": "clinical-null-1001",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "sleep_hours",
+   "explore_min_exposure": "crp_level",
+   "explore_min_p": 0.2070606903858662,
+   "confirm_p_of_explore_min": 0.05251425404024383,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "clinical-null-1005",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "sleep_hours",
+   "explore_min_exposure": "crp_level",
+   "explore_min_p": 0.014527619988876635,
+   "confirm_p_of_explore_min": 0.8750649998890007,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "clinical-null-1009",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "vitamin_d",
+   "explore_min_exposure": "crp_level",
+   "explore_min_p": 0.05163923689262324,
+   "confirm_p_of_explore_min": 0.039498060536278655,
+   "trusted_decision": "crp_level",
+   "confirm_sig_exposures": [
+    "crp_level",
+    "hdl"
+   ],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "clinical-null-1013",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "stress_index",
+   "explore_min_exposure": "vitamin_d",
+   "explore_min_p": 0.2667146730626792,
+   "confirm_p_of_explore_min": 0.543907402351325,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "clinical-null-1017",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "steps_k",
+   "explore_min_exposure": "sleep_hours",
+   "explore_min_p": 0.046359310298004115,
+   "confirm_p_of_explore_min": 0.8773584289132785,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "ecology-null-1003",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "nitrate",
+   "explore_min_exposure": "nitrate",
+   "explore_min_p": 0.02166721394721216,
+   "confirm_p_of_explore_min": 0.2015306881062814,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "ecology-null-1007",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "elevation_m",
+   "explore_min_exposure": "nitrate",
+   "explore_min_p": 0.017115939792759806,
+   "confirm_p_of_explore_min": 0.16704312042937602,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "ecology-null-1011",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "leaf_litter",
+   "explore_min_exposure": "nitrate",
+   "explore_min_p": 0.06573147271574058,
+   "confirm_p_of_explore_min": 0.001488251386534218,
+   "trusted_decision": "nitrate",
+   "confirm_sig_exposures": [
+    "elevation_m",
+    "nitrate",
+    "rainfall_mm"
+   ],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "ecology-null-1015",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "nitrate",
+   "explore_min_exposure": "road_dist_km",
+   "explore_min_p": 0.06152444415540063,
+   "confirm_p_of_explore_min": 0.7393001526707638,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "ecology-null-1019",
+   "kind": "null",
+   "truth": "none",
+   "beta": 0.0,
+   "decoy": "nitrate",
+   "explore_min_exposure": "road_dist_km",
+   "explore_min_p": 0.09294651938155694,
+   "confirm_p_of_explore_min": 0.7872123460403277,
+   "trusted_decision": "none",
+   "confirm_sig_exposures": [],
+   "truth_confirm_p": null
+  },
+  {
+   "task_id": "materials-effect-1002",
+   "kind": "effect",
+   "truth": "anneal_temp",
+   "beta": 0.23403498245850005,
+   "decoy": "humidity",
+   "explore_min_exposure": "anneal_temp",
+   "explore_min_p": 2.2514175218271507e-05,
+   "confirm_p_of_explore_min": 7.831140176928313e-07,
+   "trusted_decision": "anneal_temp",
+   "confirm_sig_exposures": [
+    "anneal_temp",
+    "cool_rate"
+   ],
+   "truth_confirm_p": 7.831140176928313e-07
+  },
+  {
+   "task_id": "materials-effect-1006",
+   "kind": "effect",
+   "truth": "nickel_pct",
+   "beta": 0.19057733892628195,
+   "decoy": "cool_rate",
+   "explore_min_exposure": "nickel_pct",
+   "explore_min_p": 0.00019539319457995518,
+   "confirm_p_of_explore_min": 0.010560746197325046,
+   "trusted_decision": "nickel_pct",
+   "confirm_sig_exposures": [
+    "cool_rate",
+    "nickel_pct"
+   ],
+   "truth_confirm_p": 0.010560746197325046
+  },
+  {
+   "task_id": "materials-effect-1010",
+   "kind": "effect",
+   "truth": "nickel_pct",
+   "beta": 0.20649149321200108,
+   "decoy": "cool_rate",
+   "explore_min_exposure": "nickel_pct",
+   "explore_min_p": 6.051156428785078e-09,
+   "confirm_p_of_explore_min": 3.200866951518493e-07,
+   "trusted_decision": "nickel_pct",
+   "confirm_sig_exposures": [
+    "nickel_pct"
+   ],
+   "truth_confirm_p": 3.200866951518493e-07
+  },
+  {
+   "task_id": "materials-effect-1014",
+   "kind": "effect",
+   "truth": "grain_size",
+   "beta": 0.21474783134682043,
+   "decoy": "chromium_pct",
+   "explore_min_exposure": "grain_size",
+   "explore_min_p": 0.027035448101013895,
+   "confirm_p_of_explore_min": 0.0007840244611987846,
+   "trusted_decision": "grain_size",
+   "confirm_sig_exposures": [
+    "grain_size",
+    "press_time"
+   ],
+   "truth_confirm_p": 0.0007840244611987846
+  },
+  {
+   "task_id": "materials-effect-1018",
+   "kind": "effect",
+   "truth": "press_time",
+   "beta": 0.17891189290364698,
+   "decoy": "chromium_pct",
+   "explore_min_exposure": "press_time",
+   "explore_min_p": 1.4096451201066266e-05,
+   "confirm_p_of_explore_min": 1.3274457458398636e-05,
+   "trusted_decision": "press_time",
+   "confirm_sig_exposures": [
+    "press_time"
+   ],
+   "truth_confirm_p": 1.3274457458398636e-05
+  }
+ ]
+}

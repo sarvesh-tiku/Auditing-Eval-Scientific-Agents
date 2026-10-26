@@ -1,0 +1,47 @@
+% !TeX program = xelatex
+% AES v0.1. Start here; replace the sample text with your paper.
+% Overleaf: select XeLaTeX in project settings, then compile main.tex.
+% Local: latexmk -xelatex main.tex
+\documentclass[11pt,a4paper]{article}
+\usepackage{aes} % Public mode: AES submissions are not anonymous.
+
+\usepackage{amsmath,amssymb,tabularx}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+% Omit "Cited at" back-references so the bibliography stays compact.
+\renewcommand*\backrefalt[4]{}
+\newcommand{\fld}[1]{\text{\fontsize{0.86em}{1em}\selectfont\MakeUppercase{#1}}}
+% Pipeline configuration names (Open Sans has no small caps).
+\newcommand{\cfg}[1]{{\fontsize{0.86em}{1em}\selectfont\MakeUppercase{#1}}}
+
+% Optional short title in brackets; full title in braces.
+\title[When the Pipeline Is Wrong]{When the Pipeline Is Wrong: Auditing the Evaluation of Scientific Agents}
+
+\aesauthor[affil={1}]{Sarvesh Tiku}
+\aesauthor[affil={1}]{Gauri Sharma}
+\aesaffiliation{1}{Georgia Institute of Technology}
+\aesemails{\aesemail{stiku6@gatech.edu}\quad\aesemail{gsharma80@gatech.edu}}
+
+% Optional metadata and author notes. Remove the leading % to enable.
+\aeskeywords{Scientific agents; Agent evaluation; Evidential validity; Grader design; Fault injection; Reproducibility}
+
+\begin{document}
+\maketitle
+\setlength{\emergencystretch}{3em}\sloppy
+
+\input{sections/abstract}
+
+\input{sections/intro}
+\input{sections/method}
+\input{sections/results}
+
+\aesbackmattersection{Ethics Statement}
+Only synthetic data were used, and agent code ran sandboxed without network
+access. The faults studied are common engineering failures.
+
+\bibliography{references}
+
+\appendix
+\input{sections/appendix}
+
+\end{document}

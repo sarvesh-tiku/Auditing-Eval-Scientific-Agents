@@ -1,0 +1,36 @@
+{
+ "taxonomy": {
+  "single": {
+   "n": 935,
+   "share": 0.5615615615615616,
+   "discover": 556,
+   "null_disc": 50,
+   "minp_selected": 0,
+   "correction": 3
+  },
+  "multivariable": {
+   "n": 522,
+   "share": 0.31351351351351353,
+   "discover": 329,
+   "null_disc": 44,
+   "minp_selected": 292,
+   "correction": 44
+  },
+  "separate": {
+   "n": 182,
+   "share": 0.10930930930930931,
+   "discover": 47,
+   "null_disc": 18,
+   "minp_selected": 46,
+   "correction": 126
+  },
+  "ambiguous": {
+   "n": 26,
+   "share": 0.015615615615615615,
+   "discover": 11,
+   "null_disc": 4,
+   "minp_selected": 0,
+   "correction": 3
+  }
+ }
+}

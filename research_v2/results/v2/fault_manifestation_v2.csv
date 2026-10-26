@@ -1,0 +1,4 @@
+condition,runs,triggered,visible,used,used_before_lock,joint_valid_triggered,joint_valid_not_triggered,last_pre_lock_output_faulty,mean_fault_events
+SEP_READ,160,160,140,7.0,0.0,0.90625,,,
+INT_MASK,160,24,24,,,0.8333333333333334,0.8897058823529411,8.0,0.46875
+FRESH_CACHE,160,30,30,,,0.8,0.9076923076923077,14.0,1.10625

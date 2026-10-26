@@ -1,0 +1,28 @@
+\begin{table}[h]
+\centering
+\caption{\textbf{Discoveries on the two dominant v1 null tasks, by model} (unit: run; 12 runs per
+model and task = 4 configurations $\times$ 3 repeats). Every run on a task shares one confirmation split.}
+\label{tab:dominant}
+\small
+\begin{tabular}{llrl}
+\toprule
+Task & Model & Discoveries & Exposures named (count)\\
+\midrule
+\texttt{ecology-null-1011} & GPT-6.1-sol & 7/12 & nitrate (7)\\
+\texttt{ecology-null-1011} & Sonnet 5.5 & 12/12 & nitrate (12)\\
+\texttt{ecology-null-1011} & Gemini 4 Argon & 12/12 & nitrate (12)\\
+\texttt{ecology-null-1011} & Haiku 5.5 & 12/12 & nitrate (7), elevation\_m (5)\\
+\texttt{ecology-null-1011} & GPT-6-luna & 12/12 & nitrate (12)\\
+\texttt{ecology-null-1011} & DeepSeek-V4.1-fl. & 10/12 & nitrate (9), elevation\_m (1)\\
+\texttt{ecology-null-1011} & Qwen3.8-flash & 11/12 & nitrate (10), elevation\_m (1)\\
+\midrule
+\texttt{clinical-null-1009} & GPT-6.1-sol & 12/12 & crp\_level (12)\\
+\texttt{clinical-null-1009} & Sonnet 5.5 & 0/12 & ---\\
+\texttt{clinical-null-1009} & Gemini 4 Argon & 0/12 & ---\\
+\texttt{clinical-null-1009} & Haiku 5.5 & 0/12 & ---\\
+\texttt{clinical-null-1009} & GPT-6-luna & 12/12 & crp\_level (12)\\
+\texttt{clinical-null-1009} & DeepSeek-V4.1-fl. & 11/12 & crp\_level (10), vitamin\_d (1)\\
+\texttt{clinical-null-1009} & Qwen3.8-flash & 3/12 & crp\_level (3)\\
+\bottomrule
+\end{tabular}
+\end{table}

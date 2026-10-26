@@ -1,0 +1,1282 @@
+640 runs to do
+prior spend in this experiment: $0.000
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=None locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0011 7.8s submitted
+--- spent $0.001 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0005 10.2s submitted
+--- spent $0.002 / $5.00
+[openai/gpt-6.1-sol REF agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0129 10.5s submitted
+--- spent $0.015 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0090 10.6s submitted
+--- spent $0.024 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0016 10.9s submitted
+--- spent $0.025 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0090 11.2s submitted
+--- spent $0.034 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0016 11.6s submitted
+--- spent $0.036 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0016 11.7s submitted
+--- spent $0.037 / $5.00
+[openai/gpt-6-luna REF agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0007 11.9s submitted
+--- spent $0.038 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0006 12.1s submitted
+--- spent $0.039 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0017 12.1s submitted
+--- spent $0.040 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=None locked=shade_pct truth_ok=False ev_ok=False joint=False $0.0013 12.9s submitted
+--- spent $0.042 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0084 13.0s submitted
+--- spent $0.050 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0006 13.5s submitted
+--- spent $0.051 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=None locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0017 13.5s submitted
+--- spent $0.052 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=None locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0018 14.2s submitted
+--- spent $0.054 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0133 11.9s submitted
+--- spent $0.067 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0121 9.2s submitted
+--- spent $0.079 / $5.00
+[openai/gpt-6.1-sol REF clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0138 10.4s submitted
+--- spent $0.093 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0124 10.7s submitted
+--- spent $0.106 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0013 20.9s submitted
+--- spent $0.107 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0005 10.1s submitted
+--- spent $0.107 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0006 10.4s submitted
+--- spent $0.108 / $5.00
+[openai/gpt-6-luna INT_MASK materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0006 12.8s submitted
+--- spent $0.109 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0017 26.0s submitted
+--- spent $0.110 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0011 15.4s submitted
+--- spent $0.111 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0009 16.8s submitted
+--- spent $0.112 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0012 19.4s submitted
+--- spent $0.113 / $5.00
+[openai/gpt-6-luna REF clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0007 18.0s submitted
+--- spent $0.114 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0126 9.1s submitted
+--- spent $0.127 / $5.00
+[openai/gpt-6-luna SEP_READ materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0009 17.9s submitted
+--- spent $0.128 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0131 10.8s submitted
+--- spent $0.141 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0021 31.8s submitted
+--- spent $0.143 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0123 10.0s submitted
+--- spent $0.155 / $5.00
+[openai/gpt-6-luna REF materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0009 19.5s submitted
+--- spent $0.156 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0014 21.5s submitted
+--- spent $0.157 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-effect-5001 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0015 21.8s submitted
+--- spent $0.159 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0010 20.6s submitted
+--- spent $0.160 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0017 9.8s submitted
+--- spent $0.162 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0014 17.1s submitted
+--- spent $0.163 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0013 16.0s submitted
+--- spent $0.164 / $5.00
+[openai/gpt-6.1-sol REF materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0084 11.7s submitted
+--- spent $0.173 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0018 11.2s submitted
+--- spent $0.174 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0017 10.3s submitted
+--- spent $0.176 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0015 9.7s submitted
+--- spent $0.178 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0017 12.2s submitted
+--- spent $0.179 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0015 9.5s submitted
+--- spent $0.181 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0016 10.0s submitted
+--- spent $0.182 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0016 10.4s submitted
+--- spent $0.184 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-effect-5000 r0] dec=no_confirmed_discovery exp=shade_pct locked=shade_pct truth_ok=False ev_ok=True joint=False $0.0040 43.7s submitted
+--- spent $0.188 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0006 9.3s submitted
+--- spent $0.189 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0010 12.5s submitted
+--- spent $0.190 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0009 12.5s submitted
+--- spent $0.191 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0008 11.9s submitted
+--- spent $0.191 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0010 12.5s submitted
+--- spent $0.192 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0006 10.9s submitted
+--- spent $0.193 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0018 26.0s submitted
+--- spent $0.195 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0126 10.6s submitted
+--- spent $0.207 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0127 10.1s submitted
+--- spent $0.220 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0124 10.4s submitted
+--- spent $0.232 / $5.00
+[openai/gpt-6.1-sol REF ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0126 9.7s submitted
+--- spent $0.245 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0139 10.0s submitted
+--- spent $0.259 / $5.00
+[openai/gpt-6-luna REF ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0010 20.0s submitted
+--- spent $0.260 / $5.00
+[openai/gpt-6.1-sol REF agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0133 13.3s submitted
+--- spent $0.273 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0134 13.0s submitted
+--- spent $0.287 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0126 13.0s submitted
+--- spent $0.299 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-null-5004 r0] dec=no_confirmed_discovery exp=None locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0011 7.3s submitted
+--- spent $0.300 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0006 10.1s submitted
+--- spent $0.301 / $5.00
+[openai/gpt-6-luna REF agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0006 11.6s submitted
+--- spent $0.302 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-effect-5003 r0] dec=discover exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0012 20.5s submitted
+--- spent $0.303 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-null-5005 r0] dec=no_confirmed_discovery exp=None locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0016 10.9s submitted
+--- spent $0.304 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-null-5004 r0] dec=no_confirmed_discovery exp=None locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0017 12.9s submitted
+--- spent $0.306 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-null-5005 r0] dec=no_confirmed_discovery exp=None locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0017 10.0s submitted
+--- spent $0.308 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0009 17.1s submitted
+--- spent $0.309 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-null-5004 r0] dec=no_confirmed_discovery exp=None locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0019 15.3s submitted
+--- spent $0.311 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-null-5004 r0] dec=no_confirmed_discovery exp=None locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0023 14.7s submitted
+--- spent $0.313 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-null-5005 r0] dec=no_confirmed_discovery exp=None locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0016 11.1s submitted
+--- spent $0.314 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0124 8.7s submitted
+--- spent $0.327 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-null-5005 r0] dec=no_confirmed_discovery exp=None locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0016 12.3s submitted
+--- spent $0.328 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0123 11.2s submitted
+--- spent $0.341 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0013 22.0s submitted
+--- spent $0.342 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0085 9.0s submitted
+--- spent $0.350 / $5.00
+[openai/gpt-6.1-sol REF clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0082 11.7s submitted
+--- spent $0.359 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0007 11.8s submitted
+--- spent $0.359 / $5.00
+[openai/gpt-6-luna REF clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0006 11.8s submitted
+--- spent $0.360 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0123 10.3s submitted
+--- spent $0.372 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0140 10.9s submitted
+--- spent $0.386 / $5.00
+[openai/gpt-6.1-sol REF materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0132 10.7s submitted
+--- spent $0.399 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0008 15.0s submitted
+--- spent $0.400 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0005 16.0s submitted
+--- spent $0.401 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0085 10.0s submitted
+--- spent $0.409 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0008 12.7s submitted
+--- spent $0.410 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-null-5006 r0] dec=no_confirmed_discovery exp=None locked=press_time truth_ok=True ev_ok=True joint=True $0.0014 9.5s submitted
+--- spent $0.411 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-null-5006 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0012 8.2s submitted
+--- spent $0.413 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-null-5006 r0] dec=no_confirmed_discovery exp=None locked=press_time truth_ok=True ev_ok=True joint=True $0.0017 12.1s submitted
+--- spent $0.414 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0018 33.7s submitted
+--- spent $0.416 / $5.00
+[openai/gpt-6-luna REF materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0008 15.9s submitted
+--- spent $0.417 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-null-5006 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0020 15.2s submitted
+--- spent $0.419 / $5.00
+[openai/gpt-6-luna INT_MASK materials-null-5006 r0] dec=no_confirmed_discovery exp=None locked=press_time truth_ok=True ev_ok=True joint=True $0.0011 24.7s submitted
+--- spent $0.420 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-null-5007 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0011 8.0s submitted
+--- spent $0.421 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-null-5007 r0] dec=no_confirmed_discovery exp=None locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0015 11.1s submitted
+--- spent $0.423 / $5.00
+[openai/gpt-6-luna SEP_READ materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0016 27.3s submitted
+--- spent $0.424 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0029 47.0s submitted
+--- spent $0.427 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-null-5007 r0] dec=no_confirmed_discovery exp=None locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0017 9.7s submitted
+--- spent $0.429 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0042 52.0s submitted
+--- spent $0.433 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-null-5007 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0013 9.2s submitted
+--- spent $0.434 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0132 9.0s submitted
+--- spent $0.448 / $5.00
+[openai/gpt-6.1-sol REF ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0135 11.0s submitted
+--- spent $0.461 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-null-5004 r0] dec=None exp=None locked=None truth_ok=None ev_ok=None joint=False $0.0050 67.3s max_steps
+--- spent $0.466 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0138 10.2s submitted
+--- spent $0.480 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-null-5005 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0034 58.6s submitted
+--- spent $0.483 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0141 10.4s submitted
+--- spent $0.497 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0018 11.0s submitted
+--- spent $0.499 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0007 11.8s submitted
+--- spent $0.500 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0017 10.5s submitted
+--- spent $0.502 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0018 14.1s submitted
+--- spent $0.503 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-null-5007 r0] dec=no_confirmed_discovery exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0013 21.7s submitted
+--- spent $0.505 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-effect-5002 r0] dec=discover exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0071 108.2s submitted
+--- spent $0.512 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0018 14.7s submitted
+--- spent $0.514 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0010 21.7s submitted
+--- spent $0.515 / $5.00
+[openai/gpt-6-luna REF agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0005 10.1s submitted
+--- spent $0.515 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0006 9.7s submitted
+--- spent $0.516 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0007 10.5s submitted
+--- spent $0.516 / $5.00
+[openai/gpt-6-luna REF ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0013 26.0s submitted
+--- spent $0.518 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0008 10.7s submitted
+--- spent $0.518 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0008 11.3s submitted
+--- spent $0.519 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0008 13.7s submitted
+--- spent $0.520 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0010 13.4s submitted
+--- spent $0.521 / $5.00
+[openai/gpt-6.1-sol REF agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0129 9.5s submitted
+--- spent $0.534 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0127 9.4s submitted
+--- spent $0.547 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0111 10.1s submitted
+--- spent $0.558 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0083 9.4s submitted
+--- spent $0.566 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0064 104.0s submitted
+--- spent $0.572 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0006 8.7s submitted
+--- spent $0.573 / $5.00
+[openai/gpt-6-luna REF clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0004 9.1s submitted
+--- spent $0.573 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0005 10.4s submitted
+--- spent $0.574 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0121 9.7s submitted
+--- spent $0.586 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0125 11.1s submitted
+--- spent $0.599 / $5.00
+[openai/gpt-6.1-sol REF clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0125 12.6s submitted
+--- spent $0.611 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0125 10.4s submitted
+--- spent $0.624 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0053 66.4s submitted
+--- spent $0.629 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0015 9.5s submitted
+--- spent $0.630 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0016 9.9s submitted
+--- spent $0.632 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0016 8.9s submitted
+--- spent $0.634 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0009 17.4s submitted
+--- spent $0.635 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0017 10.7s submitted
+--- spent $0.636 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0126 9.5s submitted
+--- spent $0.649 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0131 10.1s submitted
+--- spent $0.662 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0010 13.8s submitted
+--- spent $0.663 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0008 11.9s submitted
+--- spent $0.664 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0008 11.8s submitted
+--- spent $0.665 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-effect-5009 r0] dec=discover exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0009 12.2s submitted
+--- spent $0.665 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-effect-5008 r0] dec=discover exp=mulch_depth_cm locked=mulch_depth_cm truth_ok=True ev_ok=True joint=True $0.0030 36.1s submitted
+--- spent $0.668 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0085 9.9s submitted
+--- spent $0.677 / $5.00
+[openai/gpt-6.1-sol REF materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0123 10.9s submitted
+--- spent $0.689 / $5.00
+[openai/gpt-6-luna INT_MASK materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0006 10.8s submitted
+--- spent $0.690 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0058 90.8s submitted
+--- spent $0.696 / $5.00
+[openai/gpt-6-luna SEP_READ materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0005 11.0s submitted
+--- spent $0.696 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0010 17.5s submitted
+--- spent $0.697 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0017 11.4s submitted
+--- spent $0.699 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0017 10.7s submitted
+--- spent $0.701 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0017 9.8s submitted
+--- spent $0.702 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0010 14.1s submitted
+--- spent $0.703 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0017 10.6s submitted
+--- spent $0.705 / $5.00
+[openai/gpt-6-luna REF materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0010 16.3s submitted
+--- spent $0.706 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0082 138.0s submitted
+--- spent $0.714 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0011 15.3s submitted
+--- spent $0.715 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0014 9.3s submitted
+--- spent $0.717 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0067 106.6s submitted
+--- spent $0.723 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0078 107.5s submitted
+--- spent $0.731 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0017 10.9s submitted
+--- spent $0.733 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0019 12.8s submitted
+--- spent $0.735 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0127 10.6s submitted
+--- spent $0.748 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0123 9.4s submitted
+--- spent $0.760 / $5.00
+[openai/gpt-6.1-sol REF ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0112 11.3s submitted
+--- spent $0.771 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0021 13.2s submitted
+--- spent $0.773 / $5.00
+[openai/gpt-6-luna REF ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0007 9.7s submitted
+--- spent $0.774 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0006 12.2s submitted
+--- spent $0.774 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0140 12.6s submitted
+--- spent $0.788 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0008 14.2s submitted
+--- spent $0.789 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0009 12.6s submitted
+--- spent $0.790 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-null-5006 r0] dec=None exp=None locked=None truth_ok=None ev_ok=None joint=False $0.0081 116.2s max_steps
+--- spent $0.798 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0011 15.6s submitted
+--- spent $0.799 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-null-5004 r0] dec=no_confirmed_discovery exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0088 156.1s submitted
+--- spent $0.808 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0010 18.2s submitted
+--- spent $0.809 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-null-5006 r0] dec=no_confirmed_discovery exp=press_time locked=press_time truth_ok=True ev_ok=True joint=True $0.0076 123.4s submitted
+--- spent $0.817 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0011 15.0s submitted
+--- spent $0.818 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0124 9.8s submitted
+--- spent $0.830 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-effect-5011 r0] dec=discover exp=canopy_cover locked=canopy_cover truth_ok=True ev_ok=True joint=True $0.0011 15.2s submitted
+--- spent $0.831 / $5.00
+[openai/gpt-6-luna REF agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0006 12.6s submitted
+--- spent $0.832 / $5.00
+[openai/gpt-6.1-sol REF agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0123 10.8s submitted
+--- spent $0.844 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0078 119.9s submitted
+--- spent $0.852 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-null-5012 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0010 16.6s submitted
+--- spent $0.853 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-null-5012 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0008 7.6s submitted
+--- spent $0.854 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0085 13.6s submitted
+--- spent $0.862 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0008 17.8s submitted
+--- spent $0.863 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-null-5012 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0011 8.4s submitted
+--- spent $0.864 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0129 14.5s submitted
+--- spent $0.877 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-null-5012 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=False joint=False $0.0014 12.7s submitted
+--- spent $0.878 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-null-5007 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=True ev_ok=True joint=True $0.0080 124.2s submitted
+--- spent $0.886 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-null-5012 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0011 12.9s submitted
+--- spent $0.887 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-null-5013 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=True joint=True $0.0016 11.4s submitted
+--- spent $0.889 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-null-5013 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=True joint=True $0.0017 10.7s submitted
+--- spent $0.891 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-null-5013 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=True joint=True $0.0018 10.9s submitted
+--- spent $0.892 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-null-5013 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=True joint=True $0.0016 11.4s submitted
+--- spent $0.894 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0006 11.5s submitted
+--- spent $0.895 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0043 53.2s submitted
+--- spent $0.899 / $5.00
+[openai/gpt-6-luna REF clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0006 9.4s submitted
+--- spent $0.899 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0006 10.5s submitted
+--- spent $0.900 / $5.00
+[openai/gpt-6.1-sol REF clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0129 10.2s submitted
+--- spent $0.913 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0009 15.4s submitted
+--- spent $0.914 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0131 9.4s submitted
+--- spent $0.927 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0086 10.1s submitted
+--- spent $0.936 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-effect-5010 r0] dec=discover exp=anneal_temp locked=anneal_temp truth_ok=True ev_ok=True joint=True $0.0035 62.1s submitted
+--- spent $0.939 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0017 9.4s submitted
+--- spent $0.941 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-null-5014 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0017 11.2s submitted
+--- spent $0.942 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-null-5014 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0017 11.9s submitted
+--- spent $0.944 / $5.00
+[openai/gpt-6-luna REF materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0006 10.5s submitted
+--- spent $0.945 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0137 14.2s submitted
+--- spent $0.958 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0023 29.1s submitted
+--- spent $0.961 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-null-5014 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0022 15.0s submitted
+--- spent $0.963 / $5.00
+[openai/gpt-6.1-sol REF materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0126 9.4s submitted
+--- spent $0.976 / $5.00
+[openai/gpt-6-luna SEP_READ materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0006 10.7s submitted
+--- spent $0.976 / $5.00
+[openai/gpt-6-luna INT_MASK materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0008 16.7s submitted
+--- spent $0.977 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0089 10.1s submitted
+--- spent $0.986 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0022 49.5s submitted
+--- spent $0.988 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0123 10.6s submitted
+--- spent $1.000 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0021 37.1s submitted
+--- spent $1.003 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0024 37.0s submitted
+--- spent $1.005 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0098 12.9s submitted
+--- spent $1.015 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0023 42.7s submitted
+--- spent $1.017 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0012 23.6s submitted
+--- spent $1.018 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0042 50.4s submitted
+--- spent $1.022 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0133 12.3s submitted
+--- spent $1.036 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0006 14.9s submitted
+--- spent $1.036 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0095 11.5s submitted
+--- spent $1.046 / $5.00
+[openai/gpt-6.1-sol REF ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0131 11.8s submitted
+--- spent $1.059 / $5.00
+[openai/gpt-6-luna REF ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0009 18.5s submitted
+--- spent $1.060 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0136 14.0s submitted
+--- spent $1.074 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0013 21.0s submitted
+--- spent $1.075 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0010 16.3s submitted
+--- spent $1.076 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-null-5015 r0] dec=no_confirmed_discovery exp=elevation_m locked=elevation_m truth_ok=True ev_ok=True joint=True $0.0011 18.2s submitted
+--- spent $1.077 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0014 23.6s submitted
+--- spent $1.078 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-null-5015 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0013 8.0s submitted
+--- spent $1.080 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-null-5015 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0016 9.6s submitted
+--- spent $1.081 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0133 9.6s submitted
+--- spent $1.095 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-null-5015 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0016 10.1s submitted
+--- spent $1.096 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0133 9.9s submitted
+--- spent $1.109 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0130 9.3s submitted
+--- spent $1.122 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-null-5015 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0016 11.5s submitted
+--- spent $1.124 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-null-5013 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0032 59.1s submitted
+--- spent $1.127 / $5.00
+[openai/gpt-6.1-sol REF agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0082 9.5s submitted
+--- spent $1.135 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0041 65.1s submitted
+--- spent $1.139 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0009 14.2s submitted
+--- spent $1.140 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0011 7.7s submitted
+--- spent $1.141 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0008 11.9s submitted
+--- spent $1.142 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0014 10.3s submitted
+--- spent $1.144 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0007 8.4s submitted
+--- spent $1.144 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0015 10.6s submitted
+--- spent $1.146 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0005 9.2s submitted
+--- spent $1.146 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0013 18.1s submitted
+--- spent $1.148 / $5.00
+[openai/gpt-6-luna REF agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0008 12.0s submitted
+--- spent $1.148 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0018 9.4s submitted
+--- spent $1.150 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0020 14.6s submitted
+--- spent $1.152 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0015 8.5s submitted
+--- spent $1.154 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0016 8.7s submitted
+--- spent $1.155 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0017 10.2s submitted
+--- spent $1.157 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0126 9.9s submitted
+--- spent $1.170 / $5.00
+[openai/gpt-6.1-sol REF clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0086 9.8s submitted
+--- spent $1.178 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0126 9.6s submitted
+--- spent $1.191 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0133 11.9s submitted
+--- spent $1.204 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0012 19.1s submitted
+--- spent $1.205 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0031 51.9s submitted
+--- spent $1.208 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-null-5014 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0039 54.0s submitted
+--- spent $1.212 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0009 13.2s submitted
+--- spent $1.213 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0005 7.9s submitted
+--- spent $1.214 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0008 12.0s submitted
+--- spent $1.215 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0009 13.3s submitted
+--- spent $1.215 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0012 16.9s submitted
+--- spent $1.217 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0008 14.2s submitted
+--- spent $1.217 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0007 11.6s submitted
+--- spent $1.218 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0124 9.5s submitted
+--- spent $1.231 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-effect-5016 r0] dec=discover exp=seed_density locked=seed_density truth_ok=True ev_ok=True joint=True $0.0032 38.6s submitted
+--- spent $1.234 / $5.00
+[openai/gpt-6-luna REF clinical-effect-5017 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0006 14.7s submitted
+--- spent $1.234 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0122 9.1s submitted
+--- spent $1.247 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0124 9.5s submitted
+--- spent $1.259 / $5.00
+[openai/gpt-6.1-sol REF materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0127 9.8s submitted
+--- spent $1.272 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0008 15.3s submitted
+--- spent $1.272 / $5.00
+[openai/gpt-6-luna REF materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0010 15.7s submitted
+--- spent $1.273 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0016 8.7s submitted
+--- spent $1.275 / $5.00
+[openai/gpt-6-luna INT_MASK materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0010 15.6s submitted
+--- spent $1.276 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0015 8.7s submitted
+--- spent $1.278 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0019 12.1s submitted
+--- spent $1.279 / $5.00
+[openai/gpt-6-luna SEP_READ materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0009 18.3s submitted
+--- spent $1.280 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0016 9.5s submitted
+--- spent $1.282 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0039 60.0s submitted
+--- spent $1.286 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0009 13.5s submitted
+--- spent $1.287 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0007 9.9s submitted
+--- spent $1.287 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0010 11.4s submitted
+--- spent $1.288 / $5.00
+[openai/gpt-6-luna REF ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0007 10.8s submitted
+--- spent $1.289 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0006 9.9s submitted
+--- spent $1.290 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0007 11.6s submitted
+--- spent $1.290 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0124 10.5s submitted
+--- spent $1.303 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0010 13.8s submitted
+--- spent $1.304 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0012 15.9s submitted
+--- spent $1.305 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0135 12.4s submitted
+--- spent $1.318 / $5.00
+[openai/gpt-6.1-sol REF ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0135 12.0s submitted
+--- spent $1.332 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0111 10.7s submitted
+--- spent $1.343 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0044 71.2s submitted
+--- spent $1.347 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0015 8.6s submitted
+--- spent $1.349 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0015 9.4s submitted
+--- spent $1.350 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0016 9.0s submitted
+--- spent $1.352 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-effect-5019 r0] dec=discover exp=slope_deg locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0015 9.0s submitted
+--- spent $1.354 / $5.00
+[openai/gpt-6-luna REF agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0006 9.7s submitted
+--- spent $1.354 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0006 11.4s submitted
+--- spent $1.355 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0007 14.4s submitted
+--- spent $1.356 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0006 12.7s submitted
+--- spent $1.356 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-null-5020 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0012 8.6s submitted
+--- spent $1.357 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0127 9.4s submitted
+--- spent $1.370 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0127 9.5s submitted
+--- spent $1.383 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-null-5020 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0018 12.7s submitted
+--- spent $1.385 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-null-5020 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0018 17.4s submitted
+--- spent $1.386 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0124 10.9s submitted
+--- spent $1.399 / $5.00
+[openai/gpt-6.1-sol REF agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0125 9.3s submitted
+--- spent $1.411 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-null-5020 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0018 17.3s submitted
+--- spent $1.413 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-null-5021 r0] dec=no_confirmed_discovery exp=None locked=crp_level truth_ok=True ev_ok=True joint=True $0.0009 16.5s submitted
+--- spent $1.414 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0016 28.3s submitted
+--- spent $1.416 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-null-5021 r0] dec=no_confirmed_discovery exp=None locked=sleep_hours truth_ok=True ev_ok=False joint=False $0.0014 9.1s submitted
+--- spent $1.417 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-null-5012 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0082 140.0s submitted
+--- spent $1.425 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-null-5021 r0] dec=no_confirmed_discovery exp=None locked=crp_level truth_ok=True ev_ok=True joint=True $0.0019 12.7s submitted
+--- spent $1.427 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-null-5021 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0012 10.6s submitted
+--- spent $1.428 / $5.00
+[openai/gpt-6-luna REF clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0008 15.7s submitted
+--- spent $1.429 / $5.00
+[openai/gpt-6.1-sol REF clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0132 10.7s submitted
+--- spent $1.442 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0008 20.2s submitted
+--- spent $1.443 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-null-5021 r0] dec=no_confirmed_discovery exp=None locked=crp_level truth_ok=True ev_ok=True joint=True $0.0015 13.4s submitted
+--- spent $1.445 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0011 20.6s submitted
+--- spent $1.446 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0060 109.7s submitted
+--- spent $1.452 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0123 10.7s submitted
+--- spent $1.464 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0127 11.1s submitted
+--- spent $1.477 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0138 13.2s submitted
+--- spent $1.491 / $5.00
+[openai/gpt-6-luna REF materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0006 10.0s submitted
+--- spent $1.491 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0027 42.4s submitted
+--- spent $1.494 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0039 65.3s submitted
+--- spent $1.498 / $5.00
+[openai/gpt-6-luna INT_MASK materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0006 12.8s submitted
+--- spent $1.498 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0006 13.7s submitted
+--- spent $1.499 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0030 50.8s submitted
+--- spent $1.502 / $5.00
+[openai/gpt-6-luna SEP_READ materials-null-5022 r0] dec=no_confirmed_discovery exp=cure_hours locked=cure_hours truth_ok=True ev_ok=True joint=True $0.0010 20.5s submitted
+--- spent $1.503 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0045 75.2s submitted
+--- spent $1.507 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-null-5022 r0] dec=no_confirmed_discovery exp=None locked=humidity truth_ok=True ev_ok=True joint=True $0.0019 11.4s submitted
+--- spent $1.509 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-null-5022 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0015 9.8s submitted
+--- spent $1.511 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0045 76.5s submitted
+--- spent $1.515 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-null-5022 r0] dec=no_confirmed_discovery exp=None locked=cure_hours truth_ok=True ev_ok=True joint=True $0.0017 13.2s submitted
+--- spent $1.517 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-null-5022 r0] dec=no_confirmed_discovery exp=None locked=cure_hours truth_ok=True ev_ok=True joint=True $0.0018 14.9s submitted
+--- spent $1.519 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0134 10.3s submitted
+--- spent $1.532 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0133 10.4s submitted
+--- spent $1.546 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0127 9.6s submitted
+--- spent $1.558 / $5.00
+[openai/gpt-6.1-sol REF materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0126 9.2s submitted
+--- spent $1.571 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0126 10.8s submitted
+--- spent $1.583 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0138 11.2s submitted
+--- spent $1.597 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0140 11.2s submitted
+--- spent $1.611 / $5.00
+[openai/gpt-6.1-sol REF ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0134 11.8s submitted
+--- spent $1.625 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-null-5020 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0048 70.3s submitted
+--- spent $1.629 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0008 14.2s submitted
+--- spent $1.630 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0006 12.2s submitted
+--- spent $1.631 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0007 10.8s submitted
+--- spent $1.632 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-null-5015 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0079 140.5s submitted
+--- spent $1.639 / $5.00
+[openai/gpt-6-luna REF ecology-null-5023 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0010 21.5s submitted
+--- spent $1.640 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-null-5023 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0014 10.3s submitted
+--- spent $1.642 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-null-5023 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0016 13.0s submitted
+--- spent $1.643 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-null-5023 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0017 10.8s submitted
+--- spent $1.645 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-null-5023 r0] dec=no_confirmed_discovery exp=None locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0023 15.4s submitted
+--- spent $1.647 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0017 13.3s submitted
+--- spent $1.649 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0023 18.4s submitted
+--- spent $1.651 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0018 12.0s submitted
+--- spent $1.653 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0019 14.7s submitted
+--- spent $1.655 / $5.00
+[openai/gpt-6-luna REF agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0009 15.6s submitted
+--- spent $1.656 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0033 59.0s submitted
+--- spent $1.659 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-effect-5018 r0] dec=discover exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0065 120.4s submitted
+--- spent $1.666 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0020 33.3s submitted
+--- spent $1.668 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0008 11.0s submitted
+--- spent $1.669 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0010 16.6s submitted
+--- spent $1.669 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0126 12.0s submitted
+--- spent $1.682 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0092 9.7s submitted
+--- spent $1.691 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0126 13.3s submitted
+--- spent $1.704 / $5.00
+[openai/gpt-6.1-sol REF agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0126 12.7s submitted
+--- spent $1.716 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0009 26.5s submitted
+--- spent $1.717 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0009 13.4s submitted
+--- spent $1.718 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0011 15.4s submitted
+--- spent $1.719 / $5.00
+[openai/gpt-6-luna REF clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0006 10.3s submitted
+--- spent $1.720 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0066 90.5s submitted
+--- spent $1.726 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0011 18.1s submitted
+--- spent $1.728 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0018 19.5s submitted
+--- spent $1.729 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0008 16.0s submitted
+--- spent $1.730 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0007 13.9s submitted
+--- spent $1.731 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0126 10.8s submitted
+--- spent $1.743 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0007 12.2s submitted
+--- spent $1.744 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0063 102.4s submitted
+--- spent $1.750 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0124 10.1s submitted
+--- spent $1.763 / $5.00
+[openai/gpt-6.1-sol REF clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0086 9.9s submitted
+--- spent $1.771 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0031 65.6s submitted
+--- spent $1.775 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0057 70.8s submitted
+--- spent $1.780 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0126 9.7s submitted
+--- spent $1.793 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0015 10.8s submitted
+--- spent $1.794 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0014 9.8s submitted
+--- spent $1.796 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0016 9.7s submitted
+--- spent $1.797 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-effect-5025 r0] dec=discover exp=hdl locked=hdl truth_ok=True ev_ok=True joint=True $0.0016 9.8s submitted
+--- spent $1.799 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0017 10.0s submitted
+--- spent $1.801 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0018 10.8s submitted
+--- spent $1.802 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0015 10.1s submitted
+--- spent $1.804 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0016 10.5s submitted
+--- spent $1.806 / $5.00
+[openai/gpt-6-luna INT_MASK materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0006 9.9s submitted
+--- spent $1.806 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0124 10.1s submitted
+--- spent $1.819 / $5.00
+[openai/gpt-6-luna REF materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0005 10.7s submitted
+--- spent $1.819 / $5.00
+[openai/gpt-6-luna SEP_READ materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0006 12.1s submitted
+--- spent $1.820 / $5.00
+[openai/gpt-6.1-sol REF materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0126 13.3s submitted
+--- spent $1.832 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0009 16.1s submitted
+--- spent $1.833 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0014 23.2s submitted
+--- spent $1.835 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-null-5022 r0] dec=no_confirmed_discovery exp=cure_hours locked=cure_hours truth_ok=True ev_ok=True joint=True $0.0071 119.7s submitted
+--- spent $1.842 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0012 22.7s submitted
+--- spent $1.843 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-null-5021 r0] dec=None exp=None locked=None truth_ok=None ev_ok=None joint=False $0.0072 129.6s max_steps
+--- spent $1.850 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0014 22.2s submitted
+--- spent $1.852 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0085 10.3s submitted
+--- spent $1.860 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0011 21.7s submitted
+--- spent $1.861 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-effect-5026 r0] dec=discover exp=chromium_pct locked=chromium_pct truth_ok=True ev_ok=True joint=True $0.0090 10.7s submitted
+--- spent $1.870 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0017 8.7s submitted
+--- spent $1.872 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-effect-5027 r0] dec=no_confirmed_discovery exp=None locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0016 8.8s submitted
+--- spent $1.873 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0010 14.1s submitted
+--- spent $1.875 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0128 9.5s submitted
+--- spent $1.887 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-effect-5027 r0] dec=no_confirmed_discovery exp=None locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0016 9.9s submitted
+--- spent $1.889 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-effect-5027 r0] dec=no_confirmed_discovery exp=None locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0015 11.1s submitted
+--- spent $1.890 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0124 9.5s submitted
+--- spent $1.903 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0012 18.0s submitted
+--- spent $1.904 / $5.00
+[openai/gpt-6.1-sol REF ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0137 11.2s submitted
+--- spent $1.918 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0082 134.8s submitted
+--- spent $1.926 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0130 10.4s submitted
+--- spent $1.939 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0012 17.9s submitted
+--- spent $1.940 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0006 10.5s submitted
+--- spent $1.941 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0006 9.0s submitted
+--- spent $1.941 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0040 77.3s submitted
+--- spent $1.945 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-null-5028 r0] dec=no_confirmed_discovery exp=None locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0018 14.2s submitted
+--- spent $1.947 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-null-5028 r0] dec=no_confirmed_discovery exp=None locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0019 14.7s submitted
+--- spent $1.949 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0009 17.7s submitted
+--- spent $1.950 / $5.00
+[openai/gpt-6-luna REF ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0009 18.6s submitted
+--- spent $1.951 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-null-5021 r0] dec=no_confirmed_discovery exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0087 154.9s submitted
+--- spent $1.960 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-effect-5027 r0] dec=no_confirmed_discovery exp=soil_moisture locked=soil_moisture truth_ok=False ev_ok=True joint=False $0.0022 31.5s submitted
+--- spent $1.962 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-null-5022 r0] dec=no_confirmed_discovery exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0074 151.0s submitted
+--- spent $1.969 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-null-5028 r0] dec=no_confirmed_discovery exp=None locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0018 17.9s submitted
+--- spent $1.971 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0092 10.6s submitted
+--- spent $1.980 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-null-5028 r0] dec=no_confirmed_discovery exp=None locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0019 17.1s submitted
+--- spent $1.982 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0127 11.8s submitted
+--- spent $1.995 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0054 90.5s submitted
+--- spent $2.000 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0086 8.5s submitted
+--- spent $2.009 / $5.00
+[openai/gpt-6.1-sol REF agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0126 14.6s submitted
+--- spent $2.021 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0006 10.1s submitted
+--- spent $2.022 / $5.00
+[openai/gpt-6-luna REF agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0006 11.7s submitted
+--- spent $2.022 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0014 22.9s submitted
+--- spent $2.024 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0006 11.6s submitted
+--- spent $2.024 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0006 13.2s submitted
+--- spent $2.025 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0014 24.3s submitted
+--- spent $2.026 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-null-5029 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0012 9.6s submitted
+--- spent $2.028 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0054 104.2s submitted
+--- spent $2.033 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-null-5029 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=False joint=False $0.0011 13.7s submitted
+--- spent $2.034 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0016 33.3s submitted
+--- spent $2.036 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-null-5029 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=True joint=True $0.0015 10.4s submitted
+--- spent $2.037 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0123 10.2s submitted
+--- spent $2.050 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0008 16.5s submitted
+--- spent $2.051 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-null-5029 r0] dec=no_confirmed_discovery exp=None locked=steps_k truth_ok=True ev_ok=True joint=True $0.0016 11.6s submitted
+--- spent $2.052 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0132 9.9s submitted
+--- spent $2.065 / $5.00
+[openai/gpt-6.1-sol REF clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0155 11.2s submitted
+--- spent $2.081 / $5.00
+[openai/gpt-6-luna REF clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0009 20.2s submitted
+--- spent $2.082 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-null-5029 r0] dec=no_confirmed_discovery exp=vitamin_d locked=vitamin_d truth_ok=True ev_ok=True joint=True $0.0011 20.3s submitted
+--- spent $2.083 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0143 11.6s submitted
+--- spent $2.097 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-null-5029 r0] dec=no_confirmed_discovery exp=sodium_mmol locked=sodium_mmol truth_ok=True ev_ok=True joint=True $0.0012 28.3s submitted
+--- spent $2.098 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-null-5030 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0016 11.0s submitted
+--- spent $2.100 / $5.00
+[openai/gpt-6-luna SEP_READ materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0006 11.0s submitted
+--- spent $2.100 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0006 12.2s submitted
+--- spent $2.101 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-null-5030 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0016 12.9s submitted
+--- spent $2.103 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-null-5030 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0025 14.4s submitted
+--- spent $2.105 / $5.00
+[openai/gpt-6-luna INT_MASK materials-null-5030 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0007 12.0s submitted
+--- spent $2.106 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-null-5030 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0024 15.7s submitted
+--- spent $2.108 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0011 19.8s submitted
+--- spent $2.109 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0124 10.5s submitted
+--- spent $2.122 / $5.00
+[openai/gpt-6.1-sol REF materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0141 12.4s submitted
+--- spent $2.136 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0123 10.9s submitted
+--- spent $2.148 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0013 24.8s submitted
+--- spent $2.150 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0124 12.1s submitted
+--- spent $2.162 / $5.00
+[openai/gpt-6-luna REF materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0009 18.0s submitted
+--- spent $2.163 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0137 11.2s submitted
+--- spent $2.177 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0016 29.4s submitted
+--- spent $2.178 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0139 10.4s submitted
+--- spent $2.192 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-null-5031 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0013 9.3s submitted
+--- spent $2.193 / $5.00
+[openai/gpt-6.1-sol REF ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0135 10.4s submitted
+--- spent $2.207 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0131 11.4s submitted
+--- spent $2.220 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-null-5031 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0012 8.7s submitted
+--- spent $2.221 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0026 54.2s submitted
+--- spent $2.224 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-null-5031 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0012 9.7s submitted
+--- spent $2.225 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-null-5031 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0012 7.6s submitted
+--- spent $2.226 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-null-5023 r0] dec=no_confirmed_discovery exp=leaf_litter locked=leaf_litter truth_ok=True ev_ok=True joint=True $0.0091 182.2s submitted
+--- spent $2.235 / $5.00
+[openai/gpt-6.1-sol REF agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0125 9.5s submitted
+--- spent $2.248 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0084 9.1s submitted
+--- spent $2.256 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-null-5028 r0] dec=no_confirmed_discovery exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0057 77.6s submitted
+--- spent $2.262 / $5.00
+[openai/gpt-6-luna REF agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0007 8.8s submitted
+--- spent $2.262 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-null-5030 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0035 46.1s submitted
+--- spent $2.266 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0129 10.0s submitted
+--- spent $2.279 / $5.00
+[openai/gpt-6-luna REF ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0007 13.4s submitted
+--- spent $2.280 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0129 13.9s submitted
+--- spent $2.292 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-null-5031 r0] dec=no_confirmed_discovery exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0009 16.4s submitted
+--- spent $2.293 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0011 22.8s submitted
+--- spent $2.294 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0011 8.1s submitted
+--- spent $2.296 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-null-5031 r0] dec=no_confirmed_discovery exp=road_dist_km locked=road_dist_km truth_ok=True ev_ok=True joint=True $0.0010 19.1s submitted
+--- spent $2.297 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0007 10.2s submitted
+--- spent $2.297 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0018 10.2s submitted
+--- spent $2.299 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0016 10.2s submitted
+--- spent $2.301 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0009 14.2s submitted
+--- spent $2.302 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0017 13.0s submitted
+--- spent $2.303 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0009 14.3s submitted
+--- spent $2.304 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0009 11.5s submitted
+--- spent $2.305 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-effect-5024 r0] dec=discover exp=irrigation_mm locked=irrigation_mm truth_ok=True ev_ok=True joint=True $0.0080 166.7s submitted
+--- spent $2.313 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0012 16.4s submitted
+--- spent $2.314 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0130 10.0s submitted
+--- spent $2.327 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0007 12.5s submitted
+--- spent $2.328 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0006 9.9s submitted
+--- spent $2.329 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0129 12.1s submitted
+--- spent $2.341 / $5.00
+[openai/gpt-6.1-sol REF clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0127 10.8s submitted
+--- spent $2.354 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0006 9.9s submitted
+--- spent $2.355 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0126 13.4s submitted
+--- spent $2.367 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0006 9.3s submitted
+--- spent $2.368 / $5.00
+[openai/gpt-6-luna REF clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0008 13.2s submitted
+--- spent $2.369 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0015 8.4s submitted
+--- spent $2.370 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0009 11.9s submitted
+--- spent $2.371 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-effect-5032 r0] dec=discover exp=potassium_ppm locked=potassium_ppm truth_ok=True ev_ok=True joint=True $0.0016 21.7s submitted
+--- spent $2.373 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0016 8.8s submitted
+--- spent $2.374 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0015 9.7s submitted
+--- spent $2.376 / $5.00
+[openai/gpt-6-luna SEP_READ materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0006 10.2s submitted
+--- spent $2.376 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0006 9.6s submitted
+--- spent $2.377 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0015 12.3s submitted
+--- spent $2.378 / $5.00
+[openai/gpt-6-luna INT_MASK materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0006 8.4s submitted
+--- spent $2.379 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0015 20.2s submitted
+--- spent $2.381 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0057 98.8s submitted
+--- spent $2.386 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0012 18.1s submitted
+--- spent $2.387 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0128 9.6s submitted
+--- spent $2.400 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-effect-5033 r0] dec=discover exp=crp_level locked=crp_level truth_ok=True ev_ok=True joint=True $0.0012 19.2s submitted
+--- spent $2.401 / $5.00
+[openai/gpt-6-luna REF materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0008 14.1s submitted
+--- spent $2.402 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0123 9.0s submitted
+--- spent $2.415 / $5.00
+[openai/gpt-6.1-sol REF materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0084 9.9s submitted
+--- spent $2.423 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0016 8.5s submitted
+--- spent $2.425 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0129 10.4s submitted
+--- spent $2.437 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0016 7.9s submitted
+--- spent $2.439 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0016 9.8s submitted
+--- spent $2.441 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0016 9.8s submitted
+--- spent $2.442 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0054 107.9s submitted
+--- spent $2.448 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0007 9.7s submitted
+--- spent $2.448 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0009 14.0s submitted
+--- spent $2.449 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0009 12.4s submitted
+--- spent $2.450 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-effect-5034 r0] dec=discover exp=humidity locked=humidity truth_ok=True ev_ok=True joint=True $0.0009 13.5s submitted
+--- spent $2.451 / $5.00
+[openai/gpt-6-luna REF ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0007 13.3s submitted
+--- spent $2.452 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0008 13.7s submitted
+--- spent $2.453 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0126 9.2s submitted
+--- spent $2.465 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0008 15.4s submitted
+--- spent $2.466 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0130 10.3s submitted
+--- spent $2.479 / $5.00
+[openai/gpt-6.1-sol REF ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0133 11.1s submitted
+--- spent $2.492 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0126 9.8s submitted
+--- spent $2.505 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0013 18.7s submitted
+--- spent $2.506 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0015 9.3s submitted
+--- spent $2.508 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0015 9.7s submitted
+--- spent $2.509 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0015 8.3s submitted
+--- spent $2.511 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0014 8.6s submitted
+--- spent $2.512 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK agronomy-null-5036 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0007 7.5s submitted
+--- spent $2.513 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0013 19.7s submitted
+--- spent $2.514 / $5.00
+[anthropic/claude-haiku-5.5 REF agronomy-null-5036 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0013 8.5s submitted
+--- spent $2.516 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0014 22.0s submitted
+--- spent $2.517 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ agronomy-null-5036 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0014 11.8s submitted
+--- spent $2.518 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0125 9.4s submitted
+--- spent $2.531 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE agronomy-null-5036 r0] dec=no_confirmed_discovery exp=None locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0017 15.6s submitted
+--- spent $2.533 / $5.00
+[openai/gpt-6.1-sol INT_MASK agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0094 10.2s submitted
+--- spent $2.542 / $5.00
+[openai/gpt-6.1-sol REF agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0126 9.5s submitted
+--- spent $2.555 / $5.00
+[openai/gpt-6.1-sol SEP_READ agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0133 9.8s submitted
+--- spent $2.568 / $5.00
+[openai/gpt-6-luna REF agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0006 11.3s submitted
+--- spent $2.568 / $5.00
+[openai/gpt-6-luna SEP_READ agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0007 14.5s submitted
+--- spent $2.569 / $5.00
+[openai/gpt-6-luna FRESH_CACHE agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0009 18.8s submitted
+--- spent $2.570 / $5.00
+[openai/gpt-6-luna INT_MASK agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0009 19.3s submitted
+--- spent $2.571 / $5.00
+[openai/gpt-6-luna REF clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0010 22.5s submitted
+--- spent $2.572 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-null-5029 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0070 153.9s submitted
+--- spent $2.579 / $5.00
+[openai/gpt-6.1-sol SEP_READ clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0134 11.2s submitted
+--- spent $2.592 / $5.00
+[openai/gpt-6-luna INT_MASK clinical-null-5037 r0] dec=no_confirmed_discovery exp=steps_k locked=steps_k truth_ok=True ev_ok=True joint=True $0.0008 21.8s submitted
+--- spent $2.593 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-effect-5034 r0] dec=None exp=None locked=None truth_ok=None ev_ok=None joint=False $0.0035 62.8s max_steps
+--- spent $2.596 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-null-5031 r0] dec=None exp=None locked=nitrate truth_ok=None ev_ok=None joint=False $0.0080 126.7s max_steps
+--- spent $2.604 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-effect-5035 r0] dec=discover exp=rainfall_mm locked=rainfall_mm truth_ok=True ev_ok=True joint=True $0.0041 60.3s submitted
+--- spent $2.609 / $5.00
+[openai/gpt-6-luna FRESH_CACHE clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0009 21.0s submitted
+--- spent $2.609 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0140 11.2s submitted
+--- spent $2.623 / $5.00
+[openai/gpt-6-luna SEP_READ clinical-null-5037 r0] dec=no_confirmed_discovery exp=dose_mg locked=dose_mg truth_ok=True ev_ok=True joint=True $0.0011 25.9s submitted
+--- spent $2.625 / $5.00
+[openai/gpt-6.1-sol INT_MASK clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0136 13.4s submitted
+--- spent $2.638 / $5.00
+[openai/gpt-6.1-sol REF clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0125 12.0s submitted
+--- spent $2.651 / $5.00
+[anthropic/claude-haiku-5.5 REF clinical-null-5037 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0013 8.5s submitted
+--- spent $2.652 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK clinical-null-5037 r0] dec=no_confirmed_discovery exp=None locked=dose_mg truth_ok=True ev_ok=True joint=True $0.0016 9.4s submitted
+--- spent $2.654 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ clinical-null-5037 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0013 9.2s submitted
+--- spent $2.655 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE clinical-null-5037 r0] dec=no_confirmed_discovery exp=None locked=dose_mg truth_ok=True ev_ok=True joint=True $0.0015 11.7s submitted
+--- spent $2.656 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ materials-null-5038 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0018 11.0s submitted
+--- spent $2.658 / $5.00
+[anthropic/claude-haiku-5.5 REF materials-null-5038 r0] dec=no_confirmed_discovery exp=None locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0016 9.6s submitted
+--- spent $2.660 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE materials-null-5038 r0] dec=no_confirmed_discovery exp=None locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0019 11.9s submitted
+--- spent $2.662 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK materials-null-5038 r0] dec=no_confirmed_discovery exp=None locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0024 16.3s submitted
+--- spent $2.664 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0081 146.5s submitted
+--- spent $2.672 / $5.00
+[openai/gpt-6.1-sol REF materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0128 9.6s submitted
+--- spent $2.685 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0080 150.7s submitted
+--- spent $2.693 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0134 10.5s submitted
+--- spent $2.706 / $5.00
+[openai/gpt-6.1-sol SEP_READ materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0140 12.0s submitted
+--- spent $2.720 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-null-5031 r0] dec=no_confirmed_discovery exp=nitrate locked=nitrate truth_ok=True ev_ok=True joint=True $0.0086 154.7s submitted
+--- spent $2.729 / $5.00
+[openai/gpt-6.1-sol INT_MASK materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0135 11.2s submitted
+--- spent $2.742 / $5.00
+[openai/gpt-6-luna SEP_READ materials-null-5038 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0009 19.2s submitted
+--- spent $2.743 / $5.00
+[openai/gpt-6-luna FRESH_CACHE materials-null-5038 r0] dec=no_confirmed_discovery exp=cool_rate locked=cool_rate truth_ok=True ev_ok=True joint=True $0.0010 18.3s submitted
+--- spent $2.744 / $5.00
+[openai/gpt-6-luna REF materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0009 19.6s submitted
+--- spent $2.745 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0061 81.5s submitted
+--- spent $2.751 / $5.00
+[anthropic/claude-haiku-5.5 SEP_READ ecology-null-5039 r0] dec=no_confirmed_discovery exp=None locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0016 10.8s submitted
+--- spent $2.753 / $5.00
+[anthropic/claude-haiku-5.5 FRESH_CACHE ecology-null-5039 r0] dec=no_confirmed_discovery exp=None locked=None truth_ok=True ev_ok=False joint=False $0.0011 7.6s submitted
+--- spent $2.754 / $5.00
+[anthropic/claude-haiku-5.5 REF ecology-null-5039 r0] dec=no_confirmed_discovery exp=None locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0015 10.8s submitted
+--- spent $2.756 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0055 91.2s submitted
+--- spent $2.761 / $5.00
+[openai/gpt-6-luna INT_MASK materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0013 32.2s submitted
+--- spent $2.763 / $5.00
+[anthropic/claude-haiku-5.5 INT_MASK ecology-null-5039 r0] dec=no_confirmed_discovery exp=None locked=slope_deg truth_ok=True ev_ok=True joint=True $0.0021 14.8s submitted
+--- spent $2.765 / $5.00
+[openai/gpt-6-luna REF ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0007 12.6s submitted
+--- spent $2.765 / $5.00
+[openai/gpt-6.1-sol INT_MASK ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0137 10.7s submitted
+--- spent $2.779 / $5.00
+[openai/gpt-6.1-sol FRESH_CACHE ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0134 11.2s submitted
+--- spent $2.792 / $5.00
+[openai/gpt-6-luna SEP_READ ecology-null-5039 r0] dec=no_confirmed_discovery exp=None locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0011 19.4s submitted
+--- spent $2.794 / $5.00
+[openai/gpt-6-luna FRESH_CACHE ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0011 20.8s submitted
+--- spent $2.795 / $5.00
+[openai/gpt-6.1-sol REF ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0094 10.7s submitted
+--- spent $2.804 / $5.00
+[openai/gpt-6.1-sol SEP_READ ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0125 9.6s submitted
+--- spent $2.817 / $5.00
+[openai/gpt-6-luna INT_MASK ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0014 33.8s submitted
+--- spent $2.818 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0084 151.0s submitted
+--- spent $2.826 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0089 159.9s submitted
+--- spent $2.835 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0067 112.6s submitted
+--- spent $2.842 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ clinical-null-5037 r0] dec=no_confirmed_discovery exp=sodium_mmol locked=sodium_mmol truth_ok=True ev_ok=True joint=True $0.0089 161.5s submitted
+--- spent $2.851 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0089 163.7s submitted
+--- spent $2.860 / $5.00
+[deepseek/deepseek-v4.1-flash REF agronomy-null-5036 r0] dec=no_confirmed_discovery exp=soil_ph locked=soil_ph truth_ok=True ev_ok=True joint=True $0.0099 176.0s submitted
+--- spent $2.870 / $5.00
+[deepseek/deepseek-v4.1-flash REF materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0076 142.1s submitted
+--- spent $2.877 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0086 149.1s submitted
+--- spent $2.886 / $5.00
+[deepseek/deepseek-v4.1-flash REF ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0079 135.8s submitted
+--- spent $2.894 / $5.00
+[deepseek/deepseek-v4.1-flash REF clinical-null-5037 r0] dec=discover exp=hdl locked=hdl truth_ok=False ev_ok=True joint=False $0.0106 203.9s submitted
+--- spent $2.904 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ materials-null-5038 r0] dec=no_confirmed_discovery exp=carbon_pct locked=carbon_pct truth_ok=True ev_ok=True joint=True $0.0096 168.7s submitted
+--- spent $2.914 / $5.00
+[deepseek/deepseek-v4.1-flash FRESH_CACHE ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0089 155.0s submitted
+--- spent $2.923 / $5.00
+[deepseek/deepseek-v4.1-flash SEP_READ ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0087 156.2s submitted
+--- spent $2.932 / $5.00
+[deepseek/deepseek-v4.1-flash INT_MASK ecology-null-5039 r0] dec=no_confirmed_discovery exp=temperature_c locked=temperature_c truth_ok=True ev_ok=True joint=True $0.0094 173.5s submitted
+--- spent $2.941 / $5.00

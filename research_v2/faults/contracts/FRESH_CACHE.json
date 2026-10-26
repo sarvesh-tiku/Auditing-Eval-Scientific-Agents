@@ -1,0 +1,22 @@
+{
+ "fault_id": "FRESH_CACHE",
+ "intended_invariant": "Every run_python call executes the submitted code.",
+ "modified_boundary": "run_python result cache key.",
+ "trigger": "A script shares its first 256 characters with an earlier script in the same run.",
+ "visible_effect": "The earlier script's output is returned for the new script.",
+ "reference_behavior": "No cache; every call executes.",
+ "faulted_behavior": "Results are cached under sha256(code[:256]); a key collision returns stale output.",
+ "observables": [
+  "stale hit (cached code differs)",
+  "last exploration output before lock was stale"
+ ],
+ "unchanged": [
+  "error reporting",
+  "data",
+  "confirm",
+  "grader"
+ ],
+ "tests": [
+  "test_fresh_cache_serves_stale_only_on_shared_prefix"
+ ]
+}

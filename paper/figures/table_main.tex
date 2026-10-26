@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Paired change vs.\ the reference pipeline (pp; 95\% task-cluster bootstrap CI,
+$B=20{,}000$). Regrade rows change only credit on identical traces; fresh rows change replay-graded success (v1) or joint
+valid success (v2), which are different constructs. Fault $p$-values: Holm-adjusted task-level sign-flip tests
+(v1: 0.023, 0.006, 0.006; v2: all $\ge 0.56$ raw, 1.0 adjusted).
+\emph{Visible}: share of faulted runs in which a faulty observation reached the agent.
+\emph{LOMO}: range when each model is left out.}
+\label{tab:main}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Fault & Comparison & $\Delta$ & 95\% CI & Visible & LOMO range\\
+\midrule
+\multicolumn{6}{l}{\textit{Original protocol: agent-authored confirm script; 20 tasks, 7 models, 3 repeats}}\\
+\cfg{Prov} & same-trace regrade & $+4.5$ & $[+1.9, +7.9]$ & --- & $[+2.8, +5.3]$\\
+\cfg{Leak} & fresh runs & $-3.6$ & $[-5.5, -1.4]$ & 89\% & $[-4.4, -1.4]$\\
+\cfg{Silent} & fresh runs & $-5.0$ & $[-7.4, -2.6]$ & 28\% & $[-5.8, -3.6]$\\
+\cfg{Stale} & fresh runs & $-5.0$ & $[-7.4, -2.6]$ & 44\% & $[-6.1, -2.2]$\\
+\midrule
+\multicolumn{6}{l}{\textit{Trusted one-shot confirmation: 40 new tasks, 4 models, 1 repeat}}\\
+\cfg{Prov\_grade} & same-trace regrade & $+3.1$ & $[+0.6, +5.6]$ & --- & $[+0.0, +4.2]$\\
+\cfg{Sep\_read} & fresh runs & $+0.6$ & $[-2.5, +4.4]$ & 88\% & $[+0.0, +1.7]$\\
+\cfg{Int\_mask} & fresh runs & $-1.9$ & $[-5.6, +2.5]$ & 15\% & $[-3.3, -0.8]$\\
+\cfg{Fresh\_cache} & fresh runs & $-1.2$ & $[-4.4, +1.9]$ & 19\% & $[-2.5, +0.8]$\\
+\bottomrule
+\end{tabular}
+\end{table}
