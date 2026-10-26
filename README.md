@@ -1,7 +1,6 @@
 # When the Pipeline Is Wrong: Auditing the Evaluation of Scientific Agents
 
-**Sarvesh Tiku, Gauri Sharma** — Georgia Institute of Technology
-Agent Evaluation Science (AES) Symposium, Fall 2026
+**Sarvesh Tiku, Gauri Sharma** - Georgia Institute of Technology
 
 When a scientific-agent benchmark marks a conclusion correct, it conflates three things: whether the
 conclusion is **true**, whether the agent's experiment **supports** it, and whether the grader **credited**
